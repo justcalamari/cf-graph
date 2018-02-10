@@ -53,7 +53,7 @@ def gh_version(meta_yaml, package_name, gh):
         print("could not find repo", package_name)
         return False
 
-    rels = [r.tag_name for r in repo.iter_releases()]
+    rels = [r.tag_name for r in repo.iter_tags()]
     if len(rels) == 0:
         with open('bad.txt', 'a') as f:
             f.write('{}: no releases found\n'.format(meta_yaml['name']))
