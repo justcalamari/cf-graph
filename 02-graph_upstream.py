@@ -30,34 +30,36 @@ def source_location(meta_yaml):
         return None
 
 
-def pypi_version(meta_yaml, package_name, gh):
+def pypi_version(meta_yaml, gh):
+    pypi_name = meta_yaml['url'].split('/')[6]
     r = requests.get('https://pypi.python.org/pypi/{}/json'.format(
-        package_name))
+        pypi_name))
     if not r.ok:
         with open('bad.txt', 'a') as f:
             f.write('{}: Could not find version on pypi\n'.format(meta_yaml['name']))
-        print('Could not find version on pypi', package_name)
+        print('Could not find version on pypi', pypi_name)
         return False
     return r.json()['info']['version'].strip()
 
 
-def gh_version(meta_yaml, package_name, gh):
+def gh_version(meta_yaml, gh):
     split_url = meta_yaml['url'].lower().split('/')
     package_owner = split_url[split_url.index('github.com') + 1]
+    gh_package_name = split_url[split_url.index('github.com') + 2]
 
     # get all the tags
-    repo = gh.repository(package_owner, package_name)
+    repo = gh.repository(package_owner, gh_package_name)
     if not repo:
         with open('bad.txt', 'a') as f:
             f.write('{}: could not find repo\n'.format(meta_yaml['name']))
-        print("could not find repo", package_name)
+        print("could not find repo", gh_package_name)
         return False
 
-    rels = [r.tag_name for r in repo.iter_tags()]
+    rels = [r.name for r in repo.iter_tags()]
     if len(rels) == 0:
         with open('bad.txt', 'a') as f:
-            f.write('{}: no releases found\n'.format(meta_yaml['name']))
-        print("no releases found", package_name)
+            f.write('{}: no tags found\n'.format(meta_yaml['name']))
+        print("no tags found", gh_package_name)
         return False
 
     return max(rels)
@@ -72,7 +74,7 @@ def get_latest_version(meta_yaml, gh):
     if sl is None:
         print('Not on GitHub or pypi', meta_yaml['name'])
         return False
-    rv = sl_map[sl]['version'](meta_yaml, meta_yaml['name'], gh)
+    rv = sl_map[sl]['version'](meta_yaml, gh)
     return rv
 
 
