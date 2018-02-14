@@ -1,45 +1,5 @@
 conda-testenv
 tensorflow
-conda-testenv
-tensorflow
-fftwesmpy
-petulant-bearwicken
-pygridtools
-yasm
-bob.io.base
-bob.io.image
-libsvm
-configurable-http-proxy
-snappyvcconda-testenv
-tensorflow
-fftw
-esmpy
-petulant-bear
-wicken
-pygridtools
-yasm
-bob.io.base
-bob.io.image
-libsvm
-configurable-http-proxy
-snappy
-vc
-conda-testenv
-tensorflow
-fftw
-esmpy
-petulant-bear
-wicken
-pygridtools
-yasm
-bob.io.base
-bob.io.image
-libsvm
-configurable-http-proxy
-snappy
-vc
-conda-testenv
-tensorflow
 fftw
 esmpy
 petulant-bear
@@ -115,139 +75,248 @@ sdl2_mixer
 sdl2_image
 lp_solve
 alps
-pyproj: no releases found
-geos: could not find repo
-trmm_rsl: could not find repo
-antlr: could not find repo
-udunits2: could not find repo
-pynio: no releases found
-rtree: no releases found
-seawater: could not find repo
-epic2cf: no releases found
-modflow2netcdf: no releases found
-lmdb: no releases found
-python-leveldb: Could not find version on pypi
-csa: could not find repo
-gridgen: could not find repo
-gridutils: could not find repo
-nn: could not find repo
-basemap-data-hires: could not find repo
-mpfr: no releases found
-flann: no releases found
-pyflann: could not find repo
-libmatio: could not find repo
-bdw-gc: could not find repo
-django_polymorphic: no releases found
-zeromq: could not find repo
-python-primesieve: Could not find version on pypi
-cmt: no releases found
-mplexporter: no releases found
-valideer: no releases found
-betamax: no releases found
-geolinks: no releases found
-ssl_match_hostname: Could not find version on pypi
-paegan-transport: no releases found
-pyspharm: no releases found
-pymatbridge: could not find repo
-livereload: could not find repo
-oceans: could not find repo
-pywavelets: could not find repo
-erlang: could not find repo
-pypandoc: no releases found
-pybind11: no releases found
-capnproto: no releases found
-doct: no releases found
-libradolan: could not find repo
-lmfit: could not find repo
-libnetcdf: could not find repo
-hmat-oss: no releases found
-event-model: no releases found
-historydict: no releases found
-pycosat: no releases found
-nbpresent: no releases found
-nb_anacondacloud: no releases found
-krb5: no releases found
-nb_conda_kernels: no releases found
-dcmstack: no releases found
-yapf: no releases found
-python-symengine: could not find repo
-scikit-sparse: no releases found
-numpy-indexed: could not find repo
-mongoquery: no releases found
-scp: could not find repo
-ffx: could not find repo
-humanize: no releases found
-sphinx_bootstrap_theme: could not find repo
-clyent: no releases found
-pymongo: could not find repo
-pypolyagamma: no releases found
-redis-py: no releases found
-nc_time_axis: could not find repo
-kiwisolver: could not find repo
-rq: no releases found
-srtm.py: no releases found
-ferret_datasets: could not find repo
-iverilog: no releases found
-ipdb: no releases found
-asyncssh: no releases found
-structlog: no releases found
-jsanimation: no releases found
-anaconda-verify: no releases found
-anypytools: no releases found
-waf: no releases found
-lazyasd: no releases found
-joblib: no releases found
-f90wrap: no releases found
-libconda: no releases found
-slda: no releases found
-nb_conda: no releases found
-pyvisa: no releases found
-constructor: no releases found
-stdlib-list: could not find repo
-wordcloud: could not find repo
-super_state_machine: no releases found
-otrobopt: no releases found
-quantecon: could not find repo
-cssselect: no releases found
-otfftw: no releases found
-otmorris: no releases found
-otpmml: no releases found
-rvlib: no releases found
-bottle: no releases found
-heapdict: no releases found
-falcon: no releases found
-pygmo: no releases found
-qca: no releases found
-gtest: could not find repo
-qjson: no releases found
-htop: no releases found
-seqan-library: could not find repo
-nbexamples: no releases found
-pkgconfig: no releases found
-openpiv: could not find repo
-arpack: could not find repo
-px4tools: no releases found
-jpype1: could not find repo
-arrow-cpp: could not find repo
-prometheus_client: could not find repo
-chemfiles-lib: could not find repo
-chemfiles-python: could not find repo
-arb: no releases found
-pyftpdlib: no releases found
-cpulimit: no releases found
-pyarrow: could not find repo
-hug: no releases found
-otwrapy: no releases found
-python-lmdb: could not find repo
-mocsy: no releases found
-docker-pycreds: could not find repo
-deepdish: no releases found
-khronos-opencl-icd-loader: could not find repo
-xtensor: no releases found
-django-nested-admin: no releases found
-python-monkey-business: no releases found
-ampl-mp: could not find repo
-pyxb: no releases found
-xtensor-python: no releases found
-attrs-sqlalchemy: could not find repo
-ncl: no releases found
+clangdev
+libcxx
+cling-patches
+osx-pocl-opencl
+lua-luafilesystem
+bzip2
+sage
+conda-devenv
+libgpuarray
+r
+r-recommended
+r-nloptr
+r-ape
+r-ggplot2
+r-essentials
+r-densityclust
+simple-salesforce
+gherkin-official
+billingegroup
+svg2png
+ccache-toolchain
+the_silver_searcher
+toolchain3
+cryptography
+clblas
+clblast
+clfft
+c-progressbar
+larrayenv
+clhpp
+clrng
+clsparse
+seapy
+openmp
+jsdom
+pyodbc
+pyside2
+lbzip2
+itk
+signac-dashboard
+pymssql
+r-betareg
+r-hiddenmarkov
+r-lokern
+r-pvclust
+r-sciplot
+r-sfsmisc
+r-bmp
+r-clue
+r-contrast
+r-ecp
+r-feature
+r-geepack
+r-mcmcpack
+r-moments
+r-polspline
+r-readbitmap
+r-rms
+r-wavethresh
+backports
+python.app
+r-bigrquery
+flang-meta
+r-spatialextremes
+flang
+r-ini
+r-ascii
+r-pbapply
+r-ffield
+r-tmb
+r-forestplot
+r-rmpfr
+mkl_fft
+r-minicran
+r-rpostgresql
+r-laeken
+r-rgeos
+r-htmlutils
+r-metap
+tensorboard
+r-rmeta
+r-sgeostat
+r-sigclust
+multinest
+r-clustergeneration
+r-animation
+r-skat
+fmpy
+r-gee
+r-splus2r
+r-survivalroc
+r-rjags
+gitea
+r-ifultools
+nasm
+r-vcd
+r-sroc
+r-party
+r-wmtsa
+r-survmisc
+r-cmprsk
+conda-forge-pinning
+r-maxstat
+r-ggsignif
+r-tweenr
+r-doby
+r-ggforce
+r-svmisc
+r-ggraph
+r-genalg
+r-liftr
+r-ggcorrplot
+r-rsvd
+r-lava
+r-rknn
+r-pls
+r-prodlim
+r-ipred
+r-chemometrics
+r-ggpubr
+r-sampling
+r-ebayesthresh
+r-adlift
+r-entropy
+r-binhf
+r-assertive.base
+r-assertive.code
+r-assertive.data.uk
+r-assertive.data.us
+r-assertive.data
+r-assertive.datetimes
+r-assertive.files
+r-assertive.matrices
+r-assertive.models
+r-assertive.numbers
+r-assertive.properties
+r-assertive.reflection
+r-assertive.sets
+r-assertive.strings
+r-assertive.types
+r-assertive
+r-sda
+r-factoextra
+r-survminer
+r-mpm
+r-tidygraph
+r-st
+r-tidyselect
+r-lhs
+lldb
+lld
+r-ics
+r-drc
+r-genabel
+r-genkern
+r-mustat
+r-qtl
+r-bnlearn
+r-polynomf
+r-matrixcalc
+r-ggm
+r-poilog
+r-matching
+r-network
+r-infotheo
+r-rsvgtipsdevice
+r-patpro
+r-qtlrel
+r-diffr
+r-rcpproll
+r-pixmap
+r-rootsolve
+r-timsac
+r-glm2
+r-clues
+r-dicekriging
+r-ccapp
+r-pamr
+r-rmallow
+r-jade
+r-microseq
+r-modeest
+r-mlbench
+r-ppcor
+r-bio3d
+r-robustrankaggreg
+r-reportr
+r-icsnp
+r-nnls
+r-plot3d
+r-lsa
+r-shinyfiles
+r-heatmap3
+r-apcluster
+r-colortools
+r-mefa
+r-sme
+r-nls2
+r-princurve
+r-scrm
+r-icluster
+r-purbayes
+r-argumentcheck
+r-filehash
+r-pcit
+r-rcppannoy
+r-desolve
+r-dynamictreecut
+r-gwidgets
+r-haplo.stats
+r-precrec
+r-rphylip
+r-seqinr
+r-tsp
+r-readbrukerflexdata
+r-liblinear
+r-glasso
+r-tfmpvalue
+r-protviz
+r-rda
+r-readmzxmldata
+r-rcircos
+r-sm
+r-ccremover
+r-vim
+r-tractor.base
+r-maldiquant
+r-mlgt
+r-lsei
+r-solarius
+r-biomark
+r-genenet
+r-ic10trainingdata
+r-phangorn
+r-cnogpro
+r-snpassoc
+r-mixomics
+r-smatr
+r-grr
+r-dendsort
+r-circular
+r-matrix.utils
+r-qiimer
+r-cubature
+r-skimr
