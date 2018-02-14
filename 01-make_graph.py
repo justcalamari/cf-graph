@@ -57,7 +57,7 @@ with open('bad.txt', 'r') as f:
     bad = set(f.read().split())
 
 print(bad)
-gx = nx.read_gpickle('tmp_graph.pkl')
+gx = nx.read_yaml('graph.yml')
 
 new_names = [name for name in names if name not in gx.nodes and name not in bad]
 old_names = [name for name in names if name in gx.nodes]
@@ -104,7 +104,7 @@ try:
                     gx.add_node(name, **sub_graph)
                 else:
                     gx.nodes[name].update(**sub_graph)
-                nx.write_gpickle(gx, 'tmp_graph.pkl')
+                nx.write_yaml(gx, 'graph.yml')
 
 except github3.GitHubError:
     pass
@@ -112,4 +112,4 @@ for node, attrs in gx.node.items():
     for dep in attrs['req']:
         if dep in gx.nodes:
             gx.add_edge(dep, node)
-nx.write_gpickle(gx, 'graph.pkl')
+nx.write_yaml(gx, 'graph.yml')

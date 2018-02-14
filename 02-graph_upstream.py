@@ -35,7 +35,7 @@ def pypi_version(meta_yaml, gh):
     r = requests.get('https://pypi.python.org/pypi/{}/json'.format(
         pypi_name))
     if not r.ok:
-        with open('bad.txt', 'a') as f:
+        with open('upstream_bad', 'a') as f:
             f.write('{}: Could not find version on pypi\n'.format(meta_yaml['name']))
         print('Could not find version on pypi', pypi_name)
         return False
@@ -50,14 +50,14 @@ def gh_version(meta_yaml, gh):
     # get all the tags
     repo = gh.repository(package_owner, gh_package_name)
     if not repo:
-        with open('bad.txt', 'a') as f:
+        with open('upstream_bad', 'a') as f:
             f.write('{}: could not find repo\n'.format(meta_yaml['name']))
         print("could not find repo", gh_package_name)
         return False
 
     rels = [r.name for r in repo.iter_tags()]
     if len(rels) == 0:
-        with open('bad.txt', 'a') as f:
+        with open('upstream_bad', 'a') as f:
             f.write('{}: no tags found\n'.format(meta_yaml['name']))
         print("no tags found", gh_package_name)
         return False
@@ -80,7 +80,7 @@ def get_latest_version(meta_yaml, gh):
 
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 
-gx = nx.read_gpickle('graph.pkl')
+gx = nx.read_yaml('graph.yml')
 
 try:
     for node, attrs in gx.node.items():
@@ -92,4 +92,4 @@ except github3.GitHubError as e:
     print(e)
     pass
 
-nx.write_gpickle(gx, 'graph2.pkl')
+nx.write_yaml(gx, 'graph2.yml')
