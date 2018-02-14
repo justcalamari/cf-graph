@@ -80,7 +80,7 @@ def get_latest_version(meta_yaml, gh):
 
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 
-gx = nx.read_gpickle('graph.pkl')
+gx = nx.read_yaml('graph.yml')
 
 try:
     for node, attrs in gx.node.items():
@@ -92,4 +92,4 @@ except github3.GitHubError as e:
     print(e)
     pass
 
-nx.write_gpickle(gx, 'graph2.pkl')
+nx.write_yaml(gx, 'graph2.yml')
