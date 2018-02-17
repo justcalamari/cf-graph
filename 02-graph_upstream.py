@@ -1,15 +1,9 @@
-import codecs
 import os
-import re
-import time
-from base64 import b64decode
-from pkg_resources import parse_version
 
 import github3
 import networkx as nx
-import yaml
-from jinja2 import UndefinedError, Template
 import requests
+from pkg_resources import parse_version
 
 
 def source_location(meta_yaml):
