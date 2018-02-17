@@ -176,7 +176,7 @@ def run(feedstock=None, protocol='ssh',
     head = $USERNAME + ':' + $VERSION
     body = ('Merge only after success.\n\n'
             'Here is a list of all the pending dependencies (and their '
-            'versions) for this repo.'
+            'versions) for this repo. '
             'Please double check all dependencies before merging.\n\n')
     # Statement here
     template = '{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})\n'
@@ -205,8 +205,8 @@ $REVER_DIR = '.'
 for node, attrs in gx.node.items():
     # If not already PR'ed and if no deps
     if not attrs.get('PRed', False) and attrs['new_version']:
-        pred =  list(gx2.predecessors(node))
-        pred = [(name, gx2.node[name]['new_version']) for name in pred]
+        pred = [(name, gx2.node[name]['new_version'])
+                for name in list(gx2.predecessors(node))]
         $VERSION = attrs['new_version']
         $PROJECT = attrs['name']
         run(pred=pred)

@@ -8,4 +8,3 @@ with open('names.txt', 'w') as f:
         if 'feedstock' in name and 'feedstocks' not in name:
             f.write(name.split('-feedstock')[0])
             f.write('\n')
-

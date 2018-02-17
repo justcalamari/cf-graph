@@ -3,6 +3,7 @@ import os
 import re
 import time
 from base64 import b64decode
+from pkg_resources import parse_version
 
 import github3
 import networkx as nx
@@ -55,7 +56,8 @@ def gh_version(meta_yaml, gh):
         print("could not find repo", gh_package_name)
         return False
 
-    rels = [r.name for r in repo.iter_tags()]
+    rels = [parse_version(r.name) for r in
+            repo.iter_tags() if 'rc' not in r.name]
     if len(rels) == 0:
         with open('upstream_bad', 'a') as f:
             f.write('{}: no tags found\n'.format(meta_yaml['name']))
