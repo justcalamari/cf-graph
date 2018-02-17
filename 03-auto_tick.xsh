@@ -7,7 +7,7 @@ import sys
 import github3
 import networkx as nx
 import yaml
-from doctr.travis import run, get_token
+from doctr.travis import run as doctr_run, get_token
 from jinja2 import UndefinedError, Template
 from pkg_resources import parse_version
 from rever.tools import (eval_version, indir, hash_url, replace_in_file,
@@ -167,31 +167,10 @@ def run(feedstock=None, protocol='ssh',
             conda smithy rerender -c auto
 
         # Setup push from doctr
-        '''The MIT License (MIT)
-
-Copyright (c) 2016 Aaron Meurer, Gil Forsyth
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-        '''
+        '''Copyright (c) 2016 Aaron Meurer, Gil Forsyth '''
         token = get_token()
         deploy_repo = origin
-        run(['git', 'remote', 'add', 'doctr_remote',
+        doctr_run(['git', 'remote', 'add', 'doctr_remote',
              'https://{token}@github.com/{deploy_repo}.git'.format(
                  token=token.decode('utf-8'),
                  deploy_repo=deploy_repo)])
@@ -204,11 +183,13 @@ SOFTWARE.
     title = $PROJECT + ' v' + $VERSION
     head = $USERNAME + ':' + $VERSION
     body = ('Merge only after success.\n\n'
+            'This PR was created by [regro auto-tick](https://github.com/regro/cf-graph). '
+            'Please let the devs know if there are any issues. \n\n'
             'Here is a list of all the pending dependencies (and their '
             'versions) for this repo. '
             'Please double check all dependencies before merging.\n\n')
     # Statement here
-    template = '{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})\n'
+    template = '|{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})|\n'
     body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
     for p in pred:
         body += template.format(name=p[0], new_version=p[1])
