@@ -4,6 +4,7 @@ import networkx as nx
 import os
 import re
 import sys
+import yaml
 
 from xonsh.tools import print_color
 import github3
@@ -117,7 +118,7 @@ def run(feedstock=None, protocol='ssh',
                                  fork_repo.is_null()):
             print("Fork doesn't exist creating feedstock fork...",
                   file=sys.stderr)
-            repo.create_fork($USERNAME)
+            repo.create_fork()
 
     feedstock_dir = os.path.join($REVER_DIR, $PROJECT + '-feedstock')
     recipe_dir = os.path.join(feedstock_dir, 'recipe')
@@ -161,7 +162,7 @@ def run(feedstock=None, protocol='ssh',
         if pred:
             git commit -am @("[CI SKIP] [SKIP CI] updated v" + $VERSION)
         else:
-            git commit - am @ ("updated v" + $VERSION)
+            git commit - am @("updated v" + $VERSION)
         if rerender:
             print_color('{YELLOW}Rerendering the feedstock{NO_COLOR}',
                         file=sys.stderr)
@@ -178,13 +179,10 @@ def run(feedstock=None, protocol='ssh',
             'versions) for this repo.'
             'Please double check all dependencies before merging.\n\n')
     # Statement here
-    template = '{name}: {new_version}, [![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})\n'
-    body += '''
-    | Name | Upstream Version | Current Version |
-    |:----:|:----------------:|:---------------:|
-    '''
+    template = '{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})\n'
+    body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
     for p in pred:
-        body += template.replace(name=$PROJECT, new_version=$VERSION)
+        body += template.format(name=p[0], new_version=p[1])
     pr = repo.create_pull(title, 'master', head, body=body)
     if pr is None:
         print_color('{RED}Failed to create pull request!{NO_COLOR}')
@@ -197,7 +195,9 @@ gx = nx.read_yaml('graph2.yml')
 gx2 = copy.deepcopy(gx)
 
 # Prune graph to only things that need builds
-for node, attrs in gx2.node.items():
+for node, attrs in gx.node.items():
+    if not attrs['new_version']:
+        continue
     if parse_version(attrs['new_version']) <= parse_version(attrs['version']):
         gx2.remove_node(node)
 
@@ -206,6 +206,7 @@ for node, attrs in gx.node.items():
     # If not already PR'ed and if no deps
     if not attrs.get('PRed', False) and attrs['new_version']:
         pred =  list(gx2.predecessors(node))
+        pred = [(name, gx2.node[name]['new_version']) for name in pred]
         $VERSION = attrs['new_version']
         $PROJECT = attrs['name']
         run(pred=pred)
