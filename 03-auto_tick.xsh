@@ -184,7 +184,7 @@ def run(feedstock=None, protocol='ssh',
     head = $USERNAME + ':' + $VERSION
     body = ('Merge only after success.\n\n'
             'This PR was created by [regro auto-tick](https://github.com/regro/cf-graph). '
-            'Please let the devs know if there are any issues. \n\n'
+            'Please let the devs know if there are any [issues](https://github.com/regro/cf-graph/issues). \n\n'
             'Here is a list of all the pending dependencies (and their '
             'versions) for this repo. '
             'Please double check all dependencies before merging.\n\n')
