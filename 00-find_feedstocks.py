@@ -1,4 +1,5 @@
 import github3
+import os
 
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 org = gh.organization('conda-forge')
