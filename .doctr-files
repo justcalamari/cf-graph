@@ -1,0 +1,12 @@
+./00-find_feedstocks.py
+./01-make_graph.py
+./02-graph_upstream.py
+./03-auto_tick.xsh
+./License
+./README.md
+./bad.txt
+./graph.yml
+./graph2.yml
+./names.txt
+./requirements/run
+./upstream_bad
