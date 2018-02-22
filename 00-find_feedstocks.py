@@ -1,6 +1,6 @@
 import github3
 
-gh = github3.GitHub()
+gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 org = gh.organization('conda-forge')
 with open('names.txt', 'w') as f:
     for repo in org.iter_repos():
