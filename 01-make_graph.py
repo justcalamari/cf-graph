@@ -50,13 +50,16 @@ def source_location(meta_yaml):
 
 # TODO: with names in a graph
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
+print('reading names')
 with open('names.txt', 'r') as f:
     names = f.read().split()
 
+print('reading bad')
 with open('bad.txt', 'r') as f:
     bad = set(f.read().split())
 
 print(bad)
+print('reading graph')
 gx = nx.read_yaml('graph.yml')
 
 new_names = [name for name in names if name not in gx.nodes and name not in bad]
@@ -64,6 +67,7 @@ old_names = [name for name in names if name in gx.nodes]
 old_names = sorted(old_names, key=lambda n: gx.nodes[n]['time'])
 
 total_names = new_names + old_names
+print('start loop')
 try:
     for name in total_names:
         print(name)
