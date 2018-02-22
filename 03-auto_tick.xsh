@@ -219,6 +219,7 @@ for node, attrs in gx.node.items():
                 for name in list(gx2.predecessors(node))]
         $VERSION = attrs['new_version']
         $PROJECT = attrs['name']
+        print($PROJECT)
         run(pred=pred)
         gx.nodes[node]['PRed'] = True
 
