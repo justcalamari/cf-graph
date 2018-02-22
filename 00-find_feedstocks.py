@@ -7,5 +7,6 @@ with open('names.txt', 'w') as f:
     for repo in org.iter_repos():
         name = repo.full_name.split('conda-forge/')[-1]
         if 'feedstock' in name and 'feedstocks' not in name:
+            print(name.split('-feedstock')[0])
             f.write(name.split('-feedstock')[0])
             f.write('\n')
