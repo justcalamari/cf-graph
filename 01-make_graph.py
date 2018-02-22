@@ -49,7 +49,6 @@ def source_location(meta_yaml):
 
 
 # TODO: with names in a graph
-gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 print('reading names')
 with open('names.txt', 'r') as f:
     names = f.read().split()
@@ -60,7 +59,8 @@ with open('bad.txt', 'r') as f:
 
 print(bad)
 print('reading graph')
-gx = nx.read_yaml('graph.yml')
+gx = nx.read_gpickle('graph.pkl')
+# gx = nx.read_yaml('graph.yml')
 
 new_names = [name for name in names if name not in gx.nodes and name not in bad]
 old_names = [name for name in names if name in gx.nodes]
@@ -68,6 +68,7 @@ old_names = sorted(old_names, key=lambda n: gx.nodes[n]['time'])
 
 total_names = new_names + old_names
 print('start loop')
+gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 try:
     for name in total_names:
         print(name)
@@ -108,7 +109,8 @@ try:
                     gx.add_node(name, **sub_graph)
                 else:
                     gx.nodes[name].update(**sub_graph)
-                nx.write_yaml(gx, 'graph.yml')
+                # nx.write_yaml(gx, 'graph.yml')
+                nx.write_gpickle(gx, 'graph.pkl')
 
 except github3.GitHubError:
     pass
@@ -116,4 +118,5 @@ for node, attrs in gx.node.items():
     for dep in attrs['req']:
         if dep in gx.nodes:
             gx.add_edge(dep, node)
-nx.write_yaml(gx, 'graph.yml')
+# nx.write_yaml(gx, 'graph.yml')
+nx.write_gpickle(gx, 'graph.pkl')
