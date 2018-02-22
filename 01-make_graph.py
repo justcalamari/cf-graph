@@ -113,6 +113,7 @@ try:
                 nx.write_gpickle(gx, 'graph.pkl')
 
 except github3.GitHubError:
+    print('API timeout')
     pass
 for node, attrs in gx.node.items():
     for dep in attrs['req']:
