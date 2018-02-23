@@ -172,7 +172,7 @@ def run(feedstock=None, protocol='ssh',
         deploy_repo = $USERNAME + '/' + $PROJECT + '-feedstock'
         doctr_run(['git', 'remote', 'add', 'doctr_remote',
              'https://{token}@github.com/{deploy_repo}.git'.format(
-                 token=token.decode('utf-8'),
+                 token=token,
                  deploy_repo=deploy_repo)])
 
         git push --set-upstream @(origin) $VERSION
