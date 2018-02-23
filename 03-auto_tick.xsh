@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 
 import github3
 import networkx as nx
@@ -156,7 +157,12 @@ def run(feedstock=None, protocol='ssh',
 
     # now, update the feedstock to the new version
     source_url = eval_version(source_url)
-    hash = hash_url(source_url)
+    try:
+        hash = hash_url(source_url)
+    except urllib.error.HTTPError:
+        with open('upstream_bad', 'a') as f:
+            f.write('{}: hash failed\n'.format(meta_yaml['name']))
+
     with indir(recipe_dir), ${...}.swap(HASH_TYPE=hash_type, HASH=hash,
                                         SOURCE_URL=source_url):
         for f, p, n in patterns:
