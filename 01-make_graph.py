@@ -1,4 +1,5 @@
 import codecs
+import datetime
 import os
 import re
 import time
@@ -113,7 +114,10 @@ try:
                 nx.write_gpickle(gx, 'graph.pkl')
 
 except github3.GitHubError:
-    print('API timeout')
+    ts = gh.rate_limit()['resources']['core']['reset']
+    print('API timeout, API returns at')
+    print(datetime.datetime.utcfromtimestamp(ts)
+          .strftime('%Y-%m-%dT%H:%M:%SZ'))
     pass
 for node, attrs in gx.node.items():
     for dep in attrs['req']:

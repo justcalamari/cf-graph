@@ -1,5 +1,6 @@
 """Copyright (c) 2017, Anthony Scopatz"""
 import copy
+import datetime
 import os
 import re
 import sys
@@ -99,9 +100,10 @@ DEFAULT_PATTERNS = (
 
 def run(feedstock=None, protocol='ssh',
         hash_type='sha256', patterns=DEFAULT_PATTERNS,
-        pull_request=True, rerender=True, fork=True, pred=[]):
-    # first, let's grab the feedstock locally
-    gh = github3.login($USERNAME, $PASSWORD)
+        pull_request=True, rerender=True, fork=True, pred=[], gh=None):
+    if gh is None:
+        gh = github3.login($USERNAME, $PASSWORD)
+        # first, let's grab the feedstock locally
     upstream = feedstock_url(feedstock, protocol=protocol)
     origin = fork_url(upstream, $USERNAME)
     feedstock_reponame = feedstock_repo(feedstock)
@@ -212,6 +214,8 @@ for node, attrs in gx.node.items():
         gx2.remove_node(node)
 
 $REVER_DIR = '.'
+gh = github3.login($USERNAME, $PASSWORD)
+
 for node, attrs in gx.node.items():
     # If not already PR'ed and if no deps
     if not attrs.get('PRed', False) and attrs['new_version']:
@@ -220,8 +224,15 @@ for node, attrs in gx.node.items():
         $VERSION = attrs['new_version']
         $PROJECT = attrs['name']
         print($PROJECT)
-        run(pred=pred)
-        gx.nodes[node]['PRed'] = True
+        try:
+            run(pred=pred, gh=gh)
+            gx.nodes[node]['PRed'] = True
+        except github3.GitHubError:
+            ts = gh.rate_limit()['resources']['core']['reset']
+            print('API timeout, API returns at')
+            print(datetime.datetime.utcfromtimestamp(ts)
+                  .strftime('%Y-%m-%dT%H:%M:%SZ'))
+            pass
 
 # Race condition?
 nx.write_yaml(gx, 'graph2.yml')

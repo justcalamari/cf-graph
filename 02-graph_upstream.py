@@ -1,3 +1,4 @@
+import datetime
 import os
 
 import github3
@@ -85,8 +86,11 @@ for node, attrs in gx.node.items():
         print(node)
         attrs['new_version'] = get_latest_version(attrs, gh)
         print(attrs['version'], attrs['new_version'])
-    except github3.GitHubError as e:
-        print(e)
+    except github3.GitHubError:
+        ts = gh.rate_limit()['resources']['core']['reset']
+        print('API timeout, API returns at')
+        print(datetime.datetime.utcfromtimestamp(ts)
+              .strftime('%Y-%m-%dT%H:%M:%SZ'))
         pass
 # nx.write_yaml(gx, 'graph2.yml')
 nx.write_gpickle(gx, 'graph2.pkl')
