@@ -20,7 +20,6 @@ def source_location(meta_yaml):
         elif 'pypi.io' in meta_yaml['url']:
             return 'pypi'
         else:
-            print(meta_yaml['url'])
             return None
     except KeyError:
         return None
@@ -34,7 +33,6 @@ def pypi_version(meta_yaml, gh):
     if not r.ok:
         with open('upstream_bad', 'a') as f:
             f.write('{}: Could not find version on pypi\n'.format(meta_yaml['name']))
-        print('Could not find version on pypi', pypi_name)
         return False
     return r.json()['info']['version'].strip()
 
@@ -49,7 +47,6 @@ def gh_version(meta_yaml, gh):
     if not repo:
         with open('upstream_bad', 'a') as f:
             f.write('{}: could not find repo\n'.format(meta_yaml['name']))
-        print("could not find repo", gh_package_name)
         return False
 
     rels = [parse_version(r.name) for r in
@@ -57,7 +54,6 @@ def gh_version(meta_yaml, gh):
     if len(rels) == 0:
         with open('upstream_bad', 'a') as f:
             f.write('{}: no tags found\n'.format(meta_yaml['name']))
-        print("no tags found", gh_package_name)
         return False
 
     return max(rels)
@@ -70,7 +66,8 @@ sl_map = {'pypi': {'version': pypi_version},
 def get_latest_version(meta_yaml, gh):
     sl = source_location(meta_yaml)
     if sl is None:
-        print('Not on GitHub or pypi', meta_yaml['name'])
+        with open('upstream_bad', 'a') as f:
+            f.write('{}: not on GitHub of pypi\n'.format(meta_yaml['name']))
         return False
     rv = sl_map[sl]['version'](meta_yaml, gh)
     return rv
@@ -83,9 +80,8 @@ gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 
 for node, attrs in gx.node.items():
     try:
-        print(node)
         attrs['new_version'] = get_latest_version(attrs, gh)
-        print(attrs['version'], attrs['new_version'])
+        print(node, attrs['version'], attrs['new_version'])
     except github3.GitHubError:
         ts = gh.rate_limit()['resources']['core']['reset']
         print('API timeout, API returns at')
