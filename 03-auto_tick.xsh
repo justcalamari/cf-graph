@@ -4,7 +4,6 @@ import datetime
 import os
 import re
 import sys
-from pprint import pprint
 
 import github3
 import networkx as nx
@@ -12,8 +11,7 @@ import yaml
 from doctr.travis import run as doctr_run, get_token
 from jinja2 import UndefinedError, Template
 from pkg_resources import parse_version
-from rever.tools import (eval_version, indir, hash_url, replace_in_file,
-                         print_color)
+from rever.tools import (eval_version, indir, hash_url, replace_in_file)
 
 
 def parsed_meta_yaml(text):
@@ -117,8 +115,7 @@ def run(feedstock=None, protocol='ssh',
         fork_repo = gh.repository($USERNAME, feedstock_reponame)
         if fork_repo is None or (hasattr(fork_repo, 'is_null') and
                                  fork_repo.is_null()):
-            print("Fork doesn't exist creating feedstock fork...",
-                  file=sys.stderr)
+            print("Fork doesn't exist creating feedstock fork...")
             repo.create_fork()
 
     feedstock_dir = os.path.join($REVER_DIR, $PROJECT + '-feedstock')
@@ -166,8 +163,7 @@ def run(feedstock=None, protocol='ssh',
         else:
             git commit -am @("updated v" + $VERSION)
         if rerender:
-            print_color('{YELLOW}Rerendering the feedstock{NO_COLOR}',
-                        file=sys.stderr)
+            print('Rerendering the feedstock')
             conda smithy rerender -c auto
 
         # Setup push from doctr
@@ -183,7 +179,7 @@ def run(feedstock=None, protocol='ssh',
     # lastly make a PR for the feedstock
     if not pull_request:
         return
-    print('Creating conda-forge feedstock pull request...', file=sys.stderr)
+    print('Creating conda-forge feedstock pull request...')
     title = $PROJECT + ' v' + $VERSION
     head = $USERNAME + ':' + $VERSION
     body = ('Merge only after success.\n\n'
@@ -199,10 +195,9 @@ def run(feedstock=None, protocol='ssh',
         body += template.format(name=p[0], new_version=p[1])
     pr = repo.create_pull(title, 'master', head, body=body)
     if pr is None:
-        print_color('{RED}Failed to create pull request!{NO_COLOR}')
+        print('Failed to create pull request!')
     else:
-        print_color('{GREEN}Pull request created at ' + pr.html_url + \
-                    '{NO_COLOR}')
+        print('Pull request created at ' + pr.html_url)
 
 
 # gx = nx.read_yaml('graph2.yml')
@@ -231,14 +226,18 @@ for node in nx.topological_sort(gx2):
         pred = [(name, gx2.node[name]['new_version'])
                 for name in list(gx2.predecessors(node))]
         try:
-            run(pred=pred, gh=gh, rerender=False, protocol='https')
-            gx.nodes[node]['PRed'] = attrs['new_version']
+            # Don't bother running if we are at zero
+            if gh.rate_limit()['resources']['core']['remaining'] == 0:
+                break
+            else:
+                run(pred=pred, gh=gh, rerender=False, protocol='https')
+                gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError:
             ts = gh.rate_limit()['resources']['core']['reset']
             print('API timeout, API returns at')
             print(datetime.datetime.utcfromtimestamp(ts)
                   .strftime('%Y-%m-%dT%H:%M:%SZ'))
-            pass
+            break
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')
         ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
