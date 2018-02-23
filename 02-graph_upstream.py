@@ -84,6 +84,7 @@ for node, attrs in gx.node.items():
         print(node, attrs['version'], attrs['new_version'])
     except github3.GitHubError:
         ts = gh.rate_limit()['resources']['core']['reset']
+        print(node)
         print('API timeout, API returns at')
         print(datetime.datetime.utcfromtimestamp(ts)
               .strftime('%Y-%m-%dT%H:%M:%SZ'))
