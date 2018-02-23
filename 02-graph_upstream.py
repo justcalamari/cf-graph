@@ -75,18 +75,18 @@ def get_latest_version(meta_yaml, gh):
     return rv
 
 
+# gx = nx.read_yaml('graph.yml')
+gx = nx.read_gpickle('graph.pkl')
+
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 
-gx = nx.read_yaml('graph.yml')
-
-try:
-    for node, attrs in gx.node.items():
+for node, attrs in gx.node.items():
+    try:
         print(node)
         attrs['new_version'] = get_latest_version(attrs, gh)
         print(attrs['version'], attrs['new_version'])
-
-except github3.GitHubError as e:
-    print(e)
-    pass
-
-nx.write_yaml(gx, 'graph2.yml')
+    except github3.GitHubError as e:
+        print(e)
+        pass
+# nx.write_yaml(gx, 'graph2.yml')
+nx.write_gpickle(gx, 'graph2.pkl')
