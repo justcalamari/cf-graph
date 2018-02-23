@@ -5,13 +5,6 @@
 ./License
 ./README.md
 ./bad.txt
-./feedstocks/pytest-replay-feedstock/LICENSE
-./feedstocks/pytest-replay-feedstock/README.md
-./feedstocks/pytest-replay-feedstock/ci_support/checkout_merge_commit.sh
-./feedstocks/pytest-replay-feedstock/ci_support/fast_finish_ci_pr_build.sh
-./feedstocks/pytest-replay-feedstock/ci_support/run_docker_build.sh
-./feedstocks/pytest-replay-feedstock/conda-forge.yml
-./feedstocks/pytest-replay-feedstock/recipe/meta.yaml
 ./graph.pkl
 ./graph.yml
 ./graph2.pkl
