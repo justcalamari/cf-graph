@@ -227,8 +227,7 @@ gh = github3.login($USERNAME, $PASSWORD)
 
 # The topological order make sure that we bump the most depended on things
 # first
-for node in nx.topological_sort(gx2):
-    attrs = gx2.node[node]
+for node, attrs in gx2.node.items():
     $PROJECT = attrs['name']
     $VERSION = attrs['new_version']
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
@@ -242,6 +241,7 @@ for node in nx.topological_sort(gx2):
                 break
             else:
                 run(pred=pred, gh=gh, rerender=True, protocol='https')
+                gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError as e:
             print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
             print(e)
@@ -257,8 +257,6 @@ for node in nx.topological_sort(gx2):
             print(e)
             with open('exceptions.txt', 'a') as f:
                 f.write('{name}: {exception}'.format(name=$PROJECT, exception=str(e)))
-        else:
-            gx.nodes[node]['PRed'] = attrs['new_version']
         finally:
             # Write graph partially through
             nx.write_gpickle(gx, 'graph2.pkl')
