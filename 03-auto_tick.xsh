@@ -218,7 +218,7 @@ for node, attrs in gx.node.items():
 $REVER_DIR = '.'
 gh = github3.login($USERNAME, $PASSWORD)
 
-for node, attrs in gx.node.items():
+for node, attrs in gx2.node.items():
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
         $PROJECT = attrs['name']
