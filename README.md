@@ -1,6 +1,8 @@
 # cf-graph
 Conda Forge dependency graph and auto ticker
 
+[regro-cf-autotick-bot's PRs](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Aregro-cf-autotick-bot+archived%3Afalse+) 
+
 ## Plan
 There are four scripts:
 1. `00-find-feedstocks.py` which finds all the names of the current feedstocks. (#feedstocks/30 GH api calls)
@@ -14,8 +16,5 @@ GH rate limit may be a major concern for this as there are ~4000 feedstocks and 
 This may require it's own conda-forge bot account to prevent it from taking all the API calls.
 
 ## Next steps
-1. Test the auto ticking script.
-1. Iron out some kinks with getting the upstream and making the graph.
-1. Put into production with Travis + `doctr`.
 1. On accepting a new recipe to CF write to the dependency graph directly.
 1. On accepting a PR into a feedstock update the version in the graph.  
