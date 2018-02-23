@@ -10,5 +10,12 @@
 ./graph2.pkl
 ./graph2.yml
 ./names.txt
+./pytest-replay-feedstock/LICENSE
+./pytest-replay-feedstock/README.md
+./pytest-replay-feedstock/ci_support/checkout_merge_commit.sh
+./pytest-replay-feedstock/ci_support/fast_finish_ci_pr_build.sh
+./pytest-replay-feedstock/ci_support/run_docker_build.sh
+./pytest-replay-feedstock/conda-forge.yml
+./pytest-replay-feedstock/recipe/meta.yaml
 ./requirements/run
 ./upstream_bad
