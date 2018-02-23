@@ -1,47 +1,50 @@
-About oniguruma
+About nanoflann
 ===============
 
-Home: https://github.com/kkos/oniguruma
+Home: https://github.com/jlblancoc/nanoflann
 
-Package license: BSD 2-Clause
+Package license: BSD
 
 Feedstock license: BSD 3-Clause
 
-Summary: A regular expression library.
+Summary: A C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 
+nanoflann is a C++ header-only library for building KD-Trees, mostly optimized
+for 2D or 3D point clouds. nanoflann does not require compiling or installing.
+You just need to #include <nanoflann.hpp> in your code.
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oniguruma-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oniguruma-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oniguruma-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oniguruma-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nanoflann-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nanoflann-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nanoflann-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nanoflann-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nanoflann-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nanoflann-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oniguruma/badges/version.svg)](https://anaconda.org/conda-forge/oniguruma)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oniguruma/badges/downloads.svg)](https://anaconda.org/conda-forge/oniguruma)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nanoflann/badges/version.svg)](https://anaconda.org/conda-forge/nanoflann)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nanoflann/badges/downloads.svg)](https://anaconda.org/conda-forge/nanoflann)
 
-Installing oniguruma
+Installing nanoflann
 ====================
 
-Installing `oniguruma` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `nanoflann` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `oniguruma` can be installed with:
+Once the `conda-forge` channel has been enabled, `nanoflann` can be installed with:
 
 ```
-conda install oniguruma
+conda install nanoflann
 ```
 
-It is possible to list all of the versions of `oniguruma` available on your platform with:
+It is possible to list all of the versions of `nanoflann` available on your platform with:
 
 ```
-conda search oniguruma --channel conda-forge
+conda search nanoflann --channel conda-forge
 ```
 
 
@@ -80,17 +83,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating oniguruma-feedstock
+Updating nanoflann-feedstock
 ============================
 
-If you would like to improve the oniguruma recipe or build a new
+If you would like to improve the nanoflann recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/oniguruma-feedstock are
+Note that all branches in the conda-forge/nanoflann-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.

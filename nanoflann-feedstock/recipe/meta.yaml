@@ -1,0 +1,39 @@
+{% set name = "nanoflann" %}
+{% set version = "1.2.3" %}
+{% set sha256 = "5ef4dfb23872379fe9eb306aabd19c9df4cae852b72a923af01aea5e8d7a59c3" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+    fn: {{ name }}-{{ version }}.tar.gz
+    url: https://github.com/jlblancoc/nanoflann/archive/v{{ version }}.tar.gz
+    sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: xcopy /S %SRC_DIR%\include %LIBRARY_INC%  # [win]
+  script: cp -r $SRC_DIR/include/ $PREFIX/include/  # [unix]
+
+test:
+  commands:
+    - if not exist %LIBRARY_INC%\nanoflann.hpp exit 1  # [win]
+    - test -f ${PREFIX}/include/nanoflann.hpp          # [unix]
+
+about:
+  home: https://github.com/jlblancoc/nanoflann
+  license: BSD
+  license_file: COPYING
+  summary: 'A C++ header-only library for Nearest Neighbor (NN) search wih KD-trees'
+  description: |
+      nanoflann is a C++ header-only library for building KD-Trees, mostly optimized
+      for 2D or 3D point clouds. nanoflann does not require compiling or installing.
+      You just need to #include <nanoflann.hpp> in your code.
+  doc_url: http://jlblancoc.github.io/nanoflann/
+  dev_url: https://github.com/jlblancoc/nanoflann
+
+extra:
+  recipe-maintainers:
+    - tadeu
+    - jlblancoc
