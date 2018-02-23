@@ -4,6 +4,7 @@ import datetime
 import os
 import re
 import sys
+import time
 
 import github3
 import networkx as nx
@@ -117,6 +118,8 @@ def run(feedstock=None, protocol='ssh',
                                  fork_repo.is_null()):
             print("Fork doesn't exist creating feedstock fork...")
             repo.create_fork()
+            # Sleep to make sure the fork is created before we go after it
+            time.sleep(5)
 
     feedstock_dir = os.path.join($REVER_DIR, $PROJECT + '-feedstock')
     recipe_dir = os.path.join(feedstock_dir, 'recipe')
@@ -156,12 +159,7 @@ def run(feedstock=None, protocol='ssh',
             n = eval_version(n)
             replace_in_file(p, n, f)
     with indir(feedstock_dir), ${...}.swap(RAISE_SUBPROC_ERROR=False):
-        # If dependencies skip the CI (people can activate CI themselves)
-        if pred:
-            print(pred)
-            git commit -am @("[CI SKIP] [SKIP CI] updated v" + $VERSION)
-        else:
-            git commit -am @("updated v" + $VERSION)
+        git commit -am @("updated v" + $VERSION)
         if rerender:
             print('Rerendering the feedstock')
             conda smithy rerender -c auto
@@ -217,8 +215,7 @@ gh = github3.login($USERNAME, $PASSWORD)
 
 # The topological order make sure that we bump the most depended on things
 # first
-# for node in nx.topological_sort(gx2):
-for node, attrs in gx2.node.items():
+for node in nx.topological_sort(gx2):
     # attrs = gx2.node[node]
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
@@ -226,7 +223,7 @@ for node, attrs in gx2.node.items():
         $VERSION = attrs['new_version']
         print($PROJECT)
         pred = [(name, gx2.node[name]['new_version'])
-                for name in list(gx2.predecessors(node))]
+                for name in list(gx2.predecessors(node)) if gx2.node[name]['new_version']]
         try:
             # Don't bother running if we are at zero
             if gh.rate_limit()['resources']['core']['remaining'] == 0:
