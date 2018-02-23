@@ -140,9 +140,7 @@ def run(feedstock=None, protocol='ssh',
         git checkout master
         git pull @(origin) master
         # make sure feedstock is up-to-date with upstream
-        p = ![git pull @(upstream) master]
-        if p.rtn != 0:
-            return
+        git pull @(upstream) master
         # make and modify version branch
         with ${...}.swap(RAISE_SUBPROC_ERROR=False):
             git checkout -b $VERSION master or git checkout $VERSION
@@ -256,6 +254,9 @@ for node in nx.topological_sort(gx2):
                 print(datetime.datetime.utcfromtimestamp(ts)
                       .strftime('%Y-%m-%dT%H:%M:%SZ'))
                 break
+        except Exception as e:
+            print('NON GITHUB ERROR')
+            print(e)
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')
         rm -rf $REVER_DIR + '/*'
