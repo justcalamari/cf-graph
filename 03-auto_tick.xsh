@@ -248,7 +248,7 @@ for node in nx.topological_sort(gx2):
                 break
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')
-        rm - rf $REVER_DIR + '/*'
+        rm -rf $REVER_DIR + '/*'
         ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
 
 # Race condition?
