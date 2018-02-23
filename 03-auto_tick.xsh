@@ -4,6 +4,7 @@ import datetime
 import os
 import re
 import sys
+from pprint import pprint
 
 import github3
 import networkx as nx
@@ -218,6 +219,8 @@ $REVER_DIR = '.'
 gh = github3.login($USERNAME, $PASSWORD)
 
 for node, attrs in gx.node.items():
+    print(node)
+    pprint(attrs)
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
         pred = [(name, gx2.node[name]['new_version'])
