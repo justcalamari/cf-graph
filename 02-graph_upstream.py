@@ -56,7 +56,7 @@ def gh_version(meta_yaml, gh):
             f.write('{}: no tags found\n'.format(meta_yaml['name']))
         return False
 
-    return max(rels)
+    return str(max(rels))
 
 
 sl_map = {'pypi': {'version': pypi_version},
