@@ -5,6 +5,7 @@
 ./License
 ./README.md
 ./bad.txt
+./exceptions.txt
 ./graph.pkl
 ./graph.yml
 ./graph2.pkl
