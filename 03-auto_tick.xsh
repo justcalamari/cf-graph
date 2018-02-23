@@ -203,7 +203,8 @@ def run(feedstock=None, protocol='ssh',
                     '{NO_COLOR}')
 
 
-gx = nx.read_yaml('graph2.yml')
+# gx = nx.read_yaml('graph2.yml')
+gx = nx.read_gpickle('graph2.pkl')
 gx2 = copy.deepcopy(gx)
 
 # Prune graph to only things that need builds
@@ -236,4 +237,5 @@ for node, attrs in gx.node.items():
 
 # Race condition?
 print('writing out file')
-nx.write_yaml(gx, 'graph2.yml')
+# nx.write_yaml(gx, 'graph2.yml')
+nx.write_gpickle(gx, 'graph2.pkl')
