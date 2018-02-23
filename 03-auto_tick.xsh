@@ -240,7 +240,7 @@ for node in nx.topological_sort(gx2):
             if gh.rate_limit()['resources']['core']['remaining'] == 0:
                 break
             else:
-                run(pred=pred, gh=gh, rerender=False, protocol='https')
+                run(pred=pred, gh=gh, rerender=True, protocol='https')
                 gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError as e:
             print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
