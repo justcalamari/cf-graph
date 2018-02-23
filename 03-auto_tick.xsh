@@ -198,7 +198,8 @@ def run(feedstock=None, protocol='ssh',
         print('Failed to create pull request!')
     else:
         print('Pull request created at ' + pr.html_url)
-
+    print('Removing feedstock dir')
+    rm -rf @(feedstock_dir)
 
 # gx = nx.read_yaml('graph2.yml')
 gx = nx.read_gpickle('graph2.pkl')
