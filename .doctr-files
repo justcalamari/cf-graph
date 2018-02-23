@@ -10,14 +10,5 @@
 ./graph2.pkl
 ./graph2.yml
 ./names.txt
-./nanoflann-feedstock/LICENSE
-./nanoflann-feedstock/README.md
-./nanoflann-feedstock/appveyor.yml
-./nanoflann-feedstock/ci_support/checkout_merge_commit.sh
-./nanoflann-feedstock/ci_support/fast_finish_ci_pr_build.sh
-./nanoflann-feedstock/ci_support/run_docker_build.sh
-./nanoflann-feedstock/circle.yml
-./nanoflann-feedstock/conda-forge.yml
-./nanoflann-feedstock/recipe/meta.yaml
 ./requirements/run
 ./upstream_bad
