@@ -164,7 +164,7 @@ def run(feedstock=None, protocol='ssh',
             print(pred)
             git commit -am @("[CI SKIP] [SKIP CI] updated v" + $VERSION)
         else:
-            git commit - am @("updated v" + $VERSION)
+            git commit -am @("updated v" + $VERSION)
         if rerender:
             print_color('{YELLOW}Rerendering the feedstock{NO_COLOR}',
                         file=sys.stderr)
@@ -172,7 +172,7 @@ def run(feedstock=None, protocol='ssh',
 
         # Setup push from doctr
         '''Copyright (c) 2016 Aaron Meurer, Gil Forsyth '''
-        token = get_token()
+        token = $PASSWORD
         deploy_repo = $USERNAME + '/' + $PROJECT + '-feedstock'
         doctr_run(['git', 'remote', 'add', 'doctr_remote',
              'https://{token}@github.com/{deploy_repo}.git'.format(
@@ -241,7 +241,7 @@ for node in nx.topological_sort(gx2):
             pass
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')
-        doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .
+        ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
 
 # Race condition?
 print('writing out file')
