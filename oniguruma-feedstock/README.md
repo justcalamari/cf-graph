@@ -1,47 +1,47 @@
-About openlibm
-==============
+About oniguruma
+===============
 
-Home: http://openlibm.org/
+Home: https://github.com/kkos/oniguruma
 
-Package license: MIT, ISC, BSD 2-Clause
+Package license: BSD 2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: High quality system independent, portable, open source libm implementation
+Summary: A regular expression library.
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/openlibm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/openlibm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/openlibm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/openlibm-feedstock)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oniguruma-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oniguruma-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/oniguruma-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oniguruma-feedstock)
 Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/openlibm/badges/version.svg)](https://anaconda.org/conda-forge/openlibm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/openlibm/badges/downloads.svg)](https://anaconda.org/conda-forge/openlibm)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oniguruma/badges/version.svg)](https://anaconda.org/conda-forge/oniguruma)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oniguruma/badges/downloads.svg)](https://anaconda.org/conda-forge/oniguruma)
 
-Installing openlibm
-===================
+Installing oniguruma
+====================
 
-Installing `openlibm` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `oniguruma` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `openlibm` can be installed with:
+Once the `conda-forge` channel has been enabled, `oniguruma` can be installed with:
 
 ```
-conda install openlibm
+conda install oniguruma
 ```
 
-It is possible to list all of the versions of `openlibm` available on your platform with:
+It is possible to list all of the versions of `oniguruma` available on your platform with:
 
 ```
-conda search openlibm --channel conda-forge
+conda search oniguruma --channel conda-forge
 ```
 
 
@@ -80,17 +80,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating openlibm-feedstock
-===========================
+Updating oniguruma-feedstock
+============================
 
-If you would like to improve the openlibm recipe or build a new
+If you would like to improve the oniguruma recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/openlibm-feedstock are
+Note that all branches in the conda-forge/oniguruma-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
