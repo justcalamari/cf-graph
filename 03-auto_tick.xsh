@@ -221,12 +221,12 @@ gh = github3.login($USERNAME, $PASSWORD)
 # The topological order make sure that we bump the most depended on things
 # first
 for node in nx.topological_sort(gx2):
-    # attrs = gx2.node[node]
+    attrs = gx2.node[node]
+    $PROJECT = attrs['name']
+    $VERSION = attrs['new_version']
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
-        $PROJECT = attrs['name']
-        $VERSION = attrs['new_version']
-        print($PROJECT)
+        print('BUILDING', $PROJECT)
         pred = [(name, gx2.node[name]['new_version'])
                 for name in list(gx2.predecessors(node)) if gx2.node[name]['new_version']]
         try:
