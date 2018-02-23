@@ -89,12 +89,17 @@ DEFAULT_PATTERNS = (
     # set the version
     ('meta.yaml', '  version:\s*[A-Za-z0-9._-]+', '  version: "$VERSION"'),
     ('meta.yaml', '{% set version = ".*" %}', '{% set version = "$VERSION" %}'),
+    ('meta.yaml', '{%set version = ".*" %}', '{%set version = "$VERSION" %}'),
     # reset the build number to 0
     ('meta.yaml', '  number:.*', '  number: 0'),
     # set the hash
     ('meta.yaml', '{% set $HASH_TYPE = "[0-9A-Fa-f]+" %}',
                   '{% set $HASH_TYPE = "$HASH" %}'),
     ('meta.yaml', '  $HASH_TYPE:\s*[0-9A-Fa-f]+', '  $HASH_TYPE: $HASH'),
+    ('meta.yaml', '{% set hash_value = [0-9A-Fa-f]+ %}', '{% set hash_value = $HASH %}'),
+    ('meta.yaml', '{% set hash = [0-9A-Fa-f]+ %}', '{% set hash = $HASH %}'),
+    ('meta.yaml', '{%set hash_value = [0-9A-Fa-f]+ %}', '{%set hash_value = $HASH %}'),
+
     )
 
 
@@ -210,7 +215,7 @@ for node, attrs in gx.node.items():
     if parse_version(str(attrs['new_version'])) <= parse_version(str(attrs['version'])):
         gx2.remove_node(node)
 
-$REVER_DIR = '.'
+$REVER_DIR = './feedstocks/'
 gh = github3.login($USERNAME, $PASSWORD)
 
 # The topological order make sure that we bump the most depended on things
@@ -232,6 +237,7 @@ for node in nx.topological_sort(gx2):
                 run(pred=pred, gh=gh, rerender=False, protocol='https')
                 gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError as e:
+            print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
             print(e)
             c = gh.rate_limit()['resources']['core']
             if c['remaining'] == 0:
@@ -239,7 +245,7 @@ for node in nx.topological_sort(gx2):
                 print('API timeout, API returns at')
                 print(datetime.datetime.utcfromtimestamp(ts)
                       .strftime('%Y-%m-%dT%H:%M:%SZ'))
-            break
+                break
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')
         ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
@@ -248,3 +254,4 @@ for node in nx.topological_sort(gx2):
 print('writing out file')
 # nx.write_yaml(gx, 'graph2.yml')
 nx.write_gpickle(gx, 'graph2.pkl')
+rm -rf $REVER_DIR
