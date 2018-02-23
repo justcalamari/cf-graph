@@ -227,7 +227,7 @@ for node, attrs in gx2.node.items():
         pred = [(name, gx2.node[name]['new_version'])
                 for name in list(gx2.predecessors(node))]
         try:
-            run(pred=pred, gh=gh, rerender=False)
+            run(pred=pred, gh=gh, rerender=False, protocol='https')
             gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError:
             ts = gh.rate_limit()['resources']['core']['reset']
