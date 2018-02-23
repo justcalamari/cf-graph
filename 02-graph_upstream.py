@@ -56,7 +56,7 @@ def gh_version(meta_yaml, gh):
             f.write('{}: no tags found\n'.format(meta_yaml['name']))
         return False
 
-    return str(max(rels))
+    return max(rels)
 
 
 sl_map = {'pypi': {'version': pypi_version},
@@ -70,7 +70,7 @@ def get_latest_version(meta_yaml, gh):
             f.write('{}: not on GitHub of pypi\n'.format(meta_yaml['name']))
         return False
     rv = sl_map[sl]['version'](meta_yaml, gh)
-    return rv
+    return str(rv)
 
 
 # gx = nx.read_yaml('graph.yml')
@@ -89,5 +89,6 @@ for node, attrs in gx.node.items():
               .strftime('%Y-%m-%dT%H:%M:%SZ'))
         pass
 print('writing out file')
+del parse_version
 # nx.write_yaml(gx, 'graph2.yml')
 nx.write_gpickle(gx, 'graph2.pkl')
