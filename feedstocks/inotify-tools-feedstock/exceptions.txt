@@ -1,1 +1,0 @@
-inotify-tools: Command '['/usr/bin/git', 'pull', 'https://github.com/regro-cf-autotick-bot/inotify-tools-feedstock.git', 'master']' returned non-zero exit status 128.
