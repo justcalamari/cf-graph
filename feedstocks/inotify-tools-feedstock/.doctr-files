@@ -1,0 +1,10 @@
+./LICENSE
+./README.md
+./ci_support/checkout_merge_commit.sh
+./ci_support/fast_finish_ci_pr_build.sh
+./ci_support/run_docker_build.sh
+./conda-forge.yml
+./exceptions.txt
+./graph2.pkl
+./recipe/build.sh
+./recipe/meta.yaml
