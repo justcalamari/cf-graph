@@ -218,16 +218,16 @@ $REVER_DIR = '.'
 gh = github3.login($USERNAME, $PASSWORD)
 
 for node, attrs in gx.node.items():
-    # If not already PR'ed and if no deps
-    if not attrs.get('PRed', False) and attrs['new_version']:
+    # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
+    if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
         pred = [(name, gx2.node[name]['new_version'])
                 for name in list(gx2.predecessors(node))]
         $VERSION = attrs['new_version']
         $PROJECT = attrs['name']
         print($PROJECT)
         try:
-            run(pred=pred, gh=gh)
-            gx.nodes[node]['PRed'] = True
+            run(pred=pred, gh=gh, rerender=False)
+            gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError:
             ts = gh.rate_limit()['resources']['core']['reset']
             print('API timeout, API returns at')
