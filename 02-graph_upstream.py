@@ -92,5 +92,6 @@ for node, attrs in gx.node.items():
         print(datetime.datetime.utcfromtimestamp(ts)
               .strftime('%Y-%m-%dT%H:%M:%SZ'))
         pass
+print('writing out file')
 # nx.write_yaml(gx, 'graph2.yml')
 nx.write_gpickle(gx, 'graph2.pkl')

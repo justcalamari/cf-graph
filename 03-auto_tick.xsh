@@ -235,4 +235,5 @@ for node, attrs in gx.node.items():
             pass
 
 # Race condition?
+print('writing out file')
 nx.write_yaml(gx, 'graph2.yml')

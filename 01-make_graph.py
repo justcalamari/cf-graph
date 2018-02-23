@@ -71,8 +71,8 @@ total_names = new_names + old_names
 print('start loop')
 gh = github3.login(os.environ['USERNAME'], os.environ['PASSWORD'])
 try:
-    for name in total_names:
-        print(name)
+    for i, name in enumerate(total_names):
+        print(i, name)
         feedstock = gh.repository('conda-forge', name + '-feedstock')
         meta_yaml = feedstock.contents('recipe/meta.yaml')
         if meta_yaml:
@@ -123,5 +123,6 @@ for node, attrs in gx.node.items():
     for dep in attrs['req']:
         if dep in gx.nodes:
             gx.add_edge(dep, node)
+print('writing out file')
 # nx.write_yaml(gx, 'graph.yml')
 nx.write_gpickle(gx, 'graph.pkl')
