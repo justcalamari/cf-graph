@@ -5,6 +5,14 @@
 ./License
 ./README.md
 ./bad.txt
+./feedstocks/inotify-tools-feedstock/LICENSE
+./feedstocks/inotify-tools-feedstock/README.md
+./feedstocks/inotify-tools-feedstock/ci_support/checkout_merge_commit.sh
+./feedstocks/inotify-tools-feedstock/ci_support/fast_finish_ci_pr_build.sh
+./feedstocks/inotify-tools-feedstock/ci_support/run_docker_build.sh
+./feedstocks/inotify-tools-feedstock/conda-forge.yml
+./feedstocks/inotify-tools-feedstock/recipe/build.sh
+./feedstocks/inotify-tools-feedstock/recipe/meta.yaml
 ./graph.pkl
 ./graph.yml
 ./graph2.pkl
