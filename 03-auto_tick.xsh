@@ -232,11 +232,14 @@ for node in nx.topological_sort(gx2):
             else:
                 run(pred=pred, gh=gh, rerender=False, protocol='https')
                 gx.nodes[node]['PRed'] = attrs['new_version']
-        except github3.GitHubError:
-            ts = gh.rate_limit()['resources']['core']['reset']
-            print('API timeout, API returns at')
-            print(datetime.datetime.utcfromtimestamp(ts)
-                  .strftime('%Y-%m-%dT%H:%M:%SZ'))
+        except github3.GitHubError as e:
+            print(e)
+            c = gh.rate_limit()['resources']['core']
+            if c['remaining'] == 0:
+                ts = c['reset']
+                print('API timeout, API returns at')
+                print(datetime.datetime.utcfromtimestamp(ts)
+                      .strftime('%Y-%m-%dT%H:%M:%SZ'))
             break
         # Write graph partially through
         nx.write_gpickle(gx, 'graph2.pkl')

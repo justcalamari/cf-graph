@@ -82,12 +82,14 @@ for node, attrs in gx.node.items():
     try:
         attrs['new_version'] = get_latest_version(attrs, gh)
         print(node, attrs['version'], attrs['new_version'])
-    except github3.GitHubError:
-        ts = gh.rate_limit()['resources']['core']['reset']
-        print(node)
-        print('API timeout, API returns at')
-        print(datetime.datetime.utcfromtimestamp(ts)
-              .strftime('%Y-%m-%dT%H:%M:%SZ'))
+    except github3.GitHubError as e:
+        print(e)
+        c = gh.rate_limit()['resources']['core']
+        if c['remaining'] == 0:
+            ts = c['reset']
+            print('API timeout, API returns at')
+            print(datetime.datetime.utcfromtimestamp(ts)
+                  .strftime('%Y-%m-%dT%H:%M:%SZ'))
         pass
 print('writing out file')
 del parse_version

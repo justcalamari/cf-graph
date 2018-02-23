@@ -113,11 +113,14 @@ try:
                 # nx.write_yaml(gx, 'graph.yml')
                 nx.write_gpickle(gx, 'graph.pkl')
 
-except github3.GitHubError:
-    ts = gh.rate_limit()['resources']['core']['reset']
-    print('API timeout, API returns at')
-    print(datetime.datetime.utcfromtimestamp(ts)
-          .strftime('%Y-%m-%dT%H:%M:%SZ'))
+except github3.GitHubError as e:
+    print(e)
+    c = gh.rate_limit()['resources']['core']
+    if c['remaining'] == 0:
+        ts = c['reset']
+        print('API timeout, API returns at')
+        print(datetime.datetime.utcfromtimestamp(ts)
+              .strftime('%Y-%m-%dT%H:%M:%SZ'))
     pass
 for node, attrs in gx.node.items():
     for dep in attrs['req']:
