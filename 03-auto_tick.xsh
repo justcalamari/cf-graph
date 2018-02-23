@@ -134,13 +134,15 @@ def run(feedstock=None, protocol='ssh',
         if p.rtn != 0:
             msg = 'Could not clone ' + origin
             msg += '. Do you have a personal fork of the feedstock?'
-            raise RuntimeError(msg)
+            return
     with indir(feedstock_dir):
         # make sure feedstock is up-to-date with origin
         git checkout master
         git pull @(origin) master
         # make sure feedstock is up-to-date with upstream
-        git pull @(upstream) master
+        p = ![git pull @(upstream) master]
+        if p.rtn != 0:
+            return
         # make and modify version branch
         with ${...}.swap(RAISE_SUBPROC_ERROR=False):
             git checkout -b $VERSION master or git checkout $VERSION
@@ -209,6 +211,7 @@ def run(feedstock=None, protocol='ssh',
         print('Pull request created at ' + pr.html_url)
     print('Removing feedstock dir')
     rm -rf @(feedstock_dir)
+    return True
 
 # gx = nx.read_yaml('graph2.yml')
 gx = nx.read_gpickle('graph2.pkl')
@@ -240,8 +243,9 @@ for node in nx.topological_sort(gx2):
             if gh.rate_limit()['resources']['core']['remaining'] == 0:
                 break
             else:
-                run(pred=pred, gh=gh, rerender=True, protocol='https')
-                gx.nodes[node]['PRed'] = attrs['new_version']
+                tv = run(pred=pred, gh=gh, rerender=True, protocol='https')
+                if tv:
+                    gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError as e:
             print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
             print(e)
