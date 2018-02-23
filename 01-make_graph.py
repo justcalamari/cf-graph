@@ -100,7 +100,7 @@ try:
                     continue
                 sub_graph = {
                     'name': yaml_dict['package']['name'],
-                    'version': yaml_dict['package']['version'],
+                    'version': str(yaml_dict['package']['version']),
                     'url': yaml_dict['source']['url'],
                     'req': req,
                     'time': time.time(),

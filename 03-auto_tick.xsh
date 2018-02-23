@@ -212,9 +212,7 @@ gx2 = copy.deepcopy(gx)
 for node, attrs in gx.node.items():
     if not attrs['new_version']:
         continue
-    print(node)
-    pprint(attrs)
-    if parse_version(attrs['new_version']) <= parse_version(attrs['version']):
+    if parse_version(str(attrs['new_version'])) <= parse_version(str(attrs['version'])):
         gx2.remove_node(node)
 
 $REVER_DIR = '.'
@@ -223,11 +221,11 @@ gh = github3.login($USERNAME, $PASSWORD)
 for node, attrs in gx.node.items():
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
+        $PROJECT = attrs['name']
+        $VERSION = attrs['new_version']
+        print($PROJECT)
         pred = [(name, gx2.node[name]['new_version'])
                 for name in list(gx2.predecessors(node))]
-        $VERSION = attrs['new_version']
-        $PROJECT = attrs['name']
-        print($PROJECT)
         try:
             run(pred=pred, gh=gh, rerender=False)
             gx.nodes[node]['PRed'] = attrs['new_version']
