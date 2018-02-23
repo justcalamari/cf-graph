@@ -161,6 +161,7 @@ def run(feedstock=None, protocol='ssh',
     with indir(feedstock_dir), ${...}.swap(RAISE_SUBPROC_ERROR=False):
         # If dependencies skip the CI (people can activate CI themselves)
         if pred:
+            print(pred)
             git commit -am @("[CI SKIP] [SKIP CI] updated v" + $VERSION)
         else:
             git commit - am @("updated v" + $VERSION)
@@ -172,7 +173,7 @@ def run(feedstock=None, protocol='ssh',
         # Setup push from doctr
         '''Copyright (c) 2016 Aaron Meurer, Gil Forsyth '''
         token = get_token()
-        deploy_repo = origin
+        deploy_repo = $USERNAME + '/' + $PROJECT + '-feedstock'
         doctr_run(['git', 'remote', 'add', 'doctr_remote',
              'https://{token}@github.com/{deploy_repo}.git'.format(
                  token=token.decode('utf-8'),
@@ -218,7 +219,10 @@ for node, attrs in gx.node.items():
 $REVER_DIR = '.'
 gh = github3.login($USERNAME, $PASSWORD)
 
-for node, attrs in gx2.node.items():
+# The topological order make sure that we bump the most depended on things
+# first
+for node in nx.topological_sort(gx2):
+    attrs = gx2.node[node]
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
         $PROJECT = attrs['name']
@@ -235,6 +239,9 @@ for node, attrs in gx2.node.items():
             print(datetime.datetime.utcfromtimestamp(ts)
                   .strftime('%Y-%m-%dT%H:%M:%SZ'))
             pass
+        # Write graph partially through
+        nx.write_gpickle(gx, 'graph2.pkl')
+        doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .
 
 # Race condition?
 print('writing out file')
