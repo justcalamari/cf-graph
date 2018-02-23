@@ -241,9 +241,7 @@ for node in nx.topological_sort(gx2):
             if gh.rate_limit()['resources']['core']['remaining'] == 0:
                 break
             else:
-                tv = run(pred=pred, gh=gh, rerender=True, protocol='https')
-                if tv:
-                    gx.nodes[node]['PRed'] = attrs['new_version']
+                run(pred=pred, gh=gh, rerender=True, protocol='https')
         except github3.GitHubError as e:
             print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
             print(e)
@@ -257,10 +255,15 @@ for node in nx.topological_sort(gx2):
         except Exception as e:
             print('NON GITHUB ERROR')
             print(e)
-        # Write graph partially through
-        nx.write_gpickle(gx, 'graph2.pkl')
-        rm -rf $REVER_DIR + '/*'
-        ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
+            with open('exceptions.txt', 'a') as f:
+                f.write('{name}: {exception}'.format(name=$PROJECT, exception=str(e)))
+        else:
+            gx.nodes[node]['PRed'] = attrs['new_version']
+        finally:
+            # Write graph partially through
+            nx.write_gpickle(gx, 'graph2.pkl')
+            rm -rf $REVER_DIR + '/*'
+            ![doctr deploy --token --built-docs . --deploy-repo regro/cf-graph --deploy-branch-name master .]
 
 # Race condition?
 print('writing out file')
