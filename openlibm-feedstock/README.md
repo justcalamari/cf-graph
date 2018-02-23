@@ -1,45 +1,47 @@
-About pytest-replay
-===================
+About openlibm
+==============
 
-Home: https://github.com/ESSS/pytest-replay
+Home: http://openlibm.org/
 
-Package license: MIT
+Package license: MIT, ISC, BSD 2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests
+Summary: High quality system independent, portable, open source libm implementation
 
-Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests
+
 
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-replay-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-replay-feedstock)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/openlibm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/openlibm-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/openlibm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/openlibm-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-replay/badges/version.svg)](https://anaconda.org/conda-forge/pytest-replay)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-replay/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-replay)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/openlibm/badges/version.svg)](https://anaconda.org/conda-forge/openlibm)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/openlibm/badges/downloads.svg)](https://anaconda.org/conda-forge/openlibm)
 
-Installing pytest-replay
-========================
+Installing openlibm
+===================
 
-Installing `pytest-replay` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `openlibm` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `pytest-replay` can be installed with:
+Once the `conda-forge` channel has been enabled, `openlibm` can be installed with:
 
 ```
-conda install pytest-replay
+conda install openlibm
 ```
 
-It is possible to list all of the versions of `pytest-replay` available on your platform with:
+It is possible to list all of the versions of `openlibm` available on your platform with:
 
 ```
-conda search pytest-replay --channel conda-forge
+conda search openlibm --channel conda-forge
 ```
 
 
@@ -64,7 +66,6 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
-For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -79,17 +80,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating pytest-replay-feedstock
-================================
+Updating openlibm-feedstock
+===========================
 
-If you would like to improve the pytest-replay recipe or build a new
+If you would like to improve the openlibm recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/pytest-replay-feedstock are
+Note that all branches in the conda-forge/openlibm-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
