@@ -170,12 +170,12 @@ def run(feedstock=None, protocol='ssh',
         '''Copyright (c) 2016 Aaron Meurer, Gil Forsyth '''
         token = $PASSWORD
         deploy_repo = $USERNAME + '/' + $PROJECT + '-feedstock'
-        doctr_run(['git', 'remote', 'add', 'doctr_remote',
+        doctr_run(['git', 'remote', 'add', 'regro_remote',
              'https://{token}@github.com/{deploy_repo}.git'.format(
                  token=token,
                  deploy_repo=deploy_repo)])
 
-        git push --set-upstream @(origin) $VERSION
+        git push --set-upstream regro_remote $VERSION
     # lastly make a PR for the feedstock
     if not pull_request:
         return
@@ -217,8 +217,9 @@ gh = github3.login($USERNAME, $PASSWORD)
 
 # The topological order make sure that we bump the most depended on things
 # first
-for node in nx.topological_sort(gx2):
-    attrs = gx2.node[node]
+# for node in nx.topological_sort(gx2):
+for node, attrs in gx2.node.items():
+    # attrs = gx2.node[node]
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
     if attrs['new_version'] and (not attrs.get('PRed', False) or parse_version(attrs['PRed']) < parse_version(attrs['new_version'])):
         $PROJECT = attrs['name']
