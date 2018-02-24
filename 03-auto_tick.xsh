@@ -106,7 +106,9 @@ DEFAULT_PATTERNS = (
 
 def run(feedstock=None, protocol='ssh',
         hash_type='sha256', patterns=DEFAULT_PATTERNS,
-        pull_request=True, rerender=True, fork=True, pred=[], gh=None):
+        pull_request=True, rerender=True, fork=True, pred=None gh=None):
+    if pred is None:
+        pred = []
     if gh is None:
         gh = github3.login($USERNAME, $PASSWORD)
         # first, let's grab the feedstock locally
