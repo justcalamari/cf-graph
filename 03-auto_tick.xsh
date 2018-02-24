@@ -98,6 +98,8 @@ DEFAULT_PATTERNS = (
                   '{% set $HASH_TYPE = "$HASH" %}'),
     ('meta.yaml', '  $HASH_TYPE:\s*[0-9A-Fa-f]+', '  $HASH_TYPE: $HASH'),
     ('meta.yaml', '{% set hash_value = [0-9A-Fa-f]+ %}', '{% set hash_value = $HASH %}'),
+    ('meta.yaml', '{% set hash = "[0-9A-Fa-f]+" %}', '{% set hash = $HASH %}'),
+    ('meta.yaml', '{% set checksum = "[0-9A-Fa-f]+" %}', '{% set checksum = $HASH %}'),
     ('meta.yaml', '{% set hash = [0-9A-Fa-f]+ %}', '{% set hash = $HASH %}'),
     ('meta.yaml', '{%set hash_value = [0-9A-Fa-f]+ %}', '{%set hash_value = $HASH %}'),
     ('meta.yaml', '{%set hash_val = [0-9A-Fa-f]+ %}', '{%set hash_val = $HASH %}'),
