@@ -3,13 +3,14 @@ import copy
 import datetime
 import os
 import re
+import sys
 import time
 import urllib.error
 
 import github3
 import networkx as nx
 import yaml
-from doctr.travis import run as doctr_run
+from doctr.travis import run as doctr_run, get_token
 from jinja2 import UndefinedError, Template
 from pkg_resources import parse_version
 from rever.tools import (eval_version, indir, hash_url, replace_in_file)
@@ -97,10 +98,6 @@ DEFAULT_PATTERNS = (
                   '{% set $HASH_TYPE = "$HASH" %}'),
     ('meta.yaml', '  $HASH_TYPE:\s*[0-9A-Fa-f]+', '  $HASH_TYPE: $HASH'),
     ('meta.yaml', '{% set hash_value = [0-9A-Fa-f]+ %}', '{% set hash_value = $HASH %}'),
-    ('meta.yaml', '{% set hash = "[0-9A-Fa-f]+" %}', '{% set hash = $HASH %}'),
-    ('meta.yaml', '{% set hash_val = "[0-9A-Fa-f]+" %}', '{% set hash_val = $HASH %}'),
-    ('meta.yaml', "{% set sha256sum = '[0-9A-Fa-f]+ %}", '{% set sha256sum = $HASH %}'),
-    ('meta.yaml', '{% set checksum = "[0-9A-Fa-f]+" %}', '{% set checksum = $HASH %}'),
     ('meta.yaml', '{% set hash = [0-9A-Fa-f]+ %}', '{% set hash = $HASH %}'),
     ('meta.yaml', '{%set hash_value = [0-9A-Fa-f]+ %}', '{%set hash_value = $HASH %}'),
 
@@ -228,12 +225,9 @@ for node, attrs in gx.node.items():
 $REVER_DIR = './feedstocks/'
 gh = github3.login($USERNAME, $PASSWORD)
 
-t0 = time.time()
+# The topological order make sure that we bump the most depended on things
+# first
 for node, attrs in gx2.node.items():
-    # Don't let travis timeout, break ahead of the timeout so we make certain
-    # to write to the repo
-    if time.time() - t0 > (40 * 60):
-        break
     $PROJECT = attrs['name']
     $VERSION = attrs['new_version']
     # If there is a new version and (we haven't issued a PR or our prior PR is out of date)
@@ -246,8 +240,7 @@ for node, attrs in gx2.node.items():
             if gh.rate_limit()['resources']['core']['remaining'] == 0:
                 break
             else:
-                run(pred=pred, gh=gh, rerender=True, protocol='https',
-                    hash_type=attrs['hash_type'])
+                run(pred=pred, gh=gh, rerender=True, protocol='https')
                 gx.nodes[node]['PRed'] = attrs['new_version']
         except github3.GitHubError as e:
             print('GITHUB ERROR ON FEEDSTOCK: {}'.format($PROJECT))
