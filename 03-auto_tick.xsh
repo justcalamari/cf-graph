@@ -201,7 +201,10 @@ def run(feedstock=None, protocol='ssh',
             'Please double check all dependencies before merging.\n\n')
     # Statement here
     template = '|{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})|\n'
-    body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
+    if len(pred) > 0:
+        # Only add the header row if we have content. Otherwise the rendered table in the github comment
+        # is empty which is confusing
+        body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
     for p in pred:
         body += template.format(name=p[0], new_version=p[1])
     pr = repo.create_pull(title, 'master', head, body=body)
