@@ -347,3 +347,6 @@ r-spatest
 conda-forge-ci-setup
 r-lubridate
 r-xts
+r-lubridate
+r-xts
+r-bookdown
