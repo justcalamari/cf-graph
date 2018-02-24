@@ -5,15 +5,15 @@ audioread: md5, hash_val
 asyncpgsa: hash_value
 asyncpg: hash_value
 argcomplete: md5
-apsw: bad meta
+# apsw: bad meta
 apache-libcloud: hash_val
-ansible: has rc in version
+# ansible: has rc in version
 anaconda-verify: checksum
 anaconda-client: checksum
 aloe: sha256sum
 algopy: hash_value
 alembic: hash
-git-lfs: individual url/sha per os
+# git-lfs: individual url/sha per os
 leveldb: sha1
 aiohttp: skipped
 aioeasywebdav: skipped
@@ -31,10 +31,10 @@ azure-mgmt-storage: md5
 azure-nspkg: md5
 azure-servicebus: md5
 azure-servicemanagement-legacy: md5
-backports.lzma: bad patch
-bazel: bad patch
+# backports.lzma: bad patch
+# bazel: bad patch
 bidict: hash_val
-biopython: string version number problems, sha256
+# biopython: string version number problems, sha256
 aspy.yaml: hash 
-asdf: hash_value (don't re-run)
-apscheduler: hash (don't re-run)
+# asdf: hash_value (don't re-run)
+# apscheduler: hash (don't re-run)
