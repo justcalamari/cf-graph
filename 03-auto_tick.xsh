@@ -106,7 +106,9 @@ DEFAULT_PATTERNS = (
 
 def run(feedstock=None, protocol='ssh',
         hash_type='sha256', patterns=DEFAULT_PATTERNS,
-        pull_request=True, rerender=True, fork=True, pred=[], gh=None):
+        pull_request=True, rerender=True, fork=True, pred=None gh=None):
+    if pred is None:
+        pred = []
     if gh is None:
         gh = github3.login($USERNAME, $PASSWORD)
         # first, let's grab the feedstock locally
@@ -193,13 +195,16 @@ def run(feedstock=None, protocol='ssh',
     head = $USERNAME + ':' + $VERSION
     body = ('Merge only after success.\n\n'
             'This PR was created by [regro auto-tick](https://github.com/regro/cf-graph). '
-            'Please let the devs know if there are any [issues](https://github.com/regro/cf-graph/issues). \n\n'
-            'Here is a list of all the pending dependencies (and their '
-            'versions) for this repo. '
-            'Please double check all dependencies before merging.\n\n')
+            'Please let the devs know if there are any [issues](https://github.com/regro/cf-graph/issues). \n\n')
     # Statement here
     template = '|{name}|{new_version}|[![Anaconda-Server Badge](https://anaconda.org/conda-forge/{name}/badges/version.svg)](https://anaconda.org/conda-forge/{name})|\n'
-    body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
+    if len(pred) > 0:
+        body += ('Here is a list of all the pending dependencies (and their '
+                 'versions) for this repo. '
+                 'Please double check all dependencies before merging.\n\n')
+        # Only add the header row if we have content. Otherwise the rendered table in the github comment
+        # is empty which is confusing
+        body += '''| Name | Upstream Version | Current Version |\n|:----:|:----------------:|:---------------:|\n'''
     for p in pred:
         body += template.format(name=p[0], new_version=p[1])
     pr = repo.create_pull(title, 'master', head, body=body)
