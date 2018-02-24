@@ -1,1 +1,1 @@
-inotify-tools: 'name'inotify-tools: 'name'
+inotify-tools: 'name'inotify-tools: 'name'astroscrappy: 'name'
