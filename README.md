@@ -3,6 +3,9 @@ Conda Forge dependency graph and auto ticker
 
 [regro-cf-autotick-bot's PRs](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Aregro-cf-autotick-bot+archived%3Afalse+) 
 
+Please note that the scripts in this repo have been moved to [cf-scripts](https://github.com/regro/cf-scripts) to avoid conflicts with the actively updated files.
+Please make all PRs to that repo, issues will be honored in either.
+
 ## Plan
 There are four scripts:
 1. `00-find-feedstocks.py` which finds all the names of the current feedstocks. (#feedstocks/30 GH api calls)
