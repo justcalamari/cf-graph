@@ -358,3 +358,14 @@ r-lubridate
 r-xts
 r-bookdown
 r-factominer
+r-suppdists
+r-abind
+numpy-sugar
+trilinos
+proj4
+dataspyre
+ndarray-listener
+r-lubridate
+r-xts
+r-bookdown
+r-factominer
