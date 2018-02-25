@@ -350,3 +350,7 @@ r-xts
 r-lubridate
 r-xts
 r-bookdown
+r-lubridate
+r-xts
+r-bookdown
+r-factominer
