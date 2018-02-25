@@ -1,7 +1,14 @@
 import networkx as nx
 
 g = nx.read_yaml('graph.yml')
-order = sorted(list(g.nodes), key=lambda x: len(nx.descendants(g, x)), reverse=True)
+order = [(node, len(nx.descendants(g, node))) for node in g.nodes]
+order.sort(key=lambda x: x[1], reverse=True)
+
+space = max([len(x[0]) for x in order[:100]])
+space = max(space, len('package'))
+lines = ['{0:<{2}}{1:>21}'.format(*x, space) for x in order[:100]]
 
 with open('top_100.txt', 'w') as f:
-    f.write('\n'.join(order[:100]))
+    f.write('{0:<{2}}{1}\n'.format('Package', 'Number of Descendants',
+                                   space))
+    f.write('\n'.join(lines))
