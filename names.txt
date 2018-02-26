@@ -4071,3 +4071,17 @@ yodatools
 django-mptt-admin
 colorlover
 pytest-replay
+flask-rest-orm
+r-pgirmess
+django-pandas
+cufflinks-py
+pygeometa
+libprotobuf
+absl-py
+georasters
+tableone
+django-mustache
+django-controlcenter
+django-reversion-compare
+django-simple-history
+vic
