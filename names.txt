@@ -4085,3 +4085,15 @@ django-controlcenter
 django-reversion-compare
 django-simple-history
 vic
+dynesty
+r-libcoin
+r-cubist
+flock
+dummydata
+backtrace
+radiospectra
+timeout-decorator
+idna_ssl
+adal
+msrest
+msrestazure
