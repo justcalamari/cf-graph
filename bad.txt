@@ -374,3 +374,10 @@ r-lubridate
 r-xts
 r-bookdown
 r-factominer
+r-libcoin
+r-cubist
+r-lubridate
+r-xts
+r-bookdown
+r-factominer
+r-stringr
