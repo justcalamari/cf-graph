@@ -1,1 +1,0 @@
-git: Command '['/usr/bin/git', 'pull', 'https://github.com/regro-cf-autotick-bot/git-feedstock.git', 'master']' returned non-zero exit status 1.
