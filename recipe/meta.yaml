@@ -1,82 +1,69 @@
-{%set name = "girder" %}
-{%set version = "2.2.0" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "21500c1df62b6e419e348749ec2bca006cc77bc2dacd17c8a75587caf641c12b" %}
-{%set build_num = "0" %}
+{% set version = "2.14.2" %}
 
 package:
-  name: {{ name }}
+  name: git
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  fn: git-{{ version }}.tar.gz                                                                                                    # [unix]
+  url: https://github.com/git/git/archive/v{{ version }}.tar.gz                                                                   # [unix]
+  sha256: 917bbb401b20cabb65ffcaf925064e1990b2337bb20219c2963f1768ff33162b                                                        # [unix]
+  fn: PortableGit-{{ version }}-32-bit.7z.exe                                                                                     # [win32]
+  url: https://github.com/git-for-windows/git/releases/download/v{{ version }}.windows.1/PortableGit-{{ version }}-32-bit.7z.exe  # [win32]
+  sha256: 6acd886bb1cebee7b5b607599c8327453110c28ddd8c4f976d14050ab0a17e11                                                        # [win32]
+  fn: PortableGit-{{ version }}-64-bit.7z.exe                                                                                     # [win64]
+  url: https://github.com/git-for-windows/git/releases/download/v{{ version }}.windows.1/PortableGit-{{ version }}-64-bit.7z.exe  # [win64]
+  sha256: 3d451383519379dfe2f160c4c3a49e4b9e39a666698f3eea2534593cc3fb5a4e                                                        # [win64]
 
 build:
-  entry_points:
-    - girder-server = girder.__main__:main
-    - girder-install = girder.utility.install:main
-    - girder-sftpd = girder.api.sftp:_main
-
-  number: {{ build_num }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 3
+  skip: true  # [win and not py27]
+  # git hardcodes paths to external utilities (e.g. curl)
+  detect_binary_files_with_prefix: true
 
 requirements:
   build:
-    - python
-    - setuptools
+    - autoconf        # [unix]
+    - curl >=7.44.0,<8  # [unix]
+    - expat 2.2.*           # [unix]
+    - libiconv 1.15        # [unix]
+    - openssl 1.0.*   # [unix]
+    - zlib 1.2.11      # [unix]
+    - 7za             # [win]
 
+    # Workaround for conda-build issue.
+    - python          # [win]
   run:
-    - python
-    - bcrypt
-    - boto
-    - cherrypy <8
-    - mako
-    - pymongo >=3
-    - pyyaml
-    - requests
-    - psutil
-    - python-dateutil
-    - pytz
-    - six >=1.9
-    - celery
-    - pydicom
-    - geojson
-    - ctk-cli
-    - pillow
-    - numpy
-    - shutilwhich  # [py2k]
-    - snakebite  # [py2k]
-    - hachoir-core  # [py2k]
-    - hachoir-metadata  # [py2k]
-    - hachoir-parser  # [py2k]
-    - paramiko
-    - pip
+    - curl >=7.44.0,<8  # [unix]
+    - expat 2.2.*           # [unix]
+    - libiconv 1.15        # [unix]
+    - openssl 1.0.*   # [unix]
+    - zlib 1.2.11      # [unix]
 
 test:
-  imports:
-    - girder
-    - girder.api
-    - girder.api.v1
-    - girder.external
-    - girder.models
-    - girder.utility
-
   commands:
-    - girder-server --help
-    - girder-install --help
+    # Verify git location.
+    - test -f $PREFIX/bin/git                               # [unix]
+    - if not exist %LIBRARY_PREFIX%\\bin\\git.exe exit 1    # [win]
+
+    # Run git commands.
+    - git --version
+    - git clone https://github.com/conda-forge/git-feedstock
+
+    # test completions
+    - bash $PREFIX/share/bash-completion/completions/git  # [unix]
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
-  home: https://github.com/girder/girder
-  license: Apache 2.0
-  license_file: LICENSE
-  license_family: Apache
-  summary: Web-based data management platform
-  dev_url: https://github.com/girder/girder
-  doc_url: https://girder.readthedocs.org
+  home: https://git-scm.com/
+  license: GPL v2 and LGPL 2.1
+  summary: distributed version control system
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
+    - jakirkham
+    - msarahan
+    - pelson
+    - scopatz
+    - ocefpaf

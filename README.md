@@ -1,47 +1,47 @@
-About girder
-============
+About git
+=========
 
-Home: https://github.com/girder/girder
+Home: https://git-scm.com/
 
-Package license: Apache 2.0
+Package license: GPL v2 and LGPL 2.1
 
 Feedstock license: BSD 3-Clause
 
-Summary: Web-based data management platform
+Summary: distributed version control system
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/girder-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/girder-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/girder-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/girder-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/girder-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/girder-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/git-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/git-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/git-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/git-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/git-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/git-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/girder/badges/version.svg)](https://anaconda.org/conda-forge/girder)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/girder/badges/downloads.svg)](https://anaconda.org/conda-forge/girder)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/git/badges/version.svg)](https://anaconda.org/conda-forge/git)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/git/badges/downloads.svg)](https://anaconda.org/conda-forge/git)
 
-Installing girder
-=================
+Installing git
+==============
 
-Installing `girder` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `git` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `girder` can be installed with:
+Once the `conda-forge` channel has been enabled, `git` can be installed with:
 
 ```
-conda install girder
+conda install git
 ```
 
-It is possible to list all of the versions of `girder` available on your platform with:
+It is possible to list all of the versions of `git` available on your platform with:
 
 ```
-conda search girder --channel conda-forge
+conda search git --channel conda-forge
 ```
 
 
@@ -66,6 +66,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -80,17 +81,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating girder-feedstock
-=========================
+Updating git-feedstock
+======================
 
-If you would like to improve the girder recipe or build a new
+If you would like to improve the git recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/girder-feedstock are
+Note that all branches in the conda-forge/git-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
