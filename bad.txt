@@ -381,3 +381,12 @@ r-xts
 r-bookdown
 r-factominer
 r-stringr
+r-lubridate
+r-xts
+r-bookdown
+r-factominer
+r-stringr
+vs2008_runtime
+inkscape
+mingwpy
+c99-to-c89
