@@ -4120,3 +4120,8 @@ tiledb
 clhep
 ezdxf
 nose-parameterized
+wq.core
+simage
+r-optimx
+libzip
+ccfits
