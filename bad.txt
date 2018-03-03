@@ -416,3 +416,16 @@ vs2008_runtime
 inkscape
 mingwpy
 c99-to-c89
+simage
+r-optimx
+r-lubridate
+r-xts
+r-bookdown
+r-factominer
+r-stringr
+vs2008_runtime
+inkscape
+mingwpy
+c99-to-c89
+r-ggrepel
+r-rpart
