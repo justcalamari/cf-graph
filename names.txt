@@ -4127,3 +4127,7 @@ libzip
 ccfits
 asammdf
 postgres-xl
+cfgv
+datamash
+r-ibd
+r-partykit
