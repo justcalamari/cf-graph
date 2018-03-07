@@ -4132,3 +4132,5 @@ datamash
 r-ibd
 r-partykit
 shedsidewinder
+django-pkgconf
+tiledb-py
