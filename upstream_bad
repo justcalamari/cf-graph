@@ -16624,3 +16624,4 @@ r-tseries: hash failed at https://cran.r-project.org/src/contrib/tseries_0.10_42
 r-ttr: hash failed at https://cran.r-project.org/src/contrib/TTR_0.23_2.tar.gz
 r-vegan: hash failed at https://cran.r-project.org/src/contrib/vegan_2.4_5.tar.gz
 r-vgam: hash failed at https://cran.r-project.org/src/contrib/VGAM_1.0_4.tar.gz
+r-waveslim: hash failed at https://cran.r-project.org/src/contrib/waveslim_1.12.tar.gz
