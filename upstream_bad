@@ -16632,3 +16632,4 @@ shapely: hash failed at https://pypi.io/packages/source/S/Shapely/Shapely-1.6.4.
 skater: hash failed at https://pypi.io/packages/source/s/skater/skater-1.0.3.tar.gz
 smartypants: hash failed at https://pypi.io/packages/source/s/smartypants/smartypants-2.0.1.tar.gz
 speechrecognition: hash failed at https://pypi.io/packages/source/S/SpeechRecognition/SpeechRecognition-3.8.1.tar.gz
+urwid: hash failed at https://pypi.python.org/packages/source/u/urwid/urwid-2.0.1.tar.gz
