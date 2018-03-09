@@ -17137,3 +17137,4 @@ datamash: unknown source at http://ftpmirror.gnu.org/datamash/datamash-1.2.tar.g
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
 spake2: does not match feedstock name
+idna_ssl: hash failed at https://pypi.io/packages/source/i/idna_ssl/idna_ssl-1.0.1.tar.gz
