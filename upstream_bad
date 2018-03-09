@@ -16622,3 +16622,4 @@ r-tidytext: hash failed at https://cran.r-project.org/src/contrib/tidytext_0.1.5
 r-tm: hash failed at https://cran.r-project.org/src/contrib/tm_0.7_2.tar.gz
 r-tseries: hash failed at https://cran.r-project.org/src/contrib/tseries_0.10_42.tar.gz
 r-ttr: hash failed at https://cran.r-project.org/src/contrib/TTR_0.23_2.tar.gz
+r-vegan: hash failed at https://cran.r-project.org/src/contrib/vegan_2.4_5.tar.gz
