@@ -16572,3 +16572,4 @@ r-mass: hash failed at https://cran.r-project.org/src/contrib/MASS_7.3_49.tar.gz
 r-matrixstats: hash failed at https://cran.r-project.org/src/contrib/matrixStats_0.53.0.tar.gz
 r-mgcv: hash failed at https://cran.r-project.org/src/contrib/mgcv_1.8_23.tar.gz
 r-microbenchmark: hash failed at https://cran.r-project.org/src/contrib/microbenchmark_1.4_4.tar.gz
+r-multcomp: hash failed at https://cran.r-project.org/src/contrib/multcomp_1.4_8.tar.gz
