@@ -16551,3 +16551,4 @@ r-foreign: hash failed at https://cran.r-project.org/src/contrib/foreign_0.8_69.
 r-formula: hash failed at https://cran.r-project.org/src/contrib/Formula_1.2_2.tar.gz
 r-fpc: hash failed at https://cran.r-project.org/src/contrib/fpc_2.1_11.tar.gz
 r-gamlss: hash failed at https://cran.r-project.org/src/contrib/gamlss_5.0_6.tar.gz
+r-gamlss.dist: hash failed at https://cran.r-project.org/src/contrib/gamlss.dist_5.0_4.tar.gz
