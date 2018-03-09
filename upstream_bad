@@ -16576,3 +16576,4 @@ r-multcomp: hash failed at https://cran.r-project.org/src/contrib/multcomp_1.4_8
 r-multitaper: hash failed at https://cran.r-project.org/src/contrib/multitaper_1.0_14.tar.gz
 r-nlme: hash failed at https://cran.r-project.org/src/contrib/nlme_3.1_135.tar.gz
 r-nlp: hash failed at https://cran.r-project.org/src/contrib/NLP_0.1_11.tar.gz
+r-oce: hash failed at http://cran.r-project.org/src/contrib/oce_0.9_23.tar.gz
