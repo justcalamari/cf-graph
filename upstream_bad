@@ -16628,3 +16628,4 @@ r-waveslim: hash failed at https://cran.r-project.org/src/contrib/waveslim_1.12.
 r-weatherdata: hash failed at https://cran.r-project.org/src/contrib/weatherData_0.5.0.tar.gz
 r-xml: hash failed at https://cran.r-project.org/src/contrib/XML_3.98_1.10.tar.gz
 r-yaml: hash failed at https://cran.r-project.org/src/contrib/yaml_2.1.16.tar.gz
+shapely: hash failed at https://pypi.io/packages/source/S/Shapely/Shapely-1.6.4.post1.post1.tar.gz
