@@ -2,3 +2,4 @@ inotify-tools: 'name'inotify-tools: 'name'astroscrappy: 'name'azure-storage: 'na
 betamax-matchers: 'name'
 brent_search: 'name'
 build_capi: 'name'
+cairosvg: 'name'
