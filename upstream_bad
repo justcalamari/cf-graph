@@ -17136,3 +17136,4 @@ postgres-xl: unknown source at https://www.postgres-xl.org/downloads/postgres-xl
 datamash: unknown source at http://ftpmirror.gnu.org/datamash/datamash-1.2.tar.gz
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
+spake2: does not match feedstock name
