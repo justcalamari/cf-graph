@@ -16579,3 +16579,4 @@ r-nlp: hash failed at https://cran.r-project.org/src/contrib/NLP_0.1_11.tar.gz
 r-oce: hash failed at http://cran.r-project.org/src/contrib/oce_0.9_23.tar.gz
 r-pbdzmq: hash failed at http://cran.r-project.org/src/contrib/pbdZMQ_0.3_2.tar.gz
 r-pcapp: hash failed at https://cran.r-project.org/src/contrib/pcaPP_1.9_73.tar.gz
+r-pki: hash failed at https://cran.r-project.org/src/contrib/PKI_0.1_5.1.tar.gz
