@@ -16517,3 +16517,4 @@ pyosf: hash failed
 pytest-benchmark: hash failed
 python-gflags: hash failed
 python-leveldb: hash failed
+python-patch: hash failed
