@@ -16627,3 +16627,4 @@ r-vgam: hash failed at https://cran.r-project.org/src/contrib/VGAM_1.0_4.tar.gz
 r-waveslim: hash failed at https://cran.r-project.org/src/contrib/waveslim_1.12.tar.gz
 r-weatherdata: hash failed at https://cran.r-project.org/src/contrib/weatherData_0.5.0.tar.gz
 r-xml: hash failed at https://cran.r-project.org/src/contrib/XML_3.98_1.10.tar.gz
+r-yaml: hash failed at https://cran.r-project.org/src/contrib/yaml_2.1.16.tar.gz
