@@ -2007,3 +2007,13 @@ Traceback (most recent call last):
 UnboundLocalError: local variable 'feedstock_dir' referenced before assignment
 
 
+#spake2
+##local variable 'feedstock_dir' referenced before assignment
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 297, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 143, in run
+    rm -rf @(feedstock_dir)
+UnboundLocalError: local variable 'feedstock_dir' referenced before assignment
+
+
