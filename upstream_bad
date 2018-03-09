@@ -16618,3 +16618,4 @@ r-spam: hash failed at https://cran.r-project.org/src/contrib/spam_2.1_2.tar.gz
 r-spdep: hash failed at https://cran.r-project.org/src/contrib/spdep_0.7_4.tar.gz
 r-sqldf: hash failed at https://cran.r-project.org/src/contrib/sqldf_0.4_11.tar.gz
 r-survival: hash failed at http://cran.r-project.org/src/contrib/survival_2.41_3.tar.gz
+r-tidytext: hash failed at https://cran.r-project.org/src/contrib/tidytext_0.1.5.tar.gz
