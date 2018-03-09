@@ -1797,3 +1797,17 @@ Traceback (most recent call last):
 AttributeError: 'NoneType' object has no attribute 'create_fork'
 
 
+#r-corpcor
+##'list' object has no attribute 'partition'
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 284, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 188, in run
+    source_url = eval_version(source_url)
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 26, in eval_version
+    rtn = expand_path(v)
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 3573, in expand_path
+    pre, char, post = s.partition('=')
+AttributeError: 'list' object has no attribute 'partition'
+
+
