@@ -2,6 +2,7 @@
 ./README.md
 ./bad.txt
 ./cycles.txt
+./exceptions.md
 ./exceptions.txt
 ./find_cycles.py
 ./graph.pkl
