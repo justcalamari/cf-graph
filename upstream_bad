@@ -16586,3 +16586,4 @@ r-proxy: hash failed at https://cran.r-project.org/src/contrib/proxy_0.4_21.tar.
 r-pspline: hash failed at https://cran.r-project.org/src/contrib/pspline_1.0_18.tar.gz
 r-quantmod: hash failed at https://cran.r-project.org/src/contrib/quantmod_0.4_12.tar.gz
 r-quantreg: hash failed at https://cran.r-project.org/src/contrib/quantreg_5.34.tar.gz
+r-ranger: hash failed at https://cran.r-project.org/src/contrib/ranger_0.8.0.tar.gz
