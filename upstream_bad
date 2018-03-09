@@ -16621,3 +16621,4 @@ r-survival: hash failed at http://cran.r-project.org/src/contrib/survival_2.41_3
 r-tidytext: hash failed at https://cran.r-project.org/src/contrib/tidytext_0.1.5.tar.gz
 r-tm: hash failed at https://cran.r-project.org/src/contrib/tm_0.7_2.tar.gz
 r-tseries: hash failed at https://cran.r-project.org/src/contrib/tseries_0.10_42.tar.gz
+r-ttr: hash failed at https://cran.r-project.org/src/contrib/TTR_0.23_2.tar.gz
