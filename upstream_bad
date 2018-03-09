@@ -16587,3 +16587,4 @@ r-pspline: hash failed at https://cran.r-project.org/src/contrib/pspline_1.0_18.
 r-quantmod: hash failed at https://cran.r-project.org/src/contrib/quantmod_0.4_12.tar.gz
 r-quantreg: hash failed at https://cran.r-project.org/src/contrib/quantreg_5.34.tar.gz
 r-ranger: hash failed at https://cran.r-project.org/src/contrib/ranger_0.8.0.tar.gz
+r-rcpparmadillo: hash failed at https://cran.r-project.org/src/contrib/RcppArmadillo_0.8.100.1.0.tar.gz
