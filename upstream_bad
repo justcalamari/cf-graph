@@ -16545,3 +16545,4 @@ r-copula: hash failed at https://cran.r-project.org/src/contrib/copula_0.999_18.
 r-ctv: hash failed at https://cran.r-project.org/src/contrib/ctv_0.8_4.tar.gz
 r-dendextend: hash failed at https://cran.r-project.org/src/contrib/dendextend_1.6.0.tar.gz
 r-dotcall64: hash failed at https://cran.r-project.org/src/contrib/dotCall64_0.9_5.2.tar.gz
+r-fastica: hash failed at https://cran.r-project.org/src/contrib/fastICA_1.2_1.tar.gz
