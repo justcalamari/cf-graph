@@ -16616,3 +16616,4 @@ r-sets: hash failed at https://cran.r-project.org/src/contrib/sets_1.0_18.tar.gz
 r-sn: hash failed at https://cran.r-project.org/src/contrib/sn_1.5_1.tar.gz
 r-spam: hash failed at https://cran.r-project.org/src/contrib/spam_2.1_2.tar.gz
 r-spdep: hash failed at https://cran.r-project.org/src/contrib/spdep_0.7_4.tar.gz
+r-sqldf: hash failed at https://cran.r-project.org/src/contrib/sqldf_0.4_11.tar.gz
