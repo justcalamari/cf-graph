@@ -1811,13 +1811,3 @@ Traceback (most recent call last):
 AttributeError: 'list' object has no attribute 'partition'
 
 
-#dask-ec2
-##'NoneType' object has no attribute 'create_fork'
-Traceback (most recent call last):
-  File "../cf-scripts/03-auto_tick.xsh", line 284, in <module>
-    hash_type=attrs.get('hash_type', 'sha256'))
-  File "../cf-scripts/03-auto_tick.xsh", line 146, in run
-    repo.create_fork()
-AttributeError: 'NoneType' object has no attribute 'create_fork'
-
-
