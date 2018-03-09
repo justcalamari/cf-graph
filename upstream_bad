@@ -16563,3 +16563,4 @@ r-hmisc: hash failed at https://cran.r-project.org/src/contrib/Hmisc_4.1_0.tar.g
 r-lahman: hash failed at https://cran.r-project.org/src/contrib/Lahman_6.0_0.tar.gz
 r-lattice: hash failed at http://cran.r-project.org/src/contrib/lattice_0.20_35.tar.gz
 r-lme4: hash failed at https://cran.r-project.org/src/contrib/lme4_1.1_15.tar.gz
+r-lmertest: hash failed at https://cran.r-project.org/src/contrib/lmerTest_2.0_36.tar.gz
