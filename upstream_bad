@@ -16583,3 +16583,4 @@ r-pki: hash failed at https://cran.r-project.org/src/contrib/PKI_0.1_5.1.tar.gz
 r-plm: hash failed at https://cran.r-project.org/src/contrib/plm_1.6_6.tar.gz
 r-pracma: hash failed at https://cran.r-project.org/src/contrib/pracma_2.0.4.tar.gz
 r-proxy: hash failed at https://cran.r-project.org/src/contrib/proxy_0.4_21.tar.gz
+r-pspline: hash failed at https://cran.r-project.org/src/contrib/pspline_1.0_18.tar.gz
