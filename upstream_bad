@@ -16630,3 +16630,4 @@ r-xml: hash failed at https://cran.r-project.org/src/contrib/XML_3.98_1.10.tar.g
 r-yaml: hash failed at https://cran.r-project.org/src/contrib/yaml_2.1.16.tar.gz
 shapely: hash failed at https://pypi.io/packages/source/S/Shapely/Shapely-1.6.4.post1.post1.tar.gz
 skater: hash failed at https://pypi.io/packages/source/s/skater/skater-1.0.3.tar.gz
+smartypants: hash failed at https://pypi.io/packages/source/s/smartypants/smartypants-2.0.1.tar.gz
