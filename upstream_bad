@@ -16605,3 +16605,4 @@ spake2: does not match feedstock name
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
 spake2: does not match feedstock name
+r-robustbase: hash failed at https://cran.r-project.org/src/contrib/robustbase_0.92_8.tar.gz
