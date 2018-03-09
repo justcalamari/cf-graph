@@ -16607,3 +16607,4 @@ drmaa: does not match feedstock name
 spake2: does not match feedstock name
 r-robustbase: hash failed at https://cran.r-project.org/src/contrib/robustbase_0.92_8.tar.gz
 r-rodbc: hash failed at https://cran.r-project.org/src/contrib/RODBC_1.3_15.tar.gz
+r-rwave: hash failed at https://cran.r-project.org/src/contrib/Rwave_2.4_8.tar.gz
