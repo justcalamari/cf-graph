@@ -16591,3 +16591,4 @@ r-rcpparmadillo: hash failed at https://cran.r-project.org/src/contrib/RcppArmad
 r-rcppeigen: hash failed at https://cran.r-project.org/src/contrib/RcppEigen_0.3.3.3.1.tar.gz
 r-rcppparallel: hash failed at https://cran.r-project.org/src/contrib/RcppParallel_4.3.20.2.tar.gz
 r-rcurl: hash failed at https://cran.r-project.org/src/contrib/RCurl_1.95_4.10.tar.gz
+r-rfoc: hash failed at https://cran.r-project.org/src/contrib/RFOC_3.4_6.tar.gz
