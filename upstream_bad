@@ -16565,3 +16565,4 @@ r-lattice: hash failed at http://cran.r-project.org/src/contrib/lattice_0.20_35.
 r-lme4: hash failed at https://cran.r-project.org/src/contrib/lme4_1.1_15.tar.gz
 r-lmertest: hash failed at https://cran.r-project.org/src/contrib/lmerTest_2.0_36.tar.gz
 r-locfit: hash failed at https://cran.r-project.org/src/contrib/locfit_19980714_2.tar.gz
+r-lsmeans: hash failed at https://cran.r-project.org/src/contrib/lsmeans_2.27_61.tar.gz
