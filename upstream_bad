@@ -16543,3 +16543,4 @@ r-chron: hash failed at https://cran.r-project.org/src/contrib/chron_2.3_52.tar.
 r-coin: hash failed at https://cran.r-project.org/src/contrib/coin_1.2_2.tar.gz
 r-copula: hash failed at https://cran.r-project.org/src/contrib/copula_0.999_18.tar.gz
 r-ctv: hash failed at https://cran.r-project.org/src/contrib/ctv_0.8_4.tar.gz
+r-dendextend: hash failed at https://cran.r-project.org/src/contrib/dendextend_1.6.0.tar.gz
