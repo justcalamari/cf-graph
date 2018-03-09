@@ -16610,3 +16610,4 @@ r-rodbc: hash failed at https://cran.r-project.org/src/contrib/RODBC_1.3_15.tar.
 r-rwave: hash failed at https://cran.r-project.org/src/contrib/Rwave_2.4_8.tar.gz
 r-sandwich: hash failed at https://cran.r-project.org/src/contrib/sandwich_2.4_0.tar.gz
 r-seacarb: hash failed at https://cran.r-project.org/src/contrib/seacarb_3.2.2.tar.gz
+r-segmented: hash failed at https://cran.r-project.org/src/contrib/segmented_0.5_3.0.tar.gz
