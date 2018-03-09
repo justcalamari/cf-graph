@@ -16514,3 +16514,4 @@ pdfminer3k: hash failed
 prettytable: hash failed
 pyferret: hash failed
 pyosf: hash failed
+pytest-benchmark: hash failed
