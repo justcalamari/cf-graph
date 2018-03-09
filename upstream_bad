@@ -16569,3 +16569,4 @@ r-lsmeans: hash failed at https://cran.r-project.org/src/contrib/lsmeans_2.27_61
 r-magic: hash failed at https://cran.r-project.org/src/contrib/magic_1.5_8.tar.gz
 r-mapproj: hash failed at https://cran.r-project.org/src/contrib/mapproj_1.2_5.tar.gz
 r-mass: hash failed at https://cran.r-project.org/src/contrib/MASS_7.3_49.tar.gz
+r-matrixstats: hash failed at https://cran.r-project.org/src/contrib/matrixStats_0.53.0.tar.gz
