@@ -382,3 +382,13 @@ Traceback (most recent call last):
 KeyError: 'name'
 
 
+#dask-ec2
+##'NoneType' object has no attribute 'create_fork'
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 280, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 147, in run
+    repo.create_fork()
+AttributeError: 'NoneType' object has no attribute 'create_fork'
+
+
