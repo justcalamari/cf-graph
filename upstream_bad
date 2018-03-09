@@ -16595,3 +16595,4 @@ r-rfoc: hash failed at https://cran.r-project.org/src/contrib/RFOC_3.4_6.tar.gz
 r-rjava: hash failed at https://cran.r-project.org/src/contrib/rJava_0.9_9.tar.gz
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
+spake2: does not match feedstock name
