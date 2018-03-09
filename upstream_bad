@@ -16635,3 +16635,4 @@ speechrecognition: hash failed at https://pypi.io/packages/source/S/SpeechRecogn
 urwid: hash failed at https://pypi.python.org/packages/source/u/urwid/urwid-2.0.1.tar.gz
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
+spake2: does not match feedstock name
