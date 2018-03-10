@@ -17644,3 +17644,4 @@ latexmk: unknown source at http://personal.psu.edu/jcc8//software/latexmk-jcc/la
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
 spake2: does not match feedstock name
+r-relaimpo: hash failed at https://cran.r-project.org/src/contrib/relaimpo_2.2_3.tar.gz
