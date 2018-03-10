@@ -4135,3 +4135,14 @@ shedsidewinder
 django-pkgconf
 tiledb-py
 django-bootstrap4
+perl-text-soundex
+r-operator.tools
+latexmk
+easy-thumbnails
+r-formula.tools
+r-yaimpute
+r-c50
+r-dimred
+r-ggspectra
+tmtk
+audi
