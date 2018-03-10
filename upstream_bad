@@ -17642,3 +17642,4 @@ datamash: unknown source at http://ftpmirror.gnu.org/datamash/datamash-1.2.tar.g
 perl-text-soundex: unknown source at http://cpan.metacpan.org/authors/id/R/RJ/RJBS/Text-Soundex-3.05.tar.gz
 latexmk: unknown source at http://personal.psu.edu/jcc8//software/latexmk-jcc/latexmk-455.zip
 dask-ec2: does not match feedstock name
+drmaa: does not match feedstock name
