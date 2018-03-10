@@ -17643,3 +17643,4 @@ perl-text-soundex: unknown source at http://cpan.metacpan.org/authors/id/R/RJ/RJ
 latexmk: unknown source at http://personal.psu.edu/jcc8//software/latexmk-jcc/latexmk-455.zip
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
+spake2: does not match feedstock name
