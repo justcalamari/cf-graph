@@ -18189,3 +18189,4 @@ lldb: unknown source at http://releases.llvm.org/5.0.0/lldb-5.0.0.src.tar.xz
 lld: unknown source at http://releases.llvm.org/5.0.0/lld-5.0.0.src.tar.xz
 coin3d: unknown source at https://bitbucket.org/Coin3D/coin/get/8e8337f61b05.tar.gz
 simage: unknown source at https://bitbucket.org/Coin3D/simage/get/cf953eacd849.tar.gz
+dask-ec2: does not match feedstock name
