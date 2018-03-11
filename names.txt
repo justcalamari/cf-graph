@@ -4146,3 +4146,5 @@ r-dimred
 r-ggspectra
 tmtk
 audi
+r-future.apply
+genesis-pyapi
