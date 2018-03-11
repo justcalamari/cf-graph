@@ -18191,3 +18191,4 @@ coin3d: unknown source at https://bitbucket.org/Coin3D/coin/get/8e8337f61b05.tar
 simage: unknown source at https://bitbucket.org/Coin3D/simage/get/cf953eacd849.tar.gz
 dask-ec2: does not match feedstock name
 drmaa: does not match feedstock name
+spake2: does not match feedstock name
