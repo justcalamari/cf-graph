@@ -72,8 +72,7 @@ llvm-meta
 conda-forge-ci-setup
 mpi
 nose-parameterized
-r-future.apply
-genesis-pyapi
+r-huxtable
 vs2008_runtime
 inkscape
 mingwpy
