@@ -4148,3 +4148,16 @@ tmtk
 audi
 r-future.apply
 genesis-pyapi
+cachecontrol
+meson
+r-bayesplot
+r-imbalance
+r-recipes
+r-rstantools
+r-qap
+r-assotester
+r-chemospec
+tslearn
+regionmask
+r-rsample
+r-huxtable
