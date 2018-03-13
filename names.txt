@@ -4167,3 +4167,9 @@ r-loo
 r-seriation
 markov_draftjs
 r-heatmaply
+terraform-provider-alicloud
+terraform-provider-aws
+terraform-provider-azurerm
+terraform-provider-google
+terraform-provider-opc
+terraform-provider-vsphere
