@@ -4161,3 +4161,9 @@ tslearn
 regionmask
 r-rsample
 r-huxtable
+r-gclus
+r-shinystan
+r-loo
+r-seriation
+markov_draftjs
+r-heatmaply
