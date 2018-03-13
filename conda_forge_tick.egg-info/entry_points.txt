@@ -1,3 +1,0 @@
-[console_scripts]
-conda-forge-tick = conda_forge_tick.cli:main
-

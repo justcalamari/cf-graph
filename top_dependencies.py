@@ -1,6 +1,6 @@
 import networkx as nx
 
-g = nx.read_gpickle('graph.pkl')
+g = nx.read_yaml('graph.yml')
 order = [(node, len(nx.descendants(g, node))) for node in g.nodes]
 order.sort(key=lambda x: x[1], reverse=True)
 
