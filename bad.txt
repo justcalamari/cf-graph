@@ -48,7 +48,6 @@ larrayenv
 r-suppdists
 seapy
 r-abind
-pyodbc
 pyside2
 lbzip2
 itk
@@ -72,7 +71,6 @@ llvm-meta
 conda-forge-ci-setup
 mpi
 nose-parameterized
-r-huxtable
 vs2008_runtime
 inkscape
 mingwpy
