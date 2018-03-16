@@ -24730,6 +24730,7 @@ cspice: unknown source
 ctags: unknown source
 cunit: unknown source
 cyrus-sasl: unknown source
+dbus: unknown source
 dcw-gmt: unknown source
 dipy: Could not find version on pypi
 dipy: unknown source
@@ -24768,6 +24769,7 @@ fs.webdavfs: unknown source
 g2clib: unknown source
 gap: unknown source
 gdal: unknown source
+gdk-pixbuf: unknown source
 geotiff: unknown source
 gettext: unknown source
 gf2x: unknown source
@@ -24790,7 +24792,6 @@ graphviz: unknown source
 gsd: unknown source
 gshhg-gmt: unknown source
 gsl: unknown source
-gst-plugins-base: unknown source
 hdf4: unknown source
 hdf5: unknown source
 hdfeos2: unknown source
@@ -24877,6 +24878,7 @@ moab: unknown source
 mono: unknown source
 mosh: unknown source
 mpc: unknown source
+mpg123: unknown source
 mpi4py: unknown source
 mpich: unknown source
 mpir: unknown source
@@ -24950,7 +24952,6 @@ pywin32: unknown source
 qt: unknown source
 qutip: unknown source
 qwtpolar: unknown source
-r-base: unknown source
 r-fst: unknown source
 r-hash: unknown source
 r-nhmmfdr: unknown source
@@ -25096,6 +25097,7 @@ odm2rest: Could not find version on github
 odm2rest: unknown source
 backtrace: Could not find version on github
 backtrace: unknown source
+clhep: unknown source
 ccfits: unknown source
 postgres-xl: unknown source
 datamash: unknown source
