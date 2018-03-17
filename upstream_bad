@@ -27374,3 +27374,4 @@ nasm: unknown source
 coin3d: unknown source
 simage: unknown source
 qgis: hash failed at http://qgis.org/downloads/qgis-3.0.0.tar.bz2
+r-rgdal: hash failed at https://cran.r-project.org/src/contrib/rgdal_1.2_18.tar.gz
