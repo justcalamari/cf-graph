@@ -4259,3 +4259,8 @@ pymonetdb
 sqlalchemy-utc
 orange3-educational
 halide-python
+django-emailhub
+draftjs_exporter
+swagger-django-generator
+git-annex
+sknw
