@@ -4249,3 +4249,13 @@ great-expectations
 kubernetes
 django-filer
 mapio
+python-fitparse
+coredns
+cni-plugins
+cni
+etcd
+bitstruct
+pymonetdb
+sqlalchemy-utc
+orange3-educational
+halide-python
