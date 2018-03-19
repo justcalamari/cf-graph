@@ -296,7 +296,7 @@ bob.io.base
 bob.math
 pexpect
 ptyprocess
-python-drmaa
+drmaa
 pickleshare
 fortran-magic
 metakernel
