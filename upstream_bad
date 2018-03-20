@@ -30270,3 +30270,4 @@ simage: unknown source
 django-emailhub: unknown source
 git-annex: unknown source
 imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-27-11.tar.gz
+r-klar: hash failed at https://cran.r-project.org/src/contrib/klaR_0.6_14.tar.gz
