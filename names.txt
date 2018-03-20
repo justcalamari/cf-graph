@@ -4264,3 +4264,9 @@ draftjs_exporter
 swagger-django-generator
 git-annex
 sknw
+flask-restalchemy
+cfncluster
+oletools
+pytest-mccabe
+jupyter_kernel_test
+filebutler

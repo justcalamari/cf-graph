@@ -71,6 +71,8 @@ llvm-meta
 conda-forge-ci-setup
 mpi
 nose-parameterized
+jupyter_kernel_test
+filebutler
 vs2008_runtime
 inkscape
 mingwpy
