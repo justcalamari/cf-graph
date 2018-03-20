@@ -71,7 +71,6 @@ llvm-meta
 conda-forge-ci-setup
 mpi
 nose-parameterized
-nitro
 vs2008_runtime
 inkscape
 mingwpy
