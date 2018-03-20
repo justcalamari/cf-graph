@@ -4270,3 +4270,8 @@ oletools
 pytest-mccabe
 jupyter_kernel_test
 filebutler
+r-svglite
+scikit-cycling
+hexer
+laz-perf
+nitro

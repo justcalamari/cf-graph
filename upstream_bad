@@ -30271,3 +30271,62 @@ django-emailhub: unknown source
 git-annex: unknown source
 imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-27-11.tar.gz
 r-klar: hash failed at https://cran.r-project.org/src/contrib/klaR_0.6_14.tar.gz
+adept: unknown source
+alsa-lib: unknown source
+arcsi: unknown source
+argtable2: unknown source
+armadillo: unknown source
+asap: unknown source
+atk: unknown source
+aubio: unknown source
+autoconf: unknown source
+automake: unknown source
+avro: unknown source
+avrocpp: unknown source
+batman: unknown source
+bc: unknown source
+beakerx: unknown source
+binutils: unknown source
+bison: unknown source
+boost: unknown source
+boost-cpp: unknown source
+cairo: unknown source
+cairomm: unknown source
+cddlib: unknown source
+cdecimal: unknown source
+cdo: unknown source
+cfitsio: unknown source
+cfortran-cfitsio: unknown source
+cgsn_parsers: unknown source
+cgsn_processing: unknown source
+chrpath: unknown source
+clapack: unknown source
+cmake: unknown source
+coincbc: unknown source
+coinmp: unknown source
+colormap: Could not find version on pypi
+colormap: unknown source
+consul: unknown source
+cppunit: unknown source
+cspice: unknown source
+ctags: unknown source
+cunit: unknown source
+curl: unknown source
+cyrus-sasl: unknown source
+dcw-gmt: unknown source
+dipy: Could not find version on pypi
+dipy: unknown source
+dirent: unknown source
+discretizer: unknown source
+django-jsoneditor: Could not find version on pypi
+django-jsoneditor: unknown source
+django-taggit: unknown source
+dmd: unknown source
+dolfin-adjoint: unknown source
+doxygen: unknown source
+eccodes: unknown source
+ecl: unknown source
+ecm: unknown source
+ecmwf-api-client: unknown source
+ecmwf_grib: unknown source
+elfx86exts: unknown source
