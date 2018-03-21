@@ -30879,3 +30879,4 @@ r-svglite: unknown source
 nitro: Could not find version on github
 nitro: unknown source
 esmpy: unknown source
+craftr: hash failed at https://github.com/craftr-build/craftr/archive/v2.0.0.dev5.tar.gz
