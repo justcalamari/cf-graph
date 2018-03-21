@@ -1,6 +1,5 @@
 conda-testenv
 tensorflow
-esmpy
 petulant-bear
 wicken
 pygridtools
