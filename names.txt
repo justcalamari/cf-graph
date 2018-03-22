@@ -4280,3 +4280,5 @@ flex-swagger
 rfc3987
 ps2ff
 conan
+strec
+spake2
