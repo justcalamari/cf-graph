@@ -1473,3 +1473,4 @@ nitro: Could not find version on github
 nitro: unknown source
 esmpy: unknown source
 spdlib: unknown source
+qgis: hash failed at http://qgis.org/downloads/qgis-3.0.1.tar.bz2
