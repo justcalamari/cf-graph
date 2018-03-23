@@ -4284,3 +4284,4 @@ strec
 spake2
 datalad
 igor
+spdlib
