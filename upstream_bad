@@ -6383,3 +6383,4 @@ nitro: Could not find version on github
 nitro: unknown source
 esmpy: unknown source
 spdlib: unknown source
+scikit-optimize: hash failed at https://pypi.io/packages/source/s/scikit-optimize/scikit-optimize-0.5.2.tar.gz
