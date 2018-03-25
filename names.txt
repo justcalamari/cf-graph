@@ -4288,3 +4288,5 @@ spdlib
 imagepy
 robobrowser
 numcosmo
+pywin32-ctypes
+jsonfield
