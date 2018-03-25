@@ -4290,3 +4290,5 @@ robobrowser
 numcosmo
 pywin32-ctypes
 jsonfield
+pydensecrf
+xesmf
