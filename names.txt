@@ -4287,3 +4287,4 @@ igor
 spdlib
 imagepy
 robobrowser
+numcosmo
