@@ -4292,3 +4292,4 @@ pywin32-ctypes
 jsonfield
 pydensecrf
 xesmf
+qtlocation
