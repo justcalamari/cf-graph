@@ -4299,3 +4299,6 @@ r-cometexacttest
 r-mratios
 r-coxme
 earthsim
+canmatrix
+geoviews
+r-wordcloud
