@@ -4293,3 +4293,9 @@ jsonfield
 pydensecrf
 xesmf
 qtlocation
+r-snakecase
+r-baseline
+r-cometexacttest
+r-mratios
+r-coxme
+earthsim
