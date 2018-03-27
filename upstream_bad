@@ -10824,3 +10824,4 @@ nitro: unknown source
 esmpy: unknown source
 spdlib: unknown source
 qtlocation: unknown source
+cryptography-vectors: hash failed at https://pypi.io/packages/source/c/cryptography_vectors/cryptography_vectors-2.2.2.tar.gz
