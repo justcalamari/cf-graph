@@ -12365,6 +12365,7 @@ ecl: unknown source
 ecm: unknown source
 ecmwf-api-client: unknown source
 ecmwf_grib: unknown source
+elfutils: unknown source
 elfx86exts: unknown source
 esmf: unknown source
 esmp: unknown source
@@ -12417,7 +12418,6 @@ graphviz: unknown source
 gsd: unknown source
 gshhg-gmt: unknown source
 gsl: unknown source
-gst-plugins-base: unknown source
 harfbuzz: unknown source
 hdf4: unknown source
 hdf5: unknown source
@@ -12594,7 +12594,6 @@ pywin32: unknown source
 qt: unknown source
 qutip: unknown source
 qwtpolar: unknown source
-r-base: unknown source
 r-fst: unknown source
 r-hash: unknown source
 r-nhmmfdr: unknown source
