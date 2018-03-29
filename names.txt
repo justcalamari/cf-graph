@@ -4309,3 +4309,6 @@ exercism
 ipywe
 sherlockml-boltzmannclean
 r-printr
+pycroscopy
+httpie
+pyjanitor
