@@ -4312,3 +4312,4 @@ r-printr
 pycroscopy
 httpie
 pyjanitor
+pyinstrument_cext
