@@ -4313,3 +4313,5 @@ pycroscopy
 httpie
 pyjanitor
 pyinstrument_cext
+click-completion
+kubernetes-helm
