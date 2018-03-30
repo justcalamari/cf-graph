@@ -4315,3 +4315,8 @@ pyjanitor
 pyinstrument_cext
 click-completion
 kubernetes-helm
+pyfpgrowth
+amptools
+liquidprompt
+git-secret
+yq
