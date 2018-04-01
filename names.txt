@@ -4320,3 +4320,6 @@ amptools
 liquidprompt
 git-secret
 yq
+osmapi
+overpy
+planet
