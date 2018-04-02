@@ -26106,3 +26106,4 @@ spdlib: unknown source
 qtlocation: unknown source
 r-car: hash failed at https://cran.r-project.org/src/contrib/car_3.0_0.tar.gz
 r-deldir: hash failed at https://cran.r-project.org/src/contrib/deldir_0.1_15.tar.gz
+r-glmnet: hash failed at https://cran.r-project.org/src/contrib/glmnet_2.0_16.tar.gz
