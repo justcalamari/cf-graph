@@ -26110,3 +26110,4 @@ r-glmnet: hash failed at https://cran.r-project.org/src/contrib/glmnet_2.0_16.ta
 r-gstat: hash failed at https://cran.r-project.org/src/contrib/gstat_1.1_6.tar.gz
 r-matrix: hash failed at http://cran.r-project.org/src/contrib/Matrix_1.2_13.tar.gz
 reprounzip-qt: hash failed at https://pypi.io/packages/source/r/reprounzip-qt/reprounzip-qt-1.0.12-1.tar.gz
+reprozip-jupyter: hash failed at https://pypi.io/packages/source/r/reprozip-jupyter/reprozip-jupyter-0.3-1.tar.gz
