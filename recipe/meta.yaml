@@ -1,0 +1,50 @@
+{% set version = "5.0.0" %}
+
+package:
+  name: pillow
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/P/Pillow/Pillow-{{ version }}.tar.gz
+  sha256: 12f29d6c23424f704c66b5b68c02fe0b571504459605cfe36ab8158359b0e1bb
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - zlib 1.2.11
+    - libtiff >=4.0.8,<4.0.10
+    - jpeg 9*
+    - freetype 2.8.*
+    - tk 8.6.*
+  run:
+    - python
+    - jpeg 9*
+    - zlib 1.2.11
+    - freetype 2.8.*
+    - libtiff >=4.0.8,<4.0.10
+    - olefile
+
+test:
+  imports:
+    - PIL
+    - PIL.Image
+  commands:
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+about:
+  home: https://pillow.readthedocs.io
+  license: PIL
+  license_file: LICENSE
+  summary: 'Pillow is the friendly PIL fork by Alex Clark and Contributors.'
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - patricksnape
+    - pelson
+    - ocefpaf
