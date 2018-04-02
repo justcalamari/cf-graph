@@ -4323,3 +4323,6 @@ yq
 osmapi
 overpy
 planet
+backcall
+virtualenv-clone
+pydrive
