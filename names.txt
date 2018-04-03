@@ -4334,3 +4334,6 @@ r-simcomp
 r-janitor
 pseudonetcdf
 asciinema
+pyaudi
+r-mcpan
+r-nparcomp
