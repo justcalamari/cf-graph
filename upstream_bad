@@ -29220,3 +29220,4 @@ spdlib: unknown source
 pydensecrf: Could not find version on pypi
 pydensecrf: unknown source
 qtlocation: unknown source
+r-rprojroot: hash failed at https://cran.r-project.org/src/contrib/rprojroot_1.2.tar.gz
