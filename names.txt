@@ -4327,3 +4327,10 @@ backcall
 virtualenv-clone
 pydrive
 h5io
+r-cgdsr
+r-default
+r-rapportools
+r-simcomp
+r-janitor
+pseudonetcdf
+asciinema
