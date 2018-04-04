@@ -4337,3 +4337,4 @@ asciinema
 pyaudi
 r-mcpan
 r-nparcomp
+r-rapport
