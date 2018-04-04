@@ -4344,3 +4344,14 @@ r-mc2d
 r-effsize
 r-pbivnorm
 r-nortest
+r-scrt
+pyquil
+r-pwr
+r-rio
+r-gparotation
+r-gss
+r-apatables
+r-cramer
+r-jmvcore
+r-pspearman
+r-egg
