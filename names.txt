@@ -4338,3 +4338,9 @@ pyaudi
 r-mcpan
 r-nparcomp
 r-rapport
+qtwebkit
+r-anom
+r-mc2d
+r-effsize
+r-pbivnorm
+r-nortest

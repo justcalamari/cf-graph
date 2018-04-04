@@ -71,7 +71,8 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-r-rapport
+r-pbivnorm
+r-nortest
 vs2008_runtime
 inkscape
 mingwpy
