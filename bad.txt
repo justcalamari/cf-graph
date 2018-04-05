@@ -71,12 +71,6 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-r-pwr
-r-rio
-r-gparotation
-r-gss
-r-jmvcore
-r-pspearman
 vs2008_runtime
 inkscape
 mingwpy
