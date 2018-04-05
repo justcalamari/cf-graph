@@ -4361,3 +4361,9 @@ r-wrs2
 r-fbasics
 r-ca
 ocaml
+laszip
+bicycleparameters
+netgen
+r-psychotools
+r-qvcalc
+r-relimp

@@ -71,7 +71,7 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-ocaml
+r-relimp
 vs2008_runtime
 inkscape
 mingwpy
