@@ -4356,3 +4356,7 @@ r-jmvcore
 r-pspearman
 r-egg
 r-timeseries
+r-lavaan
+r-wrs2
+r-fbasics
+r-ca
