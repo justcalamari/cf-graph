@@ -32957,3 +32957,4 @@ spdlib: unknown source
 pydensecrf: Could not find version on pypi
 pydensecrf: unknown source
 qtlocation: unknown source
+r-ade4: hash failed at https://cran.r-project.org/src/contrib/ade4_1.7_11.tar.gz
