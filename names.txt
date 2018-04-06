@@ -4367,3 +4367,8 @@ netgen
 r-psychotools
 r-qvcalc
 r-relimp
+r-gnm
+r-sparsepp
+r-emmeans
+r-mlapi
+r-vcdextra
