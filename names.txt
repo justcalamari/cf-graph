@@ -4372,3 +4372,9 @@ r-sparsepp
 r-emmeans
 r-mlapi
 r-vcdextra
+r-mvnormtest
+r-bayesfactor
+r-deriv
+r-rpf
+r-semtools
+trafaret
