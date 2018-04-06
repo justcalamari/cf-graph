@@ -35631,3 +35631,4 @@ spdlib: unknown source
 pydensecrf: Could not find version on pypi
 pydensecrf: unknown source
 qtlocation: unknown source
+simple-salesforce: hash failed at https://pypi.io/packages/source/s/simple-salesforce/simple-salesforce-0.74.0.tar.gz
