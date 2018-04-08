@@ -39374,3 +39374,4 @@ pydensecrf: unknown source
 qtlocation: unknown source
 kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
+r-grpreg: hash failed at https://cran.r-project.org/src/contrib/grpreg_3.1_3.tar.gz
