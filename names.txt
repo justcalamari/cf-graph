@@ -4384,3 +4384,10 @@ r-prediction
 r-mi
 r-mirt
 r-sem
+r-mertools
+ocamlbuild
+r-jmv
+hypertemp
+bgen-reader
+r-conicfit
+r-skmeans
