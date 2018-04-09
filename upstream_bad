@@ -41522,3 +41522,4 @@ pydensecrf: unknown source
 qtlocation: unknown source
 kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
+python-confluent-kafka: hash failed at https://pypi.io/packages/source/c/confluent-kafka/confluent-kafka-0.11.4.tar.gz
