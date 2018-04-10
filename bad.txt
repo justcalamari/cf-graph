@@ -71,6 +71,7 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
+public-wrappers
 vs2008_runtime
 inkscape
 mingwpy

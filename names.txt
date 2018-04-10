@@ -4392,3 +4392,5 @@ bgen-reader
 r-conicfit
 r-skmeans
 imagingreso
+orange3-bioinformatics
+public-wrappers
