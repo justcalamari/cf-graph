@@ -1,7 +1,5 @@
 conda-testenv
 tensorflow
-petulant-bear
-wicken
 pygridtools
 vc
 dask
