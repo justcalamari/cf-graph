@@ -45275,3 +45275,4 @@ ocaml: unknown source
 kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
+yarn: hash failed at https://github.com/yarnpkg/yarn/releases/download/v1.6.0/yarn-v1.6.0.tar.gz
