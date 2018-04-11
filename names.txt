@@ -4395,3 +4395,5 @@ imagingreso
 orange3-bioinformatics
 public-wrappers
 backports.tempfile
+libtasn1
+umap-learn
