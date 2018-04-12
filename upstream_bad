@@ -49039,3 +49039,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+pyface: hash failed at https://pypi.io/packages/source/p/pyface/pyface-6.0.0.tar.bz2
