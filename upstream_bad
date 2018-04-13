@@ -51186,3 +51186,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-28-11.tar.gz
