@@ -53332,3 +53332,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+r-vegan: hash failed at https://cran.r-project.org/src/contrib/vegan_2.5_1.tar.gz
