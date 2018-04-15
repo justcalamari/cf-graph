@@ -55504,3 +55504,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+r-tseries: hash failed at https://cran.r-project.org/src/contrib/tseries_0.10_44.tar.gz
