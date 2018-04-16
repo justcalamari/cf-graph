@@ -56570,3 +56570,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+r-quantmod: hash failed at https://cran.r-project.org/src/contrib/quantmod_0.4_13.tar.gz
