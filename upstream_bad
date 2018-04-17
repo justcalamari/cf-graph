@@ -60336,3 +60336,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+flake8-quotes: hash failed at https://pypi.io/packages/source/f/flake8-quotes/flake8-quotes-1.0.0.zip
