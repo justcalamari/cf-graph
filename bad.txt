@@ -69,13 +69,7 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-pscript
-py-bash-completion
-pyprism
-python-box
-quaternion
-r-glmmtmb
-r-here
+r-rvaidememoire
 vs2008_runtime
 inkscape
 mingwpy
