@@ -62505,3 +62505,4 @@ cftime: unknown source
 google-cloud-sdk: unknown source
 libmed: unknown source
 pdal: unknown source
+r-elasticnet: hash failed at https://cran.r-project.org/src/contrib/elasticnet_1.02.tar.gz
