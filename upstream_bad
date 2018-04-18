@@ -60876,3 +60876,4 @@ kubernetes-federation: Could not find version on github
 kubernetes-federation: unknown source
 public-wrappers: unknown source
 libtasn1: unknown source
+pyferret: hash failed at https://github.com/NOAA-PMEL/PyFerret/archive/v7.4-final.tar.gz
