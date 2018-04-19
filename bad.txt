@@ -69,6 +69,10 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
+r-sjmisc
+r-mboost
+r-demerelate
+r-coxphf
 vs2008_runtime
 inkscape
 mingwpy

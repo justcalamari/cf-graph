@@ -4444,3 +4444,8 @@ r-grplasso
 r-stabs
 r-survauc
 r-rvaidememoire
+r-sjmisc
+r-mboost
+r-linselect
+r-demerelate
+r-coxphf
