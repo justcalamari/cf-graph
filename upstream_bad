@@ -63601,3 +63601,4 @@ cftime: unknown source
 google-cloud-sdk: unknown source
 libmed: unknown source
 pdal: unknown source
+pysoundfile: hash failed at https://pypi.io/packages/source/S/SoundFile/SoundFile-0.10.2.tar.gz
