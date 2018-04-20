@@ -66860,3 +66860,4 @@ cftime: unknown source
 google-cloud-sdk: unknown source
 libmed: unknown source
 pdal: unknown source
+datashader: hash failed at https://github.com/bokeh/datashader/archive/0.6.6.tar.gz
