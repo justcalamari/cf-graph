@@ -66861,3 +66861,4 @@ google-cloud-sdk: unknown source
 libmed: unknown source
 pdal: unknown source
 datashader: hash failed at https://github.com/bokeh/datashader/archive/0.6.6.tar.gz
+qgis: hash failed at http://qgis.org/downloads/qgis-3.0.2.tar.bz2
