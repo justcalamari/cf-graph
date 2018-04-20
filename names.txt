@@ -4450,3 +4450,9 @@ r-linselect
 r-demerelate
 r-coxphf
 heliopy
+astcheck
+huey
+pysvg-py3
+qt_style_sheet_inspector
+r-dtt
+r-english

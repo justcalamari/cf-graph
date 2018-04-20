@@ -56,7 +56,6 @@ backports
 python.app
 flang-meta
 proj4
-mkl_fft
 tensorboard
 multinest
 dataspyre
@@ -69,7 +68,7 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-heliopy
+astcheck
 vs2008_runtime
 inkscape
 mingwpy
