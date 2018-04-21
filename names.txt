@@ -4463,3 +4463,4 @@ r-sjstats
 r-textshape
 r-tidyxl
 xpdconf
+python-chromedriver-binary
