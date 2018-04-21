@@ -4456,3 +4456,10 @@ pysvg-py3
 qt_style_sheet_inspector
 r-dtt
 r-english
+r-genlasso
+r-mgsub
+r-qdapregex
+r-sjstats
+r-textshape
+r-tidyxl
+xpdconf

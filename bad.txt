@@ -68,7 +68,7 @@ conda-forge-ci-setup
 mpi
 nose-parameterized
 spake2
-astcheck
+xpdconf
 vs2008_runtime
 inkscape
 mingwpy
