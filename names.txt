@@ -4464,3 +4464,5 @@ r-textshape
 r-tidyxl
 xpdconf
 python-chromedriver-binary
+numba
+rowan
