@@ -4466,3 +4466,4 @@ xpdconf
 python-chromedriver-binary
 numba
 rowan
+visidata
