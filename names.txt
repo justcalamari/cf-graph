@@ -4468,3 +4468,5 @@ numba
 rowan
 visidata
 smesh
+cfflib
+r-syuzhet
