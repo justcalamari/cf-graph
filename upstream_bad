@@ -73457,3 +73457,4 @@ pdal: unknown source
 visidata: unknown source
 smesh: Could not find version on github
 smesh: unknown source
+stack: hash failed at https://github.com/commercialhaskell/stack/releases/download/v1.7.0.3/stack-1.7.0.3-linux-x86_64-static.tar.gz
