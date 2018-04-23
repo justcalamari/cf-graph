@@ -74563,3 +74563,4 @@ visidata: unknown source
 smesh: Could not find version on github
 smesh: unknown source
 neomodel: hash failed at https://pypi.io/packages/source/n/neomodel/neomodel-3.2.7.tar.gz
+r-sjstats: hash failed at https://cran.r-project.org/src/contrib/sjstats_0.14.2.tar.gz
