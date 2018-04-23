@@ -72905,3 +72905,4 @@ smesh: Could not find version on github
 smesh: unknown source
 r-foreign: hash failed at https://cran.r-project.org/src/contrib/foreign_0.8_70.tar.gz
 r-relations: hash failed at https://cran.r-project.org/src/contrib/relations_0.6_8.tar.gz
+r-slam: hash failed at https://cran.r-project.org/src/contrib/slam_0.1_43.tar.gz
