@@ -72903,3 +72903,4 @@ pdal: unknown source
 visidata: unknown source
 smesh: Could not find version on github
 smesh: unknown source
+r-foreign: hash failed at https://cran.r-project.org/src/contrib/foreign_0.8_70.tar.gz
