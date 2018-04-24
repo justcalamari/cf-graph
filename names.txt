@@ -4473,3 +4473,6 @@ r-syuzhet
 apistar
 multineat
 yacron
+harminv
+libctl
+vmd-python
