@@ -69,6 +69,7 @@ mpi
 nose-parameterized
 spake2
 multineat
+orch
 vs2008_runtime
 inkscape
 mingwpy
