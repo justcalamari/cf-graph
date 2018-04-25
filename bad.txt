@@ -69,6 +69,11 @@ mpi
 nose-parameterized
 spake2
 multineat
+container-diff
+vega3
+r-kedd
+r-lexicon
+r-phylogeneticem
 vs2008_runtime
 inkscape
 mingwpy

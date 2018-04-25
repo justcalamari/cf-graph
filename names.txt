@@ -4478,3 +4478,10 @@ libctl
 vmd-python
 orch
 source-highlight
+mpb
+container-diff
+r-castor
+vega3
+r-kedd
+r-lexicon
+r-phylogeneticem
