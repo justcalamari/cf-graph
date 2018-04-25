@@ -4477,3 +4477,4 @@ harminv
 libctl
 vmd-python
 orch
+source-highlight
