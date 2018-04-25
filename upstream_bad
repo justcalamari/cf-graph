@@ -78968,3 +78968,4 @@ visidata: unknown source
 smesh: Could not find version on github
 smesh: unknown source
 source-highlight: unknown source
+r-evd: hash failed at https://cran.r-project.org/src/contrib/evd_2.3_3.tar.gz
