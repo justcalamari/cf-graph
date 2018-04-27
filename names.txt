@@ -4486,3 +4486,4 @@ r-kedd
 r-lexicon
 r-phylogeneticem
 robotstatuschecker
+robotframework-seleniumlibrary

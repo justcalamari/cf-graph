@@ -70,7 +70,6 @@ nose-parameterized
 spake2
 multineat
 container-diff
-robotstatuschecker
 vs2008_runtime
 inkscape
 mingwpy
