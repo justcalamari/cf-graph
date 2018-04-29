@@ -4489,3 +4489,4 @@ robotstatuschecker
 robotframework-seleniumlibrary
 trio_asyncio
 nspr
+python-bidi
