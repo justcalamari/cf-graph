@@ -90014,3 +90014,4 @@ smesh: Could not find version on github
 smesh: unknown source
 source-highlight: unknown source
 nspr: unknown source
+r-kernlab: hash failed at https://cran.r-project.org/src/contrib/kernlab_0.9_26.tar.gz
