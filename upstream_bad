@@ -90570,3 +90570,4 @@ nspr: unknown source
 imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-29-11.tar.gz
 r-gamlss: hash failed at https://cran.r-project.org/src/contrib/gamlss_5.0_8.tar.gz
 r-gamlss.data: hash failed at https://cran.r-project.org/src/contrib/gamlss.data_5.0_1.tar.gz
+r-gamlss.dist: hash failed at https://cran.r-project.org/src/contrib/gamlss.dist_5.0_5.tar.gz
