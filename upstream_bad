@@ -90567,3 +90567,4 @@ smesh: Could not find version on github
 smesh: unknown source
 source-highlight: unknown source
 nspr: unknown source
+imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-29-11.tar.gz
