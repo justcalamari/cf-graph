@@ -4490,3 +4490,5 @@ robotframework-seleniumlibrary
 trio_asyncio
 nspr
 python-bidi
+eulxml
+r-plot3drgl
