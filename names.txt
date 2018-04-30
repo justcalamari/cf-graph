@@ -4492,3 +4492,6 @@ nspr
 python-bidi
 eulxml
 r-plot3drgl
+flake8-self
+pytrackmate
+webruntime
