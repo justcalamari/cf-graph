@@ -4496,3 +4496,7 @@ flake8-self
 pytrackmate
 webruntime
 asciimatics
+r-oceanview
+r-desctools
+r-openmx
+r-rstanarm

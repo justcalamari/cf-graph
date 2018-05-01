@@ -70,6 +70,10 @@ nose-parameterized
 spake2
 multineat
 container-diff
+r-oceanview
+r-desctools
+r-openmx
+r-rstanarm
 vs2008_runtime
 inkscape
 mingwpy
