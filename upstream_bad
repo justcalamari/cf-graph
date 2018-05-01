@@ -91121,3 +91121,4 @@ smesh: Could not find version on github
 smesh: unknown source
 source-highlight: unknown source
 nspr: unknown source
+asciimatics: hash failed at https://pypi.io/packages/source/a/asciimatics/asciimatics-1.9.0.tar.gz
