@@ -74,6 +74,9 @@ r-oceanview
 r-desctools
 r-openmx
 r-rstanarm
+r-clisymbols
+r-rdrop2
+r-sessioninfo
 vs2008_runtime
 inkscape
 mingwpy
