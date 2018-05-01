@@ -4495,3 +4495,4 @@ r-plot3drgl
 flake8-self
 pytrackmate
 webruntime
+asciimatics
