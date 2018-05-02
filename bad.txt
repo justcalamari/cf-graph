@@ -70,6 +70,7 @@ nose-parameterized
 spake2
 multineat
 container-diff
+black
 vs2008_runtime
 inkscape
 mingwpy
