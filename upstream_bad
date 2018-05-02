@@ -93881,3 +93881,4 @@ source-highlight: unknown source
 nspr: unknown source
 nss: unknown source
 snoopy-log-collator: unknown source
+r-rmysql: hash failed at https://cran.r-project.org/src/contrib/Archive/RMySQL/RMySQL_0.10.14.tar.gz
