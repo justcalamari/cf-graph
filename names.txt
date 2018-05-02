@@ -4510,3 +4510,10 @@ pyiron_dft
 pyiron_example_job
 pyiron_lammps
 pyiron_vasp
+nss
+snoopy-log-collator
+dash-core-components
+dash-html-components
+dash-renderer
+dash
+skijumpdesign
