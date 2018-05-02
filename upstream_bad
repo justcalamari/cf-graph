@@ -94436,3 +94436,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+r-intamap: hash failed at https://cran.r-project.org/src/contrib/intamap_1.4_9.tar.gz
