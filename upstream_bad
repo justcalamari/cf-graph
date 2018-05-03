@@ -95551,3 +95551,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+r-formula: hash failed at https://cran.r-project.org/src/contrib/Formula_1.2_3.tar.gz
