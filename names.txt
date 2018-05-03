@@ -4524,3 +4524,5 @@ pigar
 aws-sdk-cpp
 node2vec
 r-sentimentr
+immutables
+glue-geospatial
