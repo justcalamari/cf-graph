@@ -4529,3 +4529,5 @@ glue-geospatial
 dataclasses
 importnb
 waitress
+nidaqmx-python
+earthengine-api
