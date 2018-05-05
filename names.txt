@@ -4532,3 +4532,4 @@ waitress
 nidaqmx-python
 earthengine-api
 robotframework-sshlibrary
+python-louvain
