@@ -101112,3 +101112,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+r-pbdzmq: hash failed at http://cran.r-project.org/src/contrib/pbdZMQ_0.3_3.tar.gz
