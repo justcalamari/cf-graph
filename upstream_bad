@@ -101667,3 +101667,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+nltk: hash failed at https://pypi.io/packages/source/n/nltk/nltk-3.3.tar.gz
