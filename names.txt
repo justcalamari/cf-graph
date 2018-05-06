@@ -4533,3 +4533,6 @@ nidaqmx-python
 earthengine-api
 robotframework-sshlibrary
 python-louvain
+catboost
+textdistance
+r-validate

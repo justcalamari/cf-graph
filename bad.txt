@@ -70,6 +70,9 @@ nose-parameterized
 spake2
 multineat
 container-diff
+catboost
+textdistance
+r-validate
 vs2008_runtime
 inkscape
 mingwpy
