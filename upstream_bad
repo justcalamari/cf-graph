@@ -105006,3 +105006,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+r-rgdal: hash failed at https://cran.r-project.org/src/contrib/rgdal_1.2_20.tar.gz
