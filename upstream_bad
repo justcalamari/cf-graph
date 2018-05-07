@@ -105561,3 +105561,4 @@ nss: unknown source
 snoopy-log-collator: unknown source
 black: Could not find version on pypi
 black: unknown source
+r-bayesfactor: hash failed at https://cran.r-project.org/src/contrib/BayesFactor_0.9.12_4.tar.gz
