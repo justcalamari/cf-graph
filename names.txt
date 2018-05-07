@@ -4536,3 +4536,4 @@ python-louvain
 catboost
 textdistance
 r-validate
+pythonqwt
