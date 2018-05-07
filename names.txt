@@ -4538,3 +4538,5 @@ textdistance
 r-validate
 pythonqwt
 rake_nltk
+guidata
+r-mbess

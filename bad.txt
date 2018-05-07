@@ -76,3 +76,6 @@ inkscape
 mingwpy
 c99-to-c89
 esmf
+mdtraj
+r-highcharter
+r-networkd3
