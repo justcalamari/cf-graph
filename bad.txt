@@ -43,7 +43,6 @@ the_silver_searcher
 toolchain3
 larrayenv
 r-suppdists
-seapy
 r-abind
 pyside2
 lbzip2
@@ -71,11 +70,13 @@ spake2
 multineat
 container-diff
 catboost
+gnupg
+libassuan
+libksba
+npth
+ntbtls
 vs2008_runtime
 inkscape
 mingwpy
 c99-to-c89
 esmf
-mdtraj
-r-highcharter
-r-networkd3

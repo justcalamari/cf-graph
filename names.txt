@@ -4540,3 +4540,8 @@ pythonqwt
 rake_nltk
 guidata
 r-mbess
+gnupg
+libassuan
+libksba
+npth
+ntbtls
