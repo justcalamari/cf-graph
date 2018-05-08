@@ -70,11 +70,6 @@ spake2
 multineat
 container-diff
 catboost
-gnupg
-libassuan
-libksba
-npth
-ntbtls
 vs2008_runtime
 inkscape
 mingwpy

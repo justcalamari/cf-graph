@@ -4545,3 +4545,7 @@ libassuan
 libksba
 npth
 ntbtls
+rfpimp
+python-pdal
+py_stringmatching
+gperftools
