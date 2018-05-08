@@ -4551,3 +4551,7 @@ py_stringmatching
 gperftools
 multiset
 os-service-types
+r-userfriendlyscience
+pgrouting
+nano
+gnupg-py
