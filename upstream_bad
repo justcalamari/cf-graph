@@ -107798,3 +107798,4 @@ libksba: unknown source
 npth: unknown source
 ntbtls: unknown source
 nano: unknown source
+django-wagtail-feeds: hash failed at https://pypi.io/packages/source/d/django-wagtail-feeds/django-wagtail-feeds-0.1.0.tar.gz
