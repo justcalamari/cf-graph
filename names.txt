@@ -4549,3 +4549,5 @@ rfpimp
 python-pdal
 py_stringmatching
 gperftools
+multiset
+os-service-types
