@@ -4557,3 +4557,4 @@ nano
 gnupg-py
 r-brobdingnag
 locust
+pyresttest
