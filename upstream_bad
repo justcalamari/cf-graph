@@ -110598,3 +110598,4 @@ libksba: unknown source
 npth: unknown source
 ntbtls: unknown source
 nano: unknown source
+rabbitmq-server: hash failed at https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.7.5/rabbitmq-server-generic-unix-3.7.5.tar.xz
