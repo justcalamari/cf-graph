@@ -4565,3 +4565,4 @@ snaptime
 overrides
 cxxtest
 pcl
+double-conversion
