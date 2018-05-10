@@ -4558,3 +4558,5 @@ gnupg-py
 r-brobdingnag
 locust
 pyresttest
+r-bridgesampling
+py_stringsimjoin
