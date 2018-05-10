@@ -4561,3 +4561,7 @@ pyresttest
 r-bridgesampling
 py_stringsimjoin
 dsdp
+snaptime
+overrides
+cxxtest
+pcl
