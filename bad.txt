@@ -70,6 +70,7 @@ spake2
 multineat
 container-diff
 catboost
+requirements-parser
 vs2008_runtime
 inkscape
 mingwpy
