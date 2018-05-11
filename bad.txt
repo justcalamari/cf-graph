@@ -71,6 +71,8 @@ multineat
 container-diff
 catboost
 requirements-parser
+gast
+r-brms
 vs2008_runtime
 inkscape
 mingwpy
