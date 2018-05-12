@@ -4574,3 +4574,5 @@ go-archiver
 editdistance
 geckodriver
 dask-jobqueue
+jeepney
+nose2

@@ -78,6 +78,8 @@ go-archiver
 editdistance
 geckodriver
 dask-jobqueue
+jeepney
+nose2
 vs2008_runtime
 inkscape
 mingwpy
