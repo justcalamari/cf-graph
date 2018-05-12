@@ -4573,3 +4573,4 @@ sphinx-releases
 go-archiver
 editdistance
 geckodriver
+dask-jobqueue
