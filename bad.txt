@@ -73,6 +73,10 @@ catboost
 requirements-parser
 gast
 r-brms
+sphinx-releases
+go-archiver
+editdistance
+geckodriver
 vs2008_runtime
 inkscape
 mingwpy
