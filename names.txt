@@ -4576,3 +4576,5 @@ geckodriver
 dask-jobqueue
 jeepney
 nose2
+lammps
+gpflow

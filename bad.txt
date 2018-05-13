@@ -80,6 +80,8 @@ geckodriver
 dask-jobqueue
 jeepney
 nose2
+lammps
+gpflow
 vs2008_runtime
 inkscape
 mingwpy
