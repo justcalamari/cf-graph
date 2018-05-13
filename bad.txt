@@ -87,3 +87,4 @@ inkscape
 mingwpy
 c99-to-c89
 esmf
+shogun-cpp
