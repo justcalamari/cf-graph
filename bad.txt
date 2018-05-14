@@ -50,7 +50,6 @@ itk
 signac-dashboard
 pymssql
 numpy-sugar
-trilinos
 backports
 python.app
 flang-meta
