@@ -121184,3 +121184,4 @@ ntbtls: unknown source
 nano: unknown source
 dsdp: unknown source
 trilinos: unknown source
+imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-32-11.tar.gz
