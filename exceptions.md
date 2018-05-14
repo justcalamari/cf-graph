@@ -5390,3 +5390,23 @@ Traceback (most recent call last):
 AttributeError: '_io.BufferedReader' object has no attribute 'length'
 
 
+#r-amap
+##Command '['/usr/bin/git', 'clone', 'https://github.com/regro-cf-autotick-bot/r-amap-feedstock.git', './feedstocks/r-amap-feedstock']' returned non-zero exit status 128.
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 296, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 134, in run
+    p = ![git clone @(origin) @(feedstock_dir)]
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 19375, in subproc_captured_hiddenobject
+    return run_subproc(cmds, captured='hiddenobject')
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 19338, in run_subproc
+    command.end()
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12636, in end
+    self._end(tee_output=tee_output)
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12655, in _end
+    self._raise_subproc_error()
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12775, in _raise_subproc_error
+    output=self.output)
+subprocess.CalledProcessError: Command '['/usr/bin/git', 'clone', 'https://github.com/regro-cf-autotick-bot/r-amap-feedstock.git', './feedstocks/r-amap-feedstock']' returned non-zero exit status 128.
+
+
