@@ -82,9 +82,11 @@ jeepney
 nose2
 lammps
 gpflow
+cc-plugin-ugrid
 vs2008_runtime
 inkscape
 mingwpy
 c99-to-c89
 esmf
 shogun-cpp
+shogun
