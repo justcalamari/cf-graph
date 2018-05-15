@@ -122306,3 +122306,4 @@ npth: unknown source
 ntbtls: unknown source
 dsdp: unknown source
 trilinos: unknown source
+r-mcmcpack: hash failed at https://cran.r-project.org/src/contrib/MCMCpack_1.4_3.tar.gz
