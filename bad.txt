@@ -69,14 +69,7 @@ spake2
 multineat
 container-diff
 catboost
-requirements-parser
-r-brms
-sphinx-releases
 lammps
-pyulog
-pyunfold
-r-tidyposterior
-tensorly
 vs2008_runtime
 inkscape
 mingwpy
