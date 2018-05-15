@@ -4579,3 +4579,11 @@ nose2
 lammps
 gpflow
 cc-plugin-ugrid
+ldc
+numina
+progressbar33
+pytest-console-scripts
+pyulog
+pyunfold
+r-tidyposterior
+tensorly
