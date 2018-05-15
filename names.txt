@@ -4591,3 +4591,5 @@ tinytimer
 typechecks
 unittest2
 yamlloader
+sexpdata
+chemdataextractor
