@@ -4593,3 +4593,4 @@ unittest2
 yamlloader
 sexpdata
 chemdataextractor
+ixmp
