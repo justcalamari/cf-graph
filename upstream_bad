@@ -125657,3 +125657,4 @@ ntbtls: unknown source
 nano: unknown source
 dsdp: unknown source
 trilinos: unknown source
+flask-restplus: hash failed at https://pypi.io/packages/source/f/flask-restplus/flask-restplus-0.11.0.tar.gz
