@@ -4596,3 +4596,5 @@ chemdataextractor
 ixmp
 cyberpandas
 grove
+bamnostic
+secretstorage
