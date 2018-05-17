@@ -70,9 +70,6 @@ multineat
 container-diff
 catboost
 lammps
-grove
-bamnostic
-secretstorage
 vs2008_runtime
 inkscape
 mingwpy
