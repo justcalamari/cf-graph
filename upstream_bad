@@ -127315,3 +127315,4 @@ trilinos: unknown source
 bamnostic: Could not find version on pypi
 bamnostic: unknown source
 r-ctv: hash failed at https://cran.r-project.org/src/contrib/ctv_0.8_5.tar.gz
+r-polynomf: hash failed at https://cran.r-project.org/src/contrib/PolynomF_1.0_2.tar.gz
