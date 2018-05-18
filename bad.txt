@@ -70,6 +70,9 @@ multineat
 container-diff
 catboost
 lammps
+pyomo.solvers
+python_http_client
+sendgrid
 vs2008_runtime
 inkscape
 mingwpy
@@ -77,3 +80,4 @@ c99-to-c89
 esmf
 shogun-cpp
 shogun
+whitebox_tools
