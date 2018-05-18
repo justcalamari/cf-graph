@@ -130076,3 +130076,4 @@ trilinos: unknown source
 bamnostic: Could not find version on pypi
 bamnostic: unknown source
 pypy3.5: unknown source
+qgis: hash failed at https://qgis.org/downloads/qgis-3.0.3.tar.bz2
