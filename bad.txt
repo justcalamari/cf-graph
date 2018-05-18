@@ -71,8 +71,9 @@ container-diff
 catboost
 lammps
 pyomo.solvers
-python_http_client
 sendgrid
+luajit
+datacache
 vs2008_runtime
 inkscape
 mingwpy
@@ -81,3 +82,4 @@ esmf
 shogun-cpp
 shogun
 whitebox_tools
+r-densityclust

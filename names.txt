@@ -4610,3 +4610,5 @@ memoized-property
 w3g
 python_http_client
 sendgrid
+luajit
+datacache
