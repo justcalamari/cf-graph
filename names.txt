@@ -4599,3 +4599,5 @@ grove
 bamnostic
 secretstorage
 cykdtree
+magic-wormhole
+megaradrp
