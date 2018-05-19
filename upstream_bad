@@ -131741,3 +131741,4 @@ bamnostic: unknown source
 pypy3.5: unknown source
 luajit: unknown source
 r-paco: unknown source
+r-english: hash failed at https://cran.r-project.org/src/contrib/english_1.1_3.tar.gz
