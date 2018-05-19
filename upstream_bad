@@ -132299,3 +132299,4 @@ bamnostic: unknown source
 pypy3.5: unknown source
 luajit: unknown source
 r-paco: unknown source
+r-bayesfactor: hash failed at https://cran.r-project.org/src/contrib/BayesFactor_0.9.12_4.2.tar.gz
