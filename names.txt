@@ -4613,3 +4613,7 @@ sendgrid
 luajit
 datacache
 r-paco
+bisonpp
+r-mice
+cppheaderparser
+piqs

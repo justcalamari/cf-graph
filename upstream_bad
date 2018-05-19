@@ -131742,3 +131742,560 @@ pypy3.5: unknown source
 luajit: unknown source
 r-paco: unknown source
 r-english: hash failed at https://cran.r-project.org/src/contrib/english_1.1_3.tar.gz
+adept: unknown source
+alsa-lib: unknown source
+arcsi: unknown source
+argtable2: unknown source
+armadillo: unknown source
+arrow-cpp: Could not find version on github
+arrow-cpp: unknown source
+asap: unknown source
+atk: unknown source
+aubio: unknown source
+autoconf: unknown source
+automake: unknown source
+avro: unknown source
+avrocpp: unknown source
+batman: unknown source
+bc: unknown source
+beakerx: unknown source
+binutils: unknown source
+bison: unknown source
+boost: unknown source
+boost-cpp: unknown source
+cairo: unknown source
+cairomm: unknown source
+cddlib: unknown source
+cdecimal: unknown source
+cdo: unknown source
+cfitsio: unknown source
+cfortran-cfitsio: unknown source
+cgsn_parsers: unknown source
+cgsn_processing: unknown source
+chrpath: unknown source
+clapack: unknown source
+cmake: unknown source
+coincbc: unknown source
+coinmp: unknown source
+colormap: Could not find version on pypi
+colormap: unknown source
+cppunit: unknown source
+cspice: unknown source
+ctags: unknown source
+cunit: unknown source
+cyrus-sasl: unknown source
+datacube: Could not find version on github
+dcw-gmt: unknown source
+dirent: unknown source
+discretizer: unknown source
+django-jsoneditor: Could not find version on pypi
+django-jsoneditor: unknown source
+django-taggit: unknown source
+dmd: unknown source
+dolfin-adjoint: unknown source
+doxygen: unknown source
+eccodes: unknown source
+ecl: unknown source
+ecm: unknown source
+ecmwf-api-client: unknown source
+ecmwf_grib: unknown source
+elfx86exts: unknown source
+emacs: unknown source
+environment-modules: unknown source
+esmf: unknown source
+esmp: unknown source
+exempi: unknown source
+expat: unknown source
+f2c: unknown source
+fastavro: unknown source
+fenics: unknown source
+ffmpeg: unknown source
+ffx: Could not find version on github
+ffx: unknown source
+fig2dev: unknown source
+flexx: Could not find version on pypi
+flexx: unknown source
+flintqs: unknown source
+fontconfig: unknown source
+fpylll: Could not find version on github
+fpylll: unknown source
+freeimage: unknown source
+freetds: unknown source
+freetype: unknown source
+freexl: unknown source
+fs.webdavfs: Could not find version on pypi
+fs.webdavfs: unknown source
+g2clib: unknown source
+gap: unknown source
+gawk: unknown source
+gdb: unknown source
+geotiff: unknown source
+gettext: unknown source
+gf2x: unknown source
+giac: unknown source
+giflib: unknown source
+gitpython: unknown source
+giza: unknown source
+glib: unknown source
+glibmm: unknown source
+glpk: unknown source
+gmp: unknown source
+gmt: unknown source
+gnuplot: unknown source
+gnutls: unknown source
+go-spatial: Could not find version on github
+go-spatial: unknown source
+gobject-introspection: unknown source
+gperf: unknown source
+graphviz: unknown source
+gshhg-gmt: unknown source
+gsl: unknown source
+gst-plugins-base: unknown source
+halide: Could not find version on github
+halide: unknown source
+harfbuzz: unknown source
+hdf4: unknown source
+hdfeos2: unknown source
+hdfeos5: unknown source
+healpix_cxx: unknown source
+hunspell-en: unknown source
+icu: unknown source
+igraph: unknown source
+iml: unknown source
+inkscape: unknown source
+intltool: unknown source
+ipopt: unknown source
+isl: unknown source
+jack: unknown source
+jags: unknown source
+jansson: unknown source
+jasper: unknown source
+jbig: unknown source
+jcc: Could not find version on pypi
+jcc: unknown source
+jom: unknown source
+jpeg: unknown source
+jsanimation: Could not find version on github
+jsanimation: unknown source
+judy: unknown source
+jupyter_pivottablejs: Could not find version on pypi
+jupyter_pivottablejs: unknown source
+kaldi: Could not find version on github
+kaldi: unknown source
+kealib: unknown source
+keyring: unknown source
+khronos-opencl-icd-loader: Could not find version on github
+khronos-opencl-icd-loader: unknown source
+krb5: Could not find version on github
+krb5: unknown source
+kwant: unknown source
+lagranto: unknown source
+lcalc: unknown source
+lemon: unknown source
+libadjoint: unknown source
+libblitz: unknown source
+libcf: unknown source
+libconfig: unknown source
+libcroco: unknown source
+libdb: unknown source
+libedit: unknown source
+libev: unknown source
+libevent: Could not find version on github
+libevent: unknown source
+libffi: unknown source
+libflint: unknown source
+libgap: unknown source
+libgcrypt: unknown source
+libglu: unknown source
+libgpg-error: unknown source
+libgsasl: unknown source
+libhwloc: unknown source
+libiconv: unknown source
+libmemcached: unknown source
+libntlm: unknown source
+libpcap: unknown source
+libpng: unknown source
+libradolan: Could not find version on github
+libradolan: unknown source
+libsakura: unknown source
+libsigcpp: unknown source
+libsndfile: unknown source
+libspatialindex: unknown source
+libspatialite: unknown source
+libssh2: unknown source
+libtheora: unknown source
+libtiff: unknown source
+libtool: unknown source
+libunwind: unknown source
+libuuid: unknown source
+libxcb: unknown source
+libxml2: unknown source
+libxmlpp: unknown source
+libxslt: unknown source
+lrcalc: unknown source
+luarocks: unknown source
+lynx: unknown source
+lzo: unknown source
+m4: unknown source
+m4ri: unknown source
+m4rie: unknown source
+magics: unknown source
+make: unknown source
+maven: unknown source
+maxima: unknown source
+mercurial: unknown source
+mesalib: unknown source
+metis: unknown source
+miktex: unknown source
+mingwpy: unknown source
+moab: unknown source
+mono: unknown source
+mosh: unknown source
+mpc: unknown source
+mpfi: unknown source
+mpfr: unknown source
+mpi4py: unknown source
+mpich: unknown source
+mpir: unknown source
+mplexporter: Could not find version on github
+mplexporter: unknown source
+mshr: unknown source
+msinttypes: unknown source
+mss: unknown source
+mumps: unknown source
+mysql: unknown source
+mysql-connector-c: unknown source
+namedlist: Could not find version on pypi
+namedlist: unknown source
+nauty: unknown source
+ncurses: unknown source
+nettle: unknown source
+nginx: unknown source
+nlopt: unknown source
+nltk_data: Could not find version on github
+nltk_data: unknown source
+nsis: unknown source
+ocl-icd: unknown source
+openjdk: unknown source
+openmesh: unknown source
+openmpi: unknown source
+openssl: unknown source
+ossuuid: unknown source
+palp: unknown source
+pango: unknown source
+parallel: unknown source
+pari: unknown source
+parmetis: unknown source
+paste: unknown source
+patch: unknown source
+patchelf: unknown source
+pbzip2: unknown source
+pcre: unknown source
+pcre2: unknown source
+perl: unknown source
+perl-xml-parser: unknown source
+pgplot: unknown source
+phantomjs: unknown source
+phosphor: unknown source
+pigz: unknown source
+pixman: unknown source
+pkg-config: unknown source
+poppler-data: unknown source
+popt: unknown source
+portaudio: unknown source
+postgis: unknown source
+postgresql: unknown source
+ppl: unknown source
+primesieve: unknown source
+proj4: unknown source
+pstdint: unknown source
+pthread-stubs: unknown source
+pthreads-win32: unknown source
+publish: unknown source
+pv: unknown source
+pyagrum: unknown source
+pyarrow: Could not find version on github
+pyarrow: unknown source
+pycwt: Could not find version on pypi
+pycwt: unknown source
+pyelastix: Could not find version on pypi
+pyelastix: unknown source
+pygobject: unknown source
+pyhdf: unknown source
+pyke: unknown source
+pynac: Could not find version on github
+pynac: unknown source
+pyqt: unknown source
+pyspark: unknown source
+pyspharm: Could not find version on github
+pyspharm: unknown source
+python: unknown source
+python-avro: unknown source
+python-eccodes: unknown source
+python-ecmwf_grib: unknown source
+python-fmask: unknown source
+python-lmdb: Could not find version on github
+python-spams: unknown source
+pytrilinos: unknown source
+pytypes: Could not find version on pypi
+pytypes: unknown source
+pywin32: unknown source
+qt: unknown source
+qutip: unknown source
+qwtpolar: unknown source
+r-fst: unknown source
+r-hash: unknown source
+r-nhmmfdr: unknown source
+r-obistools: Could not find version on github
+r-obistools: unknown source
+r-rmr2: unknown source
+r-shinysky: unknown source
+r-ssoap: Could not find version on github
+r-ssoap: unknown source
+r-venndiagram: unknown source
+r-xmlschema: Could not find version on github
+r-xmlschema: unknown source
+ragel: unknown source
+ratpoints: unknown source
+rdkit: Could not find version on github
+rdkit: unknown source
+readline: unknown source
+reaper: Could not find version on github
+reaper: unknown source
+rios: unknown source
+root5: unknown source
+rpfits: unknown source
+rsgislib: unknown source
+rsync: unknown source
+ruamel_yaml: unknown source
+rubiks: unknown source
+ruby: unknown source
+rust: unknown source
+rw: unknown source
+sagemath-db-combinatorial-designs: unknown source
+sagemath-db-conway-polynomials: unknown source
+sagemath-db-elliptic-curves: unknown source
+sagemath-db-graphs: unknown source
+sagemath-db-polytopes: unknown source
+scalapack: unknown source
+scikit-umfpack: unknown source
+sciluigi: Could not find version on pypi
+sciluigi: unknown source
+seqan-library: Could not find version on github
+seqan-library: unknown source
+shapelib: unknown source
+signac: unknown source
+signac-flow: unknown source
+simbody: Could not find version on github
+simbody: unknown source
+simpletal: unknown source
+singular: unknown source
+sip: unknown source
+sixs: unknown source
+skyfield: unknown source
+snzip: unknown source
+socat: unknown source
+sox: unknown source
+speex: unknown source
+splunk_handler: Could not find version on pypi
+splunk_handler: unknown source
+stingray: Could not find version on pypi
+stingray: unknown source
+superlu: unknown source
+swig: unknown source
+symmetrica: unknown source
+sympow: unknown source
+tachyon: unknown source
+tectonic: unknown source
+tetgen: unknown source
+texinfo: unknown source
+texlive-core: unknown source
+tikzmagic: Could not find version on github
+tikzmagic: unknown source
+tinyarray: unknown source
+tokyocabinet: unknown source
+travis-encrypt: unknown source
+trmm_rsl: Could not find version on github
+trmm_rsl: unknown source
+tuiview: unknown source
+unzip: unknown source
+vcversioner: Could not find version on pypi
+vcversioner: unknown source
+verboselogs: unknown source
+vifm: unknown source
+vs2008_runtime: unknown source
+w3m: unknown source
+waf: Could not find version on github
+waf: unknown source
+wcslib: unknown source
+wgrib2: unknown source
+x264: unknown source
+xarray-topo: unknown source
+xcb-proto: unknown source
+xerces-c: unknown source
+xerces-c28: unknown source
+xfig: unknown source
+xorg-applewmproto: unknown source
+xorg-bigreqsproto: unknown source
+xorg-cf-files: unknown source
+xorg-compositeproto: unknown source
+xorg-damageproto: unknown source
+xorg-dmxproto: unknown source
+xorg-evieext: unknown source
+xorg-fixesproto: unknown source
+xorg-font-util: unknown source
+xorg-fontcacheproto: unknown source
+xorg-fontsproto: unknown source
+xorg-gccmakedep: unknown source
+xorg-glproto: unknown source
+xorg-imake: unknown source
+xorg-inputproto: unknown source
+xorg-kbproto: unknown source
+xorg-libice: unknown source
+xorg-libpthread-stubs: unknown source
+xorg-libsm: unknown source
+xorg-libx11: unknown source
+xorg-libxau: unknown source
+xorg-libxaw: unknown source
+xorg-libxaw3d: unknown source
+xorg-libxcb: unknown source
+xorg-libxcursor: unknown source
+xorg-libxdmcp: unknown source
+xorg-libxext: unknown source
+xorg-libxfixes: unknown source
+xorg-libxft: unknown source
+xorg-libxmu: unknown source
+xorg-libxp: unknown source
+xorg-libxpm: unknown source
+xorg-libxrandr: unknown source
+xorg-libxrender: unknown source
+xorg-libxt: unknown source
+xorg-libxtst: unknown source
+xorg-makedepend: unknown source
+xorg-presentproto: unknown source
+xorg-printproto: unknown source
+xorg-randrproto: unknown source
+xorg-recordproto: unknown source
+xorg-renderproto: unknown source
+xorg-resourceproto: unknown source
+xorg-scrnsaverproto: unknown source
+xorg-trapproto: unknown source
+xorg-util-macros: unknown source
+xorg-videoproto: unknown source
+xorg-windowswmproto: unknown source
+xorg-xbitmaps: unknown source
+xorg-xcb-proto: unknown source
+xorg-xcmiscproto: unknown source
+xorg-xextproto: unknown source
+xorg-xf86bigfontproto: unknown source
+xorg-xf86dgaproto: unknown source
+xorg-xf86driproto: unknown source
+xorg-xf86miscproto: unknown source
+xorg-xf86rushproto: unknown source
+xorg-xf86vidmodeproto: unknown source
+xorg-xineramaproto: unknown source
+xorg-xproto: unknown source
+xorg-xproxymanagementprotocol: unknown source
+xorg-xtrans: unknown source
+xraylib: unknown source
+xz: unknown source
+y_serial: unknown source
+yt: unknown source
+zip: unknown source
+zlib: unknown source
+zn_poly: unknown source
+zookeeper-c: unknown source
+hendrics: Could not find version on pypi
+hendrics: unknown source
+pypy2.7: unknown source
+siesta: unknown source
+odm2rest: Could not find version on github
+odm2rest: unknown source
+yodatools: Could not find version on pypi
+yodatools: unknown source
+backtrace: Could not find version on github
+backtrace: unknown source
+clhep: unknown source
+libzip: unknown source
+ccfits: unknown source
+postgres-xl: unknown source
+datamash: unknown source
+perl-text-soundex: unknown source
+latexmk: unknown source
+fftw: unknown source
+yasm: unknown source
+thrift-cpp: unknown source
+freeglut: unknown source
+yaml: unknown source
+qwt: unknown source
+llvmdev: unknown source
+parquet-cpp: Could not find version on github
+parquet-cpp: unknown source
+petsc: unknown source
+petsc4py: unknown source
+fmilib: unknown source
+occt: unknown source
+slepc: unknown source
+slepc4py: unknown source
+libmad: unknown source
+sdl2_gfx: unknown source
+smpeg2: unknown source
+sdl2_net: unknown source
+sdl2_ttf: unknown source
+libwebp: unknown source
+lp_solve: unknown source
+alps: unknown source
+clangdev: unknown source
+libcxx: unknown source
+bzip2: unknown source
+clrng: Could not find version on github
+clrng: unknown source
+openmp: unknown source
+flang: Could not find version on github
+flang: unknown source
+nasm: unknown source
+coin3d: unknown source
+simage: unknown source
+ogh: Could not find version on pypi
+ogh: unknown source
+halide-python: Could not find version on github
+halide-python: unknown source
+django-emailhub: unknown source
+git-annex: unknown source
+r-svglite: unknown source
+nitro: Could not find version on github
+nitro: unknown source
+esmpy: unknown source
+spdlib: unknown source
+pydensecrf: Could not find version on pypi
+pydensecrf: unknown source
+qtlocation: unknown source
+ocaml: unknown source
+kubernetes-federation: Could not find version on github
+kubernetes-federation: unknown source
+public-wrappers: unknown source
+libtasn1: unknown source
+libmed: unknown source
+pdal: unknown source
+visidata: unknown source
+smesh: Could not find version on github
+smesh: unknown source
+source-highlight: unknown source
+nspr: unknown source
+nss: unknown source
+snoopy-log-collator: unknown source
+black: Could not find version on pypi
+black: unknown source
+gnupg: unknown source
+libassuan: unknown source
+libksba: unknown source
+npth: unknown source
+ntbtls: unknown source
+nano: unknown source
+dsdp: unknown source
+trilinos: unknown source
+bamnostic: Could not find version on pypi
+bamnostic: unknown source
+pypy3.5: unknown source
+luajit: unknown source
+r-paco: unknown source
