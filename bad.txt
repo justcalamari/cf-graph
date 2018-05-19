@@ -82,4 +82,3 @@ esmf
 shogun-cpp
 shogun
 whitebox_tools
-r-densityclust
