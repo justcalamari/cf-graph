@@ -135095,3 +135095,4 @@ pypy3.5: unknown source
 luajit: unknown source
 r-paco: unknown source
 cfitsio: hash failed at https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio345.tar.gz
+pytest-watch: hash failed at https://pypi.io/packages/source/p/pytest-watch/pytest-watch-4.2.0.zip
