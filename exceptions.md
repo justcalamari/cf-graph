@@ -5877,3 +5877,56 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:833)>
 
 
+#r-mirt
+##<urlopen error EOF occurred in violation of protocol (_ssl.c:833)>
+Traceback (most recent call last):
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/home/travis/mc/lib/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/home/travis/mc/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/home/travis/mc/lib/python3.6/ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "/home/travis/mc/lib/python3.6/ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "/home/travis/mc/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:833)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 298, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 185, in run
+    hash = hash_url(source_url, hash_type)
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 206, in hash_url
+    for b in stream_url_progress(url, verb='Hashing', quiet=quiet):
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 178, in stream_url_progress
+    with urllib.request.urlopen(url) as f:
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:833)>
+
+
