@@ -4618,3 +4618,12 @@ r-mice
 cppheaderparser
 piqs
 cgroupspy
+coolprop
+message-ix
+pycoast
+r-caper
+r-picante
+r-propcis
+python-geotiepoints
+trollsift
+django-widget-tweaks

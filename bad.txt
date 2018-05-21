@@ -71,7 +71,6 @@ container-diff
 catboost
 lammps
 pyomo.solvers
-cgroupspy
 vs2008_runtime
 inkscape
 mingwpy
