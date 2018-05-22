@@ -136779,3 +136779,4 @@ luajit: unknown source
 r-paco: unknown source
 message-ix: Could not find version on github
 message-ix: unknown source
+geojson: hash failed at https://pypi.io/packages/source/g/geojson/geojson-2.4.0.tar.gz
