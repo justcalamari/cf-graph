@@ -137340,3 +137340,4 @@ luajit: unknown source
 r-paco: unknown source
 message-ix: Could not find version on github
 message-ix: unknown source
+coolprop: hash failed at https://pypi.io/packages/source/C/CoolProp/CoolProp-6.1.0.tar.gz
