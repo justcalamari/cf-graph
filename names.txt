@@ -4627,3 +4627,5 @@ r-propcis
 python-geotiepoints
 trollsift
 django-widget-tweaks
+serializable
+pyorbital
