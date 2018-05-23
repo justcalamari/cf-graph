@@ -71,6 +71,9 @@ container-diff
 catboost
 lammps
 pyomo.solvers
+py_entitymatching
+python-can
+airflow-split
 vs2008_runtime
 inkscape
 mingwpy
