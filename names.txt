@@ -4631,3 +4631,7 @@ serializable
 pyorbital
 rnatools
 pyscrap
+jaydebeapi
+libsigsegv
+py_entitymatching
+python-can
