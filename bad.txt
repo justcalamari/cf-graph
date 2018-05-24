@@ -1,3 +1,4 @@
+neunorm
 tensorflow
 vc
 dask
@@ -81,5 +82,3 @@ vs2008_runtime
 c99-to-c89
 esmf
 whitebox_tools
-orange3
-wordcloud
