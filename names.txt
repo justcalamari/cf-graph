@@ -4636,3 +4636,4 @@ libsigsegv
 py_entitymatching
 python-can
 airflow-split
+array2gif

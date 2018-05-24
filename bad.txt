@@ -43,6 +43,7 @@ inkscape
 mingwpy
 shogun-cpp
 shogun
+pypy3.5
 conda-testenv
 pygridtools
 libhdfs3
@@ -75,11 +76,10 @@ nose-parameterized
 spake2
 multineat
 lammps
-py_entitymatching
-python-can
 airflow-split
 vs2008_runtime
 c99-to-c89
 esmf
 whitebox_tools
-pypy3.5
+orange3
+wordcloud
