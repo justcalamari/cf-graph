@@ -143469,3 +143469,4 @@ r-paco: unknown source
 message-ix: Could not find version on github
 message-ix: unknown source
 libsigsegv: unknown source
+fabric: hash failed at https://pypi.io/packages/source/F/Fabric/Fabric-2.1.3.tar.gz
