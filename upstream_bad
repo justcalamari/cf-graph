@@ -144581,3 +144581,4 @@ r-paco: unknown source
 message-ix: Could not find version on github
 message-ix: unknown source
 libsigsegv: unknown source
+imagemagick: hash failed at https://github.com/ImageMagick/ImageMagick/archive/7.0.7-35-11.tar.gz
