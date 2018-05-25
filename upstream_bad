@@ -143514,7 +143514,6 @@ cunit: unknown source
 curl: unknown source
 cyrus-sasl: unknown source
 datacube: Could not find version on github
-dbus: unknown source
 dcw-gmt: unknown source
 dirent: unknown source
 discretizer: unknown source
@@ -143579,7 +143578,6 @@ gperf: unknown source
 graphviz: unknown source
 gshhg-gmt: unknown source
 gsl: unknown source
-gst-plugins-base: unknown source
 halide: Could not find version on github
 halide: unknown source
 harfbuzz: unknown source
@@ -143618,7 +143616,6 @@ khronos-opencl-icd-loader: unknown source
 krb5: Could not find version on github
 krb5: unknown source
 kwant: unknown source
-lagranto: unknown source
 lcalc: unknown source
 lemon: unknown source
 libadjoint: unknown source
@@ -143662,7 +143659,6 @@ libxml2: unknown source
 libxmlpp: unknown source
 libxslt: unknown source
 lrcalc: unknown source
-lua: unknown source
 luarocks: unknown source
 lynx: unknown source
 lzo: unknown source
@@ -143964,11 +143960,11 @@ slepc: unknown source
 slepc4py: unknown source
 libmad: unknown source
 sdl2_gfx: unknown source
-libogg: unknown source
 smpeg2: unknown source
 sdl2_net: unknown source
 sdl2_ttf: unknown source
 libwebp: unknown source
+sdl2_image: unknown source
 lp_solve: unknown source
 alps: unknown source
 clangdev: unknown source
