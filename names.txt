@@ -4639,3 +4639,5 @@ airflow-split
 array2gif
 neunorm
 unyt
+python-coreschema
+itypes
