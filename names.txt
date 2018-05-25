@@ -4641,3 +4641,4 @@ neunorm
 unyt
 python-coreschema
 itypes
+rx

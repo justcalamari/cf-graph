@@ -1,4 +1,8 @@
-itypes
+rx
+container-diff
+shogun-cpp
+shogun
+pypy3.5
 tensorflow
 vc
 dask
@@ -37,14 +41,10 @@ gitea
 llvm-meta
 conda-forge-ci-setup
 mpi
-container-diff
 catboost
 pyomo.solvers
 inkscape
 mingwpy
-shogun-cpp
-shogun
-pypy3.5
 conda-testenv
 pygridtools
 libhdfs3
