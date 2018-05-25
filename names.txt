@@ -4642,3 +4642,5 @@ unyt
 python-coreschema
 itypes
 rx
+python-coreapi
+coreapi-cli
