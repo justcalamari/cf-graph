@@ -146259,3 +146259,4 @@ libsigsegv: unknown source
 r-hier.part: unknown source
 libframe: unknown source
 tabula-py: hash failed at https://pypi.io/packages/source/t/tabula-py/tabula-py-1.2.0.tar.gz
+r-catboost: hash failed at https://github.com/catboost/catboost/releases/download/v0.8.1.1/catboost-R-Linux-0.8.1.1.tar
