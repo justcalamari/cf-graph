@@ -4650,3 +4650,6 @@ tabula-py
 libframe
 pyspectral
 r-catboost
+r-boruta
+r-huge
+r-rfutilities
