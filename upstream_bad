@@ -147938,3 +147938,4 @@ message-ix: unknown source
 libsigsegv: unknown source
 r-hier.part: unknown source
 libframe: unknown source
+r-caret: hash failed at https://cran.r-project.org/src/contrib/caret_6.0_80.tar.gz
