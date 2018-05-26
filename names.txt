@@ -4653,3 +4653,5 @@ r-catboost
 r-boruta
 r-huge
 r-rfutilities
+libcxxwrap-julia
+r-htree
