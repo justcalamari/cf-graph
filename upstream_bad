@@ -147939,3 +147939,4 @@ libsigsegv: unknown source
 r-hier.part: unknown source
 libframe: unknown source
 r-caret: hash failed at https://cran.r-project.org/src/contrib/caret_6.0_80.tar.gz
+r-cvst: hash failed at https://cran.r-project.org/src/contrib/CVST_0.2_2.tar.gz
