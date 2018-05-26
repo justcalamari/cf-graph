@@ -4644,3 +4644,9 @@ itypes
 rx
 python-coreapi
 coreapi-cli
+r-hier.part
+r-logistf
+tabula-py
+libframe
+pyspectral
+r-catboost
