@@ -4655,3 +4655,5 @@ r-huge
 r-rfutilities
 libcxxwrap-julia
 r-htree
+r-rfpermute
+r-swfscmisc
