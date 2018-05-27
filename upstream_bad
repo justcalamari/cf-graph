@@ -150182,3 +150182,4 @@ libsigsegv: unknown source
 r-hier.part: unknown source
 libframe: unknown source
 ligo-common: unknown source
+r-energy: hash failed at https://cran.r-project.org/src/contrib/energy_1.7_4.tar.gz
