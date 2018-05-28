@@ -4661,3 +4661,10 @@ ligo-common
 r-base64url
 calamari_ocr
 edit_distance
+adios
+kiwipy
+pyscenarios
+profimp
+pycvodes
+pygslodeiv2
+pyodeint
