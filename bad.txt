@@ -1,9 +1,9 @@
-calamari_ocr
-edit_distance
 container-diff
 shogun-cpp
 shogun
 pypy3.5
+calamari_ocr
+edit_distance
 tensorflow
 vc
 dask
