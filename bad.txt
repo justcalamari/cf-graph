@@ -1,3 +1,5 @@
+calamari_ocr
+edit_distance
 container-diff
 shogun-cpp
 shogun
