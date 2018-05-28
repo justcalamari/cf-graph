@@ -1,6 +1,3 @@
-pycvodes
-pygslodeiv2
-pyodeint
 container-diff
 shogun-cpp
 shogun

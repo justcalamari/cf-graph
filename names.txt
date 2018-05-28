@@ -4668,3 +4668,6 @@ profimp
 pycvodes
 pygslodeiv2
 pyodeint
+fpyutils
+md-toc
+mdx_gh_links
