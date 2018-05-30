@@ -4675,3 +4675,4 @@ pyviz_comms
 cssselect2
 tinycss2
 pythran
+metsim
