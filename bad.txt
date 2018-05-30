@@ -1,5 +1,3 @@
-cssselect2
-tinycss2
 container-diff
 shogun-cpp
 shogun

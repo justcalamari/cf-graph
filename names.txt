@@ -4674,3 +4674,4 @@ mdx_gh_links
 pyviz_comms
 cssselect2
 tinycss2
+pythran
