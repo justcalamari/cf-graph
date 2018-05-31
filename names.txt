@@ -4676,3 +4676,4 @@ cssselect2
 tinycss2
 pythran
 metsim
+django-haystack
