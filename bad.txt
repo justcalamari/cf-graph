@@ -1,8 +1,9 @@
-swi-prolog
+platypus-opt
 container-diff
 shogun-cpp
 shogun
 pypy3.5
+swi-prolog
 tensorflow
 vc
 dask
