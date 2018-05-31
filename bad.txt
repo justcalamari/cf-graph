@@ -1,3 +1,4 @@
+swi-prolog
 container-diff
 shogun-cpp
 shogun

@@ -4677,3 +4677,7 @@ tinycss2
 pythran
 metsim
 django-haystack
+pytest-django-haystack
+log4cpp
+swi-prolog
+torchfile
