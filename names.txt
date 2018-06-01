@@ -4687,3 +4687,7 @@ platypus-opt
 finitediff
 ligotimegps
 nbsmoke
+leptonica
+python-crontab
+pykriging
+tesseract
