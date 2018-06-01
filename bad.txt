@@ -1,4 +1,3 @@
-platypus-opt
 container-diff
 shogun-cpp
 shogun

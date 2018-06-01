@@ -4684,3 +4684,5 @@ torchfile
 pyct
 ovito
 platypus-opt
+finitediff
+ligotimegps
