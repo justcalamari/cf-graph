@@ -4686,3 +4686,4 @@ ovito
 platypus-opt
 finitediff
 ligotimegps
+nbsmoke
