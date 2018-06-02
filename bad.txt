@@ -1,8 +1,8 @@
-tesseract
 container-diff
 shogun-cpp
 shogun
 pypy3.5
+tesseract
 swi-prolog
 tensorflow
 vc
