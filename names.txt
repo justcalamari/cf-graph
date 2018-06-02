@@ -4691,3 +4691,5 @@ leptonica
 python-crontab
 pykriging
 tesseract
+r-subplex
+r-tensora
