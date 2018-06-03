@@ -4693,3 +4693,7 @@ pykriging
 tesseract
 r-subplex
 r-tensora
+service_identity
+twisted
+zope.interface
+pygments-cache
