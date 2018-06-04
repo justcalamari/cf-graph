@@ -9592,3 +9592,4 @@ adios: unknown source
 log4cpp: unknown source
 ovito: unknown source
 r-spacyr: unknown source
+r-tseries: hash failed at https://cran.r-project.org/src/contrib/tseries_0.10_45.tar.gz
