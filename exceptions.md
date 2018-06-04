@@ -6992,3 +6992,21 @@ Traceback (most recent call last):
 AttributeError: '_io.BufferedReader' object has no attribute 'length'
 
 
+#libmagic
+##'_io.BufferedReader' object has no attribute 'length'
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 298, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 185, in run
+    hash = hash_url(source_url, hash_type)
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 206, in hash_url
+    for b in stream_url_progress(url, verb='Hashing', quiet=quiet):
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 179, in stream_url_progress
+    totalbytes = f.length
+  File "/home/travis/mc/lib/python3.6/tempfile.py", line 478, in __getattr__
+    a = getattr(file, name)
+  File "/home/travis/mc/lib/python3.6/tempfile.py", line 478, in __getattr__
+    a = getattr(file, name)
+AttributeError: '_io.BufferedReader' object has no attribute 'length'
+
+
