@@ -4703,3 +4703,4 @@ marbles-mixins
 marbles
 r-spacyr
 r-meta
+ipyscales
