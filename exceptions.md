@@ -7148,3 +7148,15 @@ Traceback (most recent call last):
 UnboundLocalError: local variable 'patterns' referenced before assignment
 
 
+#orekit
+##local variable 'patterns' referenced before assignment
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 87, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 29, in run
+    if not migrator.migrate(recipe_dir, attrs, **kwargs):
+  File "/home/travis/build/regro/00-find-feedstocks/cf-scripts/conda_forge_tick/migrators.xsh", line 132, in migrate
+    for f, p, n in patterns:
+UnboundLocalError: local variable 'patterns' referenced before assignment
+
+
