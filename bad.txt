@@ -1,3 +1,5 @@
+pyldavis
+adios-python
 container-diff
 shogun-cpp
 shogun

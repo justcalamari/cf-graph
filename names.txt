@@ -4704,3 +4704,6 @@ marbles
 r-spacyr
 r-meta
 ipyscales
+jmol
+pyldavis
+adios-python
