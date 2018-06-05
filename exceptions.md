@@ -7442,3 +7442,25 @@ Traceback (most recent call last):
 subprocess.CalledProcessError: Command '['pull_request:']' returned non-zero exit status 1.
 
 
+#pysolar
+##Command '['pull_request:']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 87, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 41, in run
+    push_repo(feedstock_dir, migrator.pr_body())
+  File "/home/travis/build/regro/00-find-feedstocks/cf-scripts/conda_forge_tick/git_utils.xsh", line 151, in push_repo
+    if not pull_request:
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 19450, in subproc_captured_hiddenobject
+    return run_subproc(cmds, captured='hiddenobject')
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 19413, in run_subproc
+    command.end()
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12645, in end
+    self._end(tee_output=tee_output)
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12664, in _end
+    self._raise_subproc_error()
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 12784, in _raise_subproc_error
+    output=self.output)
+subprocess.CalledProcessError: Command '['pull_request:']' returned non-zero exit status 1.
+
+
