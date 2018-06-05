@@ -7536,3 +7536,15 @@ Traceback (most recent call last):
 NameError: name 'rm' is not defined
 
 
+#iverilog
+##name 'repo' is not defined
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 87, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 41, in run
+    push_repo(feedstock_dir, migrator.pr_body())
+  File "/home/travis/build/regro/00-find-feedstocks/cf-scripts/conda_forge_tick/git_utils.xsh", line 158, in push_repo
+    pr = repo.create_pull(title, 'master', head, body=body)
+NameError: name 'repo' is not defined
+
+
