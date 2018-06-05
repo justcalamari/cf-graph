@@ -7526,3 +7526,13 @@ Traceback (most recent call last):
 NameError: name 'repo' is not defined
 
 
+#hpc05
+##name 'rm' is not defined
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 87, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 30, in run
+    rm -rf @ (feedstock_dir)
+NameError: name 'rm' is not defined
+
+
