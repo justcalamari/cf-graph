@@ -13005,3 +13005,2780 @@ ovito: unknown source
 r-spacyr: unknown source
 jmol: unknown source
 r-isocodes: unknown source
+adept: unknown source
+ads: Error getting upstream version
+aenum: Error getting upstream version
+affine: Error getting upstream version
+agate: Error getting upstream version
+agate-dbf: Error getting upstream version
+agate-excel: Error getting upstream version
+agate-lookup: Error getting upstream version
+agate-remote: Error getting upstream version
+agate-sql: Error getting upstream version
+agate-stats: Error getting upstream version
+ago: Error getting upstream version
+aiobotocore: Error getting upstream version
+aioeasywebdav: Error getting upstream version
+aiofiles: Error getting upstream version
+aiohttp: Error getting upstream version
+aiomysql: Error getting upstream version
+aiopeewee: Error getting upstream version
+aipy: Error getting upstream version
+alabaster: Error getting upstream version
+aldjemy: Error getting upstream version
+alembic: Error getting upstream version
+algopy: Error getting upstream version
+aloe: Error getting upstream version
+alsa-lib: unknown source
+altair: Error getting upstream version
+altgraph: Error getting upstream version
+amqp: Error getting upstream version
+anaconda-project: Error getting upstream version
+aniso8601: Error getting upstream version
+ansible: Error getting upstream version
+antlr-python-runtime: Error getting upstream version
+anyjson: Error getting upstream version
+anyqt: Error getting upstream version
+aospy: Error getting upstream version
+apache-libcloud: Error getting upstream version
+apipkg: Error getting upstream version
+apispec: Error getting upstream version
+aplpy: Error getting upstream version
+aplus: Error getting upstream version
+appdirs: Error getting upstream version
+appmode: Error getting upstream version
+appnope: Error getting upstream version
+appscript: Error getting upstream version
+apptools: Error getting upstream version
+apscheduler: Error getting upstream version
+arcsi: unknown source
+argcomplete: Error getting upstream version
+argh: Error getting upstream version
+argon2_cffi: Error getting upstream version
+argparse: Error getting upstream version
+args: Error getting upstream version
+argtable2: unknown source
+arm_pyart: Error getting upstream version
+armadillo: unknown source
+arrow: Error getting upstream version
+arrow-cpp: Could not find version on github
+arrow-cpp: unknown source
+asap: unknown source
+asciitree: Error getting upstream version
+asdf: Error getting upstream version
+ase: Error getting upstream version
+asn1crypto: Error getting upstream version
+assertpy: Error getting upstream version
+assimulo: Error getting upstream version
+asteval: Error getting upstream version
+astor: Error getting upstream version
+astro-gala: Error getting upstream version
+astrocats: Error getting upstream version
+astroid: Error getting upstream version
+astroml: Error getting upstream version
+astroplan: Error getting upstream version
+astropy: Error getting upstream version
+astropy-healpix: Error getting upstream version
+astropy-sphinx-theme: Error getting upstream version
+astroquery: Error getting upstream version
+astroscrappy: Error getting upstream version
+asttokens: Error getting upstream version
+astunparse: Error getting upstream version
+asv: Error getting upstream version
+async-timeout: Error getting upstream version
+async_generator: Error getting upstream version
+asyncpgsa: Error getting upstream version
+atk: unknown source
+atom: Error getting upstream version
+atomicwrites: Error getting upstream version
+attrdict: Error getting upstream version
+attrs: Error getting upstream version
+aubio: unknown source
+audioread: Error getting upstream version
+auditwheel: Error getting upstream version
+autobahn: Error getting upstream version
+autoconf: unknown source
+autodocsumm: Error getting upstream version
+autograd: Error getting upstream version
+automake: unknown source
+autopep8: Error getting upstream version
+autovizwidget: Error getting upstream version
+autowrap: Error getting upstream version
+av: Error getting upstream version
+avro: unknown source
+avrocpp: unknown source
+awesome-slugify: Error getting upstream version
+awscli: Error getting upstream version
+axelrod: Error getting upstream version
+azure: Error getting upstream version
+azure-common: Error getting upstream version
+azure-mgmt: Error getting upstream version
+azure-mgmt-common: Error getting upstream version
+azure-mgmt-compute: Error getting upstream version
+azure-mgmt-network: Error getting upstream version
+azure-mgmt-nspkg: Error getting upstream version
+azure-mgmt-resource: Error getting upstream version
+azure-mgmt-storage: Error getting upstream version
+azure-nspkg: Error getting upstream version
+azure-servicebus: Error getting upstream version
+azure-servicemanagement-legacy: Error getting upstream version
+azure-storage: Error getting upstream version
+babel: Error getting upstream version
+backoff: Error getting upstream version
+backports.csv: Error getting upstream version
+backports.functools_lru_cache: Error getting upstream version
+backports.lzma: Error getting upstream version
+backports.os: Error getting upstream version
+backports.shutil_get_terminal_size: Error getting upstream version
+backports.shutil_which: Error getting upstream version
+backports.ssl: Error getting upstream version
+backports.test.support: Error getting upstream version
+backports.weakref: Error getting upstream version
+backports_abc: Error getting upstream version
+bashlex: Error getting upstream version
+batman: unknown source
+bc: unknown source
+bcdoc: Error getting upstream version
+bcolz: Error getting upstream version
+beaker: Error getting upstream version
+beakerx: unknown source
+beautifulsoup4: Error getting upstream version
+begins: Error getting upstream version
+behave: Error getting upstream version
+betamax-matchers: Error getting upstream version
+betfairlightweight: Error getting upstream version
+bhmm: Error getting upstream version
+bibtexparser: Error getting upstream version
+bidict: Error getting upstream version
+billiard: Error getting upstream version
+binaryornot: Error getting upstream version
+bintrees: Error getting upstream version
+binutils: unknown source
+biopandas: Error getting upstream version
+biopython: Error getting upstream version
+bison: unknown source
+bitarray: Error getting upstream version
+bkcharts: Error getting upstream version
+bleach: Error getting upstream version
+blessings: Error getting upstream version
+blinker: Error getting upstream version
+bloscpack: Error getting upstream version
+bob: Error getting upstream version
+bob.ap: Error getting upstream version
+bob.blitz: Error getting upstream version
+bob.core: Error getting upstream version
+bob.db.atnt: Error getting upstream version
+bob.db.base: Error getting upstream version
+bob.db.iris: Error getting upstream version
+bob.db.mnist: Error getting upstream version
+bob.db.wine: Error getting upstream version
+bob.extension: Error getting upstream version
+bob.io.audio: Error getting upstream version
+bob.io.matlab: Error getting upstream version
+bob.io.video: Error getting upstream version
+bob.ip.base: Error getting upstream version
+bob.ip.color: Error getting upstream version
+bob.ip.draw: Error getting upstream version
+bob.ip.facedetect: Error getting upstream version
+bob.ip.flandmark: Error getting upstream version
+bob.ip.gabor: Error getting upstream version
+bob.ip.optflow.hornschunck: Error getting upstream version
+bob.ip.optflow.liu: Error getting upstream version
+bob.learn.activation: Error getting upstream version
+bob.learn.boosting: Error getting upstream version
+bob.learn.em: Error getting upstream version
+bob.learn.libsvm: Error getting upstream version
+bob.learn.linear: Error getting upstream version
+bob.learn.mlp: Error getting upstream version
+bob.math: Error getting upstream version
+bob.measure: Error getting upstream version
+bob.sp: Error getting upstream version
+bokeh: Error getting upstream version
+boost: unknown source
+boost-cpp: unknown source
+bootstrap_contrast: Error getting upstream version
+boto3: Error getting upstream version
+botocore: Error getting upstream version
+bottleneck: Error getting upstream version
+bowerstatic: Error getting upstream version
+bowtie-py: Error getting upstream version
+bqplot: Error getting upstream version
+branca: Error getting upstream version
+breathe: Error getting upstream version
+brent-search: Error getting upstream version
+brent_search: Error getting upstream version
+brewer2mpl: Error getting upstream version
+brotlipy: Error getting upstream version
+bson: Error getting upstream version
+build-capi: Error getting upstream version
+build_capi: Error getting upstream version
+bumpversion: Error getting upstream version
+bunch: Error getting upstream version
+ca-certificates: Error getting upstream version
+cached-property: Error getting upstream version
+cachetools: Error getting upstream version
+cairo: unknown source
+cairocffi: Error getting upstream version
+cairomm: unknown source
+cairosvg: Error getting upstream version
+calliope: Error getting upstream version
+capturer: Error getting upstream version
+case: Error getting upstream version
+cassandra-driver: Error getting upstream version
+category_encoders: Error getting upstream version
+catimg: Error getting upstream version
+catzzz: Error getting upstream version
+cc-plugin-ncei: Error getting upstream version
+ccdproc: Error getting upstream version
+cchardet: Error getting upstream version
+cdat-lite: Error getting upstream version
+cdecimal: unknown source
+cdo: unknown source
+celerite: Error getting upstream version
+celery: Error getting upstream version
+cement: Error getting upstream version
+census: Error getting upstream version
+cerberus: Error getting upstream version
+certifi: Error getting upstream version
+cf_units: Error getting upstream version
+cfchecker: Error getting upstream version
+cffi: Error getting upstream version
+cfitsio: unknown source
+cfortran-cfitsio: unknown source
+cfunits: Error getting upstream version
+cgen: Error getting upstream version
+cgsn_parsers: unknown source
+cgsn_processing: unknown source
+chai: Error getting upstream version
+channelarchiver: Error getting upstream version
+chardet: Error getting upstream version
+chartkick: Error getting upstream version
+cheat: Error getting upstream version
+cheroot: Error getting upstream version
+cherrypy: Error getting upstream version
+chest: Error getting upstream version
+chrpath: unknown source
+circleci-helpers: Error getting upstream version
+circleclient: Error getting upstream version
+ciso8601: Error getting upstream version
+ckanapi: Error getting upstream version
+clamd: Error getting upstream version
+clapack: unknown source
+cld2-cffi: Error getting upstream version
+cli_helpers: Error getting upstream version
+click: Error getting upstream version
+click-help-colors: Error getting upstream version
+click-plugins: Error getting upstream version
+clickhouse-cityhash: Error getting upstream version
+clickhouse-driver: Error getting upstream version
+clickhouse-sqlalchemy: Error getting upstream version
+cliff: Error getting upstream version
+cligj: Error getting upstream version
+climlab: Error getting upstream version
+clint: Error getting upstream version
+cloud_sptheme: Error getting upstream version
+cloudant: Error getting upstream version
+cloudpickle: Error getting upstream version
+cluster-lensing: Error getting upstream version
+clusterpy: Error getting upstream version
+cmake: unknown source
+cmd2: Error getting upstream version
+coconut: Error getting upstream version
+cogapp: Error getting upstream version
+coincbc: unknown source
+coinmp: unknown source
+collectfast: Error getting upstream version
+colorama: Error getting upstream version
+coloredlogs: Error getting upstream version
+colorlog: Error getting upstream version
+colormap: Could not find version on pypi
+colormap: unknown source
+colormath: Error getting upstream version
+colour: Error getting upstream version
+colour-science: Error getting upstream version
+commonmark: Error getting upstream version
+concurrentloghandler: Error getting upstream version
+conda-mirror: Error getting upstream version
+conda-workon: Error getting upstream version
+configargparse: Error getting upstream version
+configparser: Error getting upstream version
+constantly: Error getting upstream version
+contact_map: Error getting upstream version
+contextily: Error getting upstream version
+contextlib2: Error getting upstream version
+control: Error getting upstream version
+cookiecutter: Error getting upstream version
+corner: Error getting upstream version
+coursera-dl: Error getting upstream version
+courtana: Error getting upstream version
+cov-core: Error getting upstream version
+coverage: Error getting upstream version
+coveralls: Error getting upstream version
+cppunit: unknown source
+cram: Error getting upstream version
+crcmod: Error getting upstream version
+creoleparser: Error getting upstream version
+crick: Error getting upstream version
+crochet: Error getting upstream version
+croniter: Error getting upstream version
+cryptography-vectors: Error getting upstream version
+cson: Error getting upstream version
+cspice: unknown source
+cssutils: Error getting upstream version
+csvkit: Error getting upstream version
+ctags: unknown source
+ctd: Error getting upstream version
+ctds: Error getting upstream version
+ctk-cli: Error getting upstream version
+cunit: unknown source
+curio: Error getting upstream version
+curl: unknown source
+cvloop: Error getting upstream version
+cvxopt: Error getting upstream version
+cyflann: Error getting upstream version
+cymem: Error getting upstream version
+cyminmax: Error getting upstream version
+cyordereddict: Error getting upstream version
+cyrus-sasl: unknown source
+cython: Error getting upstream version
+cythongsl: Error getting upstream version
+cytoolz: Error getting upstream version
+d2to1: Error getting upstream version
+dask-core: Error getting upstream version
+dask-distance: Error getting upstream version
+dask-drmaa: Error getting upstream version
+dask-funk: Error getting upstream version
+dask-glm: Error getting upstream version
+dask-imread: Error getting upstream version
+dask-ml: Error getting upstream version
+dask-ndfilters: Error getting upstream version
+dask-ndfourier: Error getting upstream version
+dask-ndmeasure: Error getting upstream version
+dask-ndmorph: Error getting upstream version
+dask-searchcv: Error getting upstream version
+dask-xgboost: Error getting upstream version
+datacube: Could not find version on github
+datadog: Error getting upstream version
+datadotworld-py: Error getting upstream version
+datapackage-py: Error getting upstream version
+datashader: Error getting upstream version
+dateparser: Error getting upstream version
+dateutils: Error getting upstream version
+datreant.core: Error getting upstream version
+datreant.data: Error getting upstream version
+dawg: Error getting upstream version
+dbf: Error getting upstream version
+dbfread: Error getting upstream version
+dbus: unknown source
+dcw-gmt: unknown source
+deap: Error getting upstream version
+debtcollector: Error getting upstream version
+dec2: Error getting upstream version
+decorator: Error getting upstream version
+dectate: Error getting upstream version
+deepdiff: Error getting upstream version
+deepgraph: Error getting upstream version
+defusedxml: Error getting upstream version
+delegator: Error getting upstream version
+depfinder: Error getting upstream version
+deprecation: Error getting upstream version
+descartes: Error getting upstream version
+descarteslabs: Error getting upstream version
+desktop3: Error getting upstream version
+df2gspread: Error getting upstream version
+dicttoxml: Error getting upstream version
+diff-match-patch: Error getting upstream version
+diffoscope: Error getting upstream version
+diffpy.utils: Error getting upstream version
+dill: Error getting upstream version
+dionysus: Error getting upstream version
+dipy: Error getting upstream version
+dirent: unknown source
+dis3: Error getting upstream version
+discretisedfield: Error getting upstream version
+discretizer: unknown source
+diskcache: Error getting upstream version
+distributed: Error getting upstream version
+distro: Error getting upstream version
+dj-database-url: Error getting upstream version
+dj-static: Error getting upstream version
+django: Error getting upstream version
+django-ajax-selects: Error getting upstream version
+django-allauth: Error getting upstream version
+django-anymail: Error getting upstream version
+django-appconf: Error getting upstream version
+django-apptemplates: Error getting upstream version
+django-autoslug: Error getting upstream version
+django-bakery: Error getting upstream version
+django-bootstrap3: Error getting upstream version
+django-braces: Error getting upstream version
+django-cachalot: Error getting upstream version
+django-chunked-upload: Error getting upstream version
+django-configurations: Error getting upstream version
+django-crispy-forms: Error getting upstream version
+django-cruds-adminlte: Error getting upstream version
+django-daterange-filter: Error getting upstream version
+django-debug-toolbar: Error getting upstream version
+django-environ: Error getting upstream version
+django-extensions: Error getting upstream version
+django-fixture-magic: Error getting upstream version
+django-foundation-formtags: Error getting upstream version
+django-fsm: Error getting upstream version
+django-grappelli: Error getting upstream version
+django-guardian: Error getting upstream version
+django-import-export: Error getting upstream version
+django-jquery: Error getting upstream version
+django-js-asset: Error getting upstream version
+django-jsoneditor: Could not find version on pypi
+django-jsoneditor: unknown source
+django-leaflet: Error getting upstream version
+django-libsass: Error getting upstream version
+django-makemessages-xgettext: Error getting upstream version
+django-material: Error getting upstream version
+django-model-utils: Error getting upstream version
+django-modelcluster: Error getting upstream version
+django-mptt: Error getting upstream version
+django-nose: Error getting upstream version
+django-redis: Error getting upstream version
+django-redis-cache: Error getting upstream version
+django-rest-hooks: Error getting upstream version
+django-reversion: Error getting upstream version
+django-rq: Error getting upstream version
+django-storages: Error getting upstream version
+django-storages-redux: Error getting upstream version
+django-taggit: unknown source
+django-test-plus: Error getting upstream version
+django-treebeard: Error getting upstream version
+django-typed-models: Error getting upstream version
+django-unique-upload: Error getting upstream version
+django-versatileimagefield: Error getting upstream version
+django-viewflow: Error getting upstream version
+django-wagtail-feeds: Error getting upstream version
+django_compressor: Error getting upstream version
+django_coverage_plugin: Error getting upstream version
+djangocms-admin-style: Error getting upstream version
+djangorestframework: Error getting upstream version
+djangorestframework-csv: Error getting upstream version
+djangorestframework-gis: Error getting upstream version
+djangorestframework-jwt: Error getting upstream version
+djangorestframework-xml: Error getting upstream version
+djangorestframework-yaml: Error getting upstream version
+dmd: unknown source
+dnspython: Error getting upstream version
+doc2dash: Error getting upstream version
+doc8: Error getting upstream version
+docopt: Error getting upstream version
+docrep: Error getting upstream version
+docstring-coverage: Error getting upstream version
+doctr: Error getting upstream version
+docutils: Error getting upstream version
+docx2txt: Error getting upstream version
+dodgy: Error getting upstream version
+dogpile.cache: Error getting upstream version
+doit: Error getting upstream version
+dolfin-adjoint: unknown source
+dolfyn: Error getting upstream version
+dominate: Error getting upstream version
+dose: Error getting upstream version
+dotmap: Error getting upstream version
+doublemetaphone: Error getting upstream version
+doxygen: unknown source
+dpath: Error getting upstream version
+drms: Error getting upstream version
+dropbox: Error getting upstream version
+ds-lime: Error getting upstream version
+dulwich: Error getting upstream version
+dxfgrabber: Error getting upstream version
+dynamicisttoolkit: Error getting upstream version
+easybuild: Error getting upstream version
+easybuild-easyblocks: Error getting upstream version
+easybuild-easyconfigs: Error getting upstream version
+easybuild-framework: Error getting upstream version
+easydev: Error getting upstream version
+easytest: Error getting upstream version
+easywatch: Error getting upstream version
+ebooklib: Error getting upstream version
+eccodes: unknown source
+ecl: unknown source
+ecm: unknown source
+ecmwf-api-client: unknown source
+ecmwf_grib: unknown source
+eight: Error getting upstream version
+elastic: Error getting upstream version
+elasticsearch: Error getting upstream version
+elasticsearch-async: Error getting upstream version
+elasticsearch-dsl: Error getting upstream version
+elektronn: Error getting upstream version
+elektronn2: Error getting upstream version
+elfx86exts: unknown source
+eli5: Error getting upstream version
+emacs: unknown source
+email_validator: Error getting upstream version
+emcee: Error getting upstream version
+empath: Error getting upstream version
+emperor: Error getting upstream version
+enaml: Error getting upstream version
+engarde: Error getting upstream version
+entrypoints: Error getting upstream version
+enum34: Error getting upstream version
+envisage: Error getting upstream version
+ephem: Error getting upstream version
+eqcorrscan: Error getting upstream version
+erddapy: Error getting upstream version
+esgf-pyclient: Error getting upstream version
+esmp: unknown source
+espei: Error getting upstream version
+et_xmlfile: Error getting upstream version
+eventlet: Error getting upstream version
+exec-wrappers: Error getting upstream version
+execnet: Error getting upstream version
+exempi: unknown source
+exifread: Error getting upstream version
+expat: unknown source
+extinction: Error getting upstream version
+extras: Error getting upstream version
+ez_setup: Error getting upstream version
+ezodf: Error getting upstream version
+f2c: unknown source
+f90nml: Error getting upstream version
+fabric: Error getting upstream version
+fabric3: Error getting upstream version
+factory_boy: Error getting upstream version
+fake-factory: Error getting upstream version
+faker: Error getting upstream version
+fancycompleter: Error getting upstream version
+fast-histogram: Error getting upstream version
+fastavro: unknown source
+fastcache: Error getting upstream version
+fastcluster: Error getting upstream version
+fasteners: Error getting upstream version
+fastimport: Error getting upstream version
+fastnumbers: Error getting upstream version
+fastparquet: Error getting upstream version
+fatiando: Error getting upstream version
+fbprophet: Error getting upstream version
+feather-format: Error getting upstream version
+feedfinder2: Error getting upstream version
+feedgenerator: Error getting upstream version
+fenics: unknown source
+fermipy: Error getting upstream version
+ffmpeg: unknown source
+ffx: Could not find version on github
+ffx: unknown source
+fig2dev: unknown source
+filechunkio: Error getting upstream version
+filelock: Error getting upstream version
+filesdb: Error getting upstream version
+filterpy: Error getting upstream version
+findspark: Error getting upstream version
+fire: Error getting upstream version
+fixie: Error getting upstream version
+fixie-batch: Error getting upstream version
+fixie-creds: Error getting upstream version
+fixie-data: Error getting upstream version
+fixtures: Error getting upstream version
+flake8: Error getting upstream version
+flake8-blind-except: Error getting upstream version
+flake8-builtins: Error getting upstream version
+flake8-comprehensions: Error getting upstream version
+flake8-copyright: Error getting upstream version
+flake8-docstrings: Error getting upstream version
+flake8-import-order: Error getting upstream version
+flake8-mutable: Error getting upstream version
+flake8-pep3101: Error getting upstream version
+flake8-polyfill: Error getting upstream version
+flake8-print: Error getting upstream version
+flake8-quotes: Error getting upstream version
+flaky: Error getting upstream version
+flasgger: Error getting upstream version
+flask: Error getting upstream version
+flask-admin: Error getting upstream version
+flask-allows: Error getting upstream version
+flask-apispec: Error getting upstream version
+flask-appbuilder: Error getting upstream version
+flask-assets: Error getting upstream version
+flask-babel: Error getting upstream version
+flask-babelex: Error getting upstream version
+flask-basicauth: Error getting upstream version
+flask-bcrypt: Error getting upstream version
+flask-cache: Error getting upstream version
+flask-celery-helper: Error getting upstream version
+flask-compress: Error getting upstream version
+flask-cors: Error getting upstream version
+flask-couchdb: Error getting upstream version
+flask-creole: Error getting upstream version
+flask-debugtoolbar: Error getting upstream version
+flask-excel: Error getting upstream version
+flask-flatpages: Error getting upstream version
+flask-genshi: Error getting upstream version
+flask-httpauth: Error getting upstream version
+flask-jsonpify: Error getting upstream version
+flask-jwt-extended: Error getting upstream version
+flask-ldap3-login: Error getting upstream version
+flask-login: Error getting upstream version
+flask-mail: Error getting upstream version
+flask-marshmallow: Error getting upstream version
+flask-migrate: Error getting upstream version
+flask-moment: Error getting upstream version
+flask-oauthlib: Error getting upstream version
+flask-openid: Error getting upstream version
+flask-principal: Error getting upstream version
+flask-redis-helper: Error getting upstream version
+flask-restful: Error getting upstream version
+flask-restless: Error getting upstream version
+flask-restplus: unknown source
+flask-script: Error getting upstream version
+flask-seasurf: Error getting upstream version
+flask-security: Error getting upstream version
+flask-socketio: Error getting upstream version
+flask-sqlalchemy: Error getting upstream version
+flask-swagger: Error getting upstream version
+flask-swagger-ui: Error getting upstream version
+flask-testing: Error getting upstream version
+flask-turbolinks: Error getting upstream version
+flask-uploads: Error getting upstream version
+flask-user: Error getting upstream version
+flask-webpack: Error getting upstream version
+flask-wtf: Error getting upstream version
+flask-xml-rpc: Error getting upstream version
+flexx: Could not find version on pypi
+flexx: unknown source
+flintqs: unknown source
+flit: Error getting upstream version
+flit_install_py2: Error getting upstream version
+flo: Error getting upstream version
+flower: Error getting upstream version
+fludashboard: Error getting upstream version
+flufl.enum: Error getting upstream version
+flup: Error getting upstream version
+folium: Error getting upstream version
+fontconfig: unknown source
+forestci: Error getting upstream version
+formencode: Error getting upstream version
+fortran-magic: Error getting upstream version
+fortranformat: Error getting upstream version
+fpylll: Could not find version on github
+fpylll: unknown source
+freediscovery: Error getting upstream version
+freeimage: unknown source
+freetds: unknown source
+freetype: unknown source
+freexl: unknown source
+freezegun: Error getting upstream version
+frosted: Error getting upstream version
+frozen-flask: Error getting upstream version
+frozendict: Error getting upstream version
+fs: Error getting upstream version
+fs-s3fs: Error getting upstream version
+fs.sshfs: Error getting upstream version
+fs.webdavfs: Could not find version on pypi
+fs.webdavfs: unknown source
+ftfy: Error getting upstream version
+ftputil: Error getting upstream version
+funcargparse: Error getting upstream version
+funcsigs: Error getting upstream version
+functools32: Error getting upstream version
+funcy: Error getting upstream version
+furl: Error getting upstream version
+future: Error getting upstream version
+futures: Error getting upstream version
+fuzzywuzzy: Error getting upstream version
+g2clib: unknown source
+gala: Error getting upstream version
+galpy: Error getting upstream version
+gammapy: Error getting upstream version
+gap: unknown source
+gawk: unknown source
+gazar: Error getting upstream version
+gcsfs: Error getting upstream version
+gdb: unknown source
+genpy: Error getting upstream version
+genshi: Error getting upstream version
+gensim: Error getting upstream version
+genson: Error getting upstream version
+geoalchemy2: Error getting upstream version
+geocoder: Error getting upstream version
+geographiclib: Error getting upstream version
+geohash2: Error getting upstream version
+geojson: Error getting upstream version
+geojsonio: Error getting upstream version
+geoplot: Error getting upstream version
+georaster: Error getting upstream version
+george: Error getting upstream version
+geotiff: unknown source
+gettext: unknown source
+gevent: Error getting upstream version
+gf2x: unknown source
+ggplot: Error getting upstream version
+ghost.py: Error getting upstream version
+ghp-import: Error getting upstream version
+giac: unknown source
+giflib: unknown source
+ginga: Error getting upstream version
+girder: Error getting upstream version
+girder-client: Error getting upstream version
+gitdb: Error getting upstream version
+gitdb2: Error getting upstream version
+github3.py: Error getting upstream version
+gitpython: unknown source
+giza: unknown source
+gj2ascii: Error getting upstream version
+glances: Error getting upstream version
+glib: unknown source
+glibmm: unknown source
+glimix-core: Error getting upstream version
+glmnet: Error getting upstream version
+glob2: Error getting upstream version
+glpk: unknown source
+glue-core: Error getting upstream version
+glue-vispy-viewers: Error getting upstream version
+glueviz: Error getting upstream version
+glymur: Error getting upstream version
+gmaps: Error getting upstream version
+gmp: unknown source
+gmpy2: Error getting upstream version
+gmt: unknown source
+gnureadline: Error getting upstream version
+gnutls: unknown source
+go-spatial: Could not find version on github
+go-spatial: unknown source
+gobject-introspection: unknown source
+goftests: Error getting upstream version
+google-api-core: Error getting upstream version
+google-api-python-client: Error getting upstream version
+google-apputils: Error getting upstream version
+google-auth: Error getting upstream version
+google-auth-httplib2: Error getting upstream version
+google-auth-oauthlib: Error getting upstream version
+google-cloud-bigquery: Error getting upstream version
+google-cloud-core: Error getting upstream version
+google-cloud-monitoring: Error getting upstream version
+google-cloud-storage: Error getting upstream version
+google-resumable-media: Error getting upstream version
+googleapis-common-protos: Error getting upstream version
+googlemaps: Error getting upstream version
+gperf: unknown source
+gptools: Error getting upstream version
+gpxpy: Error getting upstream version
+gpy: Error getting upstream version
+gql: Error getting upstream version
+graphene: Error getting upstream version
+graphql-core: Error getting upstream version
+graphql-relay: Error getting upstream version
+graphviz: unknown source
+green: Error getting upstream version
+greenlet: Error getting upstream version
+grequests: Error getting upstream version
+griddataformats: Error getting upstream version
+gridgeo: Error getting upstream version
+grin: Error getting upstream version
+gsd: unknown source
+gshhg-gmt: unknown source
+gsl: unknown source
+gspread: Error getting upstream version
+gsshapy: Error getting upstream version
+gst-plugins-base: unknown source
+gsw: Error getting upstream version
+gunicorn: Error getting upstream version
+gwcs: Error getting upstream version
+h2: Error getting upstream version
+h5netcdf: Error getting upstream version
+h5pickle: Error getting upstream version
+hachoir-core: Error getting upstream version
+hachoir-metadata: Error getting upstream version
+hachoir-parser: Error getting upstream version
+hachoir-regex: Error getting upstream version
+hachoir-subfile: Error getting upstream version
+hachoir-urwid: Error getting upstream version
+hachoir-wx: Error getting upstream version
+halide: Could not find version on github
+halide: unknown source
+halotools: Error getting upstream version
+happybase: Error getting upstream version
+harfbuzz: unknown source
+haversine: Error getting upstream version
+hdbscan: Error getting upstream version
+hdf4: unknown source
+hdf5: unknown source
+hdf5storage: Error getting upstream version
+hdfeos2: unknown source
+hdfeos5: unknown source
+hdfs3: Error getting upstream version
+hdijupyterutils: Error getting upstream version
+healpix_cxx: unknown source
+healpy: Error getting upstream version
+helper: Error getting upstream version
+hide_code: Error getting upstream version
+hips: Error getting upstream version
+hiredis: Error getting upstream version
+hive-thrift-py: Error getting upstream version
+hiveplot: Error getting upstream version
+hkdf: Error getting upstream version
+holoviews: Error getting upstream version
+homura: Error getting upstream version
+hpack: Error getting upstream version
+hs_restclient: Error getting upstream version
+html5lib: Error getting upstream version
+htmlmin: Error getting upstream version
+httpagentparser: Error getting upstream version
+httplib2: Error getting upstream version
+httpretty: Error getting upstream version
+httptools: Error getting upstream version
+hug: Error getting upstream version
+humanfriendly: Error getting upstream version
+hunspell-en: unknown source
+hy: Error getting upstream version
+hyper: Error getting upstream version
+hyperframe: Error getting upstream version
+hyperion: Error getting upstream version
+hyperion-fortran: Error getting upstream version
+hyperlink: Error getting upstream version
+hyperspy: Error getting upstream version
+hyperspy-gui-ipywidgets: Error getting upstream version
+hyperspy-gui-traitsui: Error getting upstream version
+hypothesis: Error getting upstream version
+iapws: Error getting upstream version
+icalendar: Error getting upstream version
+icu: unknown source
+idna: Error getting upstream version
+igraph: unknown source
+ijroi: Error getting upstream version
+ijson: Error getting upstream version
+imagehash: Error getting upstream version
+imageio: Error getting upstream version
+imagesize: Error getting upstream version
+imapclient: Error getting upstream version
+imbalanced-learn: Error getting upstream version
+imexam: Error getting upstream version
+imgroi: Error getting upstream version
+imgurpython: Error getting upstream version
+iminuit: Error getting upstream version
+iml: unknown source
+implicit: Error getting upstream version
+importlib: Error getting upstream version
+importscan: Error getting upstream version
+impyla: Error getting upstream version
+imread: Error getting upstream version
+incremental: Error getting upstream version
+infinity: Error getting upstream version
+inflect: Error getting upstream version
+inflection: Error getting upstream version
+inifile: Error getting upstream version
+inspyred: Error getting upstream version
+instaseis: Error getting upstream version
+intelhex: Error getting upstream version
+interlap: Error getting upstream version
+intervals: Error getting upstream version
+intervaltree: Error getting upstream version
+intltool: unknown source
+invoke: Error getting upstream version
+ioos_qartod: Error getting upstream version
+ioos_tools: Error getting upstream version
+iowait: Error getting upstream version
+ipaddr: Error getting upstream version
+ipaddress: Error getting upstream version
+ipopt: unknown source
+ipyevents: Error getting upstream version
+ipykernel: Error getting upstream version
+ipyleaflet: Error getting upstream version
+ipympl: Error getting upstream version
+ipyparallel: Error getting upstream version
+ipypivot: Error getting upstream version
+ipython: Error getting upstream version
+ipython-autotime: Error getting upstream version
+ipython-sql: Error getting upstream version
+ipython_genutils: Error getting upstream version
+ipython_unittest: Error getting upstream version
+ipyvolume: Error getting upstream version
+ipywebrtc: Error getting upstream version
+ipywidget-pivot-table: Error getting upstream version
+ipywidgets: Error getting upstream version
+isl: unknown source
+islpy: Error getting upstream version
+iso8601: Error getting upstream version
+isodate: Error getting upstream version
+isort: Error getting upstream version
+iteration_utilities: Error getting upstream version
+iterm2-tools: Error getting upstream version
+itsdangerous: Error getting upstream version
+jack: unknown source
+jags: unknown source
+jansson: unknown source
+jaraco.classes: Error getting upstream version
+jaraco.logging: Error getting upstream version
+jaraco.stream: Error getting upstream version
+jasper: unknown source
+jbig: unknown source
+jcc: Could not find version on pypi
+jcc: unknown source
+jdatetime: Error getting upstream version
+jdcal: Error getting upstream version
+jedi: Error getting upstream version
+jellyfish: Error getting upstream version
+jenkspy: Error getting upstream version
+jftools: Error getting upstream version
+jieba: Error getting upstream version
+jieba3k: Error getting upstream version
+jinja2: Error getting upstream version
+jira: Error getting upstream version
+jmespath: Error getting upstream version
+jom: unknown source
+joommfutil: Error getting upstream version
+jpeg: unknown source
+jplephem: Error getting upstream version
+jsanimation: Could not find version on github
+jsanimation: unknown source
+jsmin: Error getting upstream version
+json-rpc: Error getting upstream version
+jsonapi-requests: Error getting upstream version
+jsondate: Error getting upstream version
+jsonlines: Error getting upstream version
+jsonpatch: Error getting upstream version
+jsonpickle: Error getting upstream version
+jsonpointer: Error getting upstream version
+jsonschema: Error getting upstream version
+jsontableschema: Error getting upstream version
+jsontableschema-pandas: Error getting upstream version
+judy: unknown source
+jug: Error getting upstream version
+jupyter: Error getting upstream version
+jupyter-themer: Error getting upstream version
+jupyter_client: Error getting upstream version
+jupyter_cms: Error getting upstream version
+jupyter_console: Error getting upstream version
+jupyter_contrib_core: Error getting upstream version
+jupyter_contrib_nbextensions: Error getting upstream version
+jupyter_core: Error getting upstream version
+jupyter_dashboards: Error getting upstream version
+jupyter_dojo: Error getting upstream version
+jupyter_enterprise_gateway: Error getting upstream version
+jupyter_full_width: Error getting upstream version
+jupyter_highlight_selected_word: Error getting upstream version
+jupyter_kernel_gateway: Error getting upstream version
+jupyter_latex_envs: Error getting upstream version
+jupyter_nbextensions_configurator: Error getting upstream version
+jupyter_pivottablejs: Could not find version on pypi
+jupyter_pivottablejs: unknown source
+jupyter_qtconsole_colorschemes: Error getting upstream version
+jupyter_sphinx: Error getting upstream version
+jupyterhub: Error getting upstream version
+jupyterlab: Error getting upstream version
+jupyterlab_launcher: Error getting upstream version
+jupyternotify: Error getting upstream version
+jupyterthemes: Error getting upstream version
+kafka-python: Error getting upstream version
+kaldi: Could not find version on github
+kaldi: unknown source
+kapteyn: Error getting upstream version
+kazoo: Error getting upstream version
+kealib: unknown source
+keepalive: Error getting upstream version
+kenjutsu: Error getting upstream version
+kernda: Error getting upstream version
+keyring: unknown source
+keyrings.alt: Error getting upstream version
+keystoneauth1: Error getting upstream version
+khronos-opencl-icd-loader: Could not find version on github
+khronos-opencl-icd-loader: unknown source
+kiwisolver: Error getting upstream version
+knit: Error getting upstream version
+kombu: Error getting upstream version
+krb5: Could not find version on github
+krb5: unknown source
+kuyruk: Error getting upstream version
+kwant: unknown source
+lagranto: unknown source
+langdetect: Error getting upstream version
+lap: Error getting upstream version
+lazy: Error getting upstream version
+lazy-object-proxy: Error getting upstream version
+lcalc: unknown source
+ldap3: Error getting upstream version
+ldaptor: Error getting upstream version
+leather: Error getting upstream version
+lektor: Error getting upstream version
+lemon: unknown source
+lesscpy: Error getting upstream version
+libadjoint: unknown source
+libblitz: unknown source
+libcf: unknown source
+libconfig: unknown source
+libcroco: unknown source
+libdb: unknown source
+libedit: unknown source
+libev: unknown source
+libevent: Could not find version on github
+libevent: unknown source
+libffi: unknown source
+libflint: unknown source
+libgap: unknown source
+libgcrypt: unknown source
+libglu: unknown source
+libgpg-error: unknown source
+libgsasl: unknown source
+libhwloc: unknown source
+libiconv: unknown source
+libmemcached: unknown source
+libntlm: unknown source
+libpcap: unknown source
+libpng: unknown source
+librabbitmq: Error getting upstream version
+libradolan: Could not find version on github
+libradolan: unknown source
+librosa: Error getting upstream version
+librsvg: unknown source
+libsakura: unknown source
+libsass: Error getting upstream version
+libsigcpp: unknown source
+libsndfile: unknown source
+libspatialindex: unknown source
+libspatialite: unknown source
+libssh2: unknown source
+libtheora: unknown source
+libtiff: unknown source
+libtool: unknown source
+libunwind: unknown source
+libuuid: unknown source
+libxcb: unknown source
+libxml2: unknown source
+libxmlpp: unknown source
+libxslt: unknown source
+lightfm: Error getting upstream version
+lightgbm: Error getting upstream version
+liknorm-py: Error getting upstream version
+lime: Error getting upstream version
+limix: Error getting upstream version
+limix-core: Error getting upstream version
+limix-inference: Error getting upstream version
+limix-legacy: Error getting upstream version
+line_profiler: Error getting upstream version
+linear-tsv: Error getting upstream version
+linecache2: Error getting upstream version
+link-traits: Error getting upstream version
+llvmlite: Error getting upstream version
+lml: Error getting upstream version
+locket: Error getting upstream version
+lockfile: Error getting upstream version
+loghub: Error getting upstream version
+logilab-common: Error getting upstream version
+logzero: Error getting upstream version
+loompy: Error getting upstream version
+lorem: Error getting upstream version
+louvain: Error getting upstream version
+lrcalc: unknown source
+lua: unknown source
+luarocks: unknown source
+lxml: Error getting upstream version
+lynx: unknown source
+lzo: unknown source
+lzstring: Error getting upstream version
+m2crypto: Error getting upstream version
+m4: unknown source
+m4ri: unknown source
+m4rie: unknown source
+macfsevents: Error getting upstream version
+macholib: Error getting upstream version
+magics: unknown source
+mahotas: Error getting upstream version
+make: unknown source
+mako: Error getting upstream version
+maltpynt: Error getting upstream version
+mando: Error getting upstream version
+mapkit: Error getting upstream version
+markdown: Error getting upstream version
+markdown2: Error getting upstream version
+markovify: Error getting upstream version
+markupsafe: Error getting upstream version
+marshmallow: Error getting upstream version
+marshmallow-jsonapi: Error getting upstream version
+marshmallow-sqlalchemy: Error getting upstream version
+mastodon.py: Error getting upstream version
+matplotlib-venn: Error getting upstream version
+maven: unknown source
+maxima: unknown source
+maya: Error getting upstream version
+mccabe: Error getting upstream version
+mdanalysis: Error getting upstream version
+mdanalysistests: Error getting upstream version
+mdbenchmark: Error getting upstream version
+mdsrv: Error getting upstream version
+mdsynthesis: Error getting upstream version
+mdtraj: Error getting upstream version
+mechanicalsoup: Error getting upstream version
+mechanize: Error getting upstream version
+megaman: Error getting upstream version
+memory_profiler: Error getting upstream version
+memprof: Error getting upstream version
+mercantile: Error getting upstream version
+mercurial: unknown source
+mesalib: unknown source
+metafone: Error getting upstream version
+metakernel: Error getting upstream version
+metaphone: Error getting upstream version
+metawrap: Error getting upstream version
+metis: unknown source
+metpy: Error getting upstream version
+micromagneticmodel: Error getting upstream version
+miktex: unknown source
+mimerender: Error getting upstream version
+misaka: Error getting upstream version
+missingno: Error getting upstream version
+mistune: Error getting upstream version
+mizani: Error getting upstream version
+mkdocs: Error getting upstream version
+mkdocs-bootstrap: Error getting upstream version
+mkdocs-bootswatch: Error getting upstream version
+mlxtend: Error getting upstream version
+mmtf-python: Error getting upstream version
+mne: Error getting upstream version
+moab: unknown source
+mock: Error getting upstream version
+modepy: Error getting upstream version
+modernize: Error getting upstream version
+molpx: Error getting upstream version
+mongoengine: Error getting upstream version
+monkeytype: Error getting upstream version
+mono: unknown source
+monotonic: Error getting upstream version
+monty: Error getting upstream version
+more-itertools: Error getting upstream version
+more.forwarded: Error getting upstream version
+more.pathtool: Error getting upstream version
+more.static: Error getting upstream version
+morepath: Error getting upstream version
+morfessor: Error getting upstream version
+mosfit: Error getting upstream version
+mosh: unknown source
+moto: Error getting upstream version
+moviepy: Error getting upstream version
+mox: Error getting upstream version
+mpc: unknown source
+mpfi: unknown source
+mpfr: unknown source
+mpi4py: unknown source
+mpich: unknown source
+mpir: unknown source
+mpl-scatter-density: Error getting upstream version
+mpld3: Error getting upstream version
+mplexporter: Could not find version on github
+mplexporter: unknown source
+mplleaflet: Error getting upstream version
+mplview: Error getting upstream version
+mpmath: Error getting upstream version
+mr.bob: Error getting upstream version
+mrjob: Error getting upstream version
+msgpack-numpy: Error getting upstream version
+msgpack-python: Error getting upstream version
+mshr: unknown source
+msinttypes: unknown source
+msmbuilder: Error getting upstream version
+msmtools: Error getting upstream version
+mss: unknown source
+msumastro: Error getting upstream version
+mtspec: Error getting upstream version
+mu_repo: Error getting upstream version
+multidict: Error getting upstream version
+multipledispatch: Error getting upstream version
+multiprocess: Error getting upstream version
+mumps: unknown source
+munch: Error getting upstream version
+murmurhash: Error getting upstream version
+murphy: Error getting upstream version
+mutagen: Error getting upstream version
+mwclient: Error getting upstream version
+myproxyclient: Error getting upstream version
+mypy: Error getting upstream version
+mypy_extensions: Error getting upstream version
+mysql: unknown source
+mysql-connector-c: unknown source
+naima: Error getting upstream version
+namedlist: Could not find version on pypi
+namedlist: unknown source
+natsort: Error getting upstream version
+nauty: unknown source
+nbbrowserpdf: Error getting upstream version
+nbconvert: Error getting upstream version
+nbdime: Error getting upstream version
+nbfinder: Error getting upstream version
+nbformat: Error getting upstream version
+nbrsessionproxy: Error getting upstream version
+nbserverproxy: Error getting upstream version
+nbsphinx: Error getting upstream version
+nbstripout: Error getting upstream version
+nbval: Error getting upstream version
+ncephes: Error getting upstream version
+ncpol2sdpa: Error getting upstream version
+ncurses: unknown source
+nd2reader: Error getting upstream version
+ndarray_listener: Error getting upstream version
+ndcube: Error getting upstream version
+ndg-httpsclient: Error getting upstream version
+neomodel: Error getting upstream version
+neovim: Error getting upstream version
+nestly: Error getting upstream version
+netaddr: Error getting upstream version
+netifaces: Error getting upstream version
+nettle: unknown source
+networkx: Error getting upstream version
+newrelic: Error getting upstream version
+newspaper3k: Error getting upstream version
+nglview: Error getting upstream version
+nilearn: Error getting upstream version
+ninja_syntax: Error getting upstream version
+nipy: Error getting upstream version
+nitime: Error getting upstream version
+nlopt: unknown source
+nltk: Error getting upstream version
+nltk_data: Could not find version on github
+nltk_data: unknown source
+nose: Error getting upstream version
+nose-cov: Error getting upstream version
+nose-progressive: Error getting upstream version
+nose-timer: Error getting upstream version
+nose_parameterized: Error getting upstream version
+nosexcover: Error getting upstream version
+notebook: Error getting upstream version
+npctypes: Error getting upstream version
+nsis: unknown source
+ntlm-auth: Error getting upstream version
+nuitka: Error getting upstream version
+numcodecs: Error getting upstream version
+numdifftools: Error getting upstream version
+numexpr: Error getting upstream version
+numpy_groupies: Error getting upstream version
+numpy_sugar: Error getting upstream version
+numpydoc: Error getting upstream version
+nxviz: Error getting upstream version
+oauth2client: Error getting upstream version
+oauthlib: Error getting upstream version
+obspy: Error getting upstream version
+obspyck: Error getting upstream version
+ocl-icd: unknown source
+oct2py: Error getting upstream version
+octave_kernel: Error getting upstream version
+ocw: Error getting upstream version
+odfpy: Error getting upstream version
+odvc: Error getting upstream version
+olefile: Error getting upstream version
+omas: Error getting upstream version
+omnifit: Error getting upstream version
+onnx: Error getting upstream version
+onnx-caffe2: Error getting upstream version
+onnx-tf: Error getting upstream version
+oommfc: Error getting upstream version
+oommfodt: Error getting upstream version
+opbeat: Error getting upstream version
+openjdk: unknown source
+openmesh: unknown source
+openmpi: unknown source
+openpyxl: Error getting upstream version
+openquake.engine: Error getting upstream version
+openssl: unknown source
+openstacksdk: Error getting upstream version
+opentracing: Error getting upstream version
+opentracing_instrumentation: Error getting upstream version
+optimix: Error getting upstream version
+optlang: Error getting upstream version
+opty: Error getting upstream version
+orange3-geo: Error getting upstream version
+orange3-imageanalytics: Error getting upstream version
+orange3-network: Error getting upstream version
+orange3-text: Error getting upstream version
+orange3-timeseries: Error getting upstream version
+orcid: Error getting upstream version
+ordered-set: Error getting upstream version
+ordereddict: Error getting upstream version
+orderedmultidict: Error getting upstream version
+orderedset: Error getting upstream version
+os-client-config: Error getting upstream version
+oset: Error getting upstream version
+osfclient: Error getting upstream version
+oslo.config: Error getting upstream version
+oslo.i18n: Error getting upstream version
+oslo.serialization: Error getting upstream version
+oslo.utils: Error getting upstream version
+osmnx: Error getting upstream version
+ossuuid: unknown source
+owslib: Error getting upstream version
+packaging: Error getting upstream version
+paegan: Error getting upstream version
+palettable: Error getting upstream version
+palp: unknown source
+pamela: Error getting upstream version
+pandas-compat: Error getting upstream version
+pandas-datareader: Error getting upstream version
+pandas-gbq: Error getting upstream version
+pandas-highcharts: Error getting upstream version
+pandas-msgpack: Error getting upstream version
+pandas-plink: Error getting upstream version
+pandas-profiling: Error getting upstream version
+pandas-summary: Error getting upstream version
+pandas_ml: Error getting upstream version
+pandoc-attributes: Error getting upstream version
+pandocfilters: Error getting upstream version
+panedr: Error getting upstream version
+pangaea: Error getting upstream version
+pango: unknown source
+papillon: Error getting upstream version
+parallel: unknown source
+param: Error getting upstream version
+parameterized: Error getting upstream version
+paramiko: Error getting upstream version
+paramz: Error getting upstream version
+pari: unknown source
+parmetis: unknown source
+parse: Error getting upstream version
+parse_type: Error getting upstream version
+parsedatetime: Error getting upstream version
+parso: Error getting upstream version
+partd: Error getting upstream version
+passlib: Error getting upstream version
+paste: unknown source
+pastescript: Error getting upstream version
+patch: unknown source
+patchelf: unknown source
+path.py: Error getting upstream version
+pathlib: Error getting upstream version
+pathlib2: Error getting upstream version
+pathos: Error getting upstream version
+pathtools: Error getting upstream version
+patool: Error getting upstream version
+patsy: Error getting upstream version
+paver: Error getting upstream version
+pbr: Error getting upstream version
+pbzip2: unknown source
+pcre: unknown source
+pcre2: unknown source
+pdbpp: Error getting upstream version
+pdfminer: Error getting upstream version
+pdfminer.six: Error getting upstream version
+pdfminer3k: Error getting upstream version
+pdir2: Error getting upstream version
+peakutils: Error getting upstream version
+peewee: Error getting upstream version
+pefile: Error getting upstream version
+pelican: Error getting upstream version
+pendulum: Error getting upstream version
+pep257: Error getting upstream version
+pep8: Error getting upstream version
+pep8-naming: Error getting upstream version
+periodictable: Error getting upstream version
+perl: unknown source
+perl-xml-parser: unknown source
+permission: Error getting upstream version
+pescador: Error getting upstream version
+petl: Error getting upstream version
+pexpect: Error getting upstream version
+pgcli: Error getting upstream version
+pgplot: unknown source
+pgspecial: Error getting upstream version
+phantomjs: unknown source
+phonenumbers: Error getting upstream version
+phonopy: Error getting upstream version
+phosphor: unknown source
+photutils: Error getting upstream version
+phreeqpy: Error getting upstream version
+pickleshare: Error getting upstream version
+pidly: Error getting upstream version
+pies: Error getting upstream version
+pies2overrides: Error getting upstream version
+pigz: unknown source
+pika: Error getting upstream version
+pillow: Error getting upstream version
+pims: Error getting upstream version
+pimsviewer: Error getting upstream version
+pint: Error getting upstream version
+pip: Error getting upstream version
+pipfile: Error getting upstream version
+pipreqs: Error getting upstream version
+pixman: unknown source
+pkg-config: unknown source
+pkginfo: Error getting upstream version
+plac: Error getting upstream version
+planetaryimage: Error getting upstream version
+plotly: Error getting upstream version
+plotnine: Error getting upstream version
+pluggy: Error getting upstream version
+pluginbase: Error getting upstream version
+plumbum: Error getting upstream version
+plumpy: Error getting upstream version
+ply: Error getting upstream version
+pmw: Error getting upstream version
+poap: Error getting upstream version
+pocket: Error getting upstream version
+podaacpy: Error getting upstream version
+polcart: Error getting upstream version
+polib: Error getting upstream version
+polyline: Error getting upstream version
+pony: Error getting upstream version
+poppler: unknown source
+poppler-data: unknown source
+popt: unknown source
+port-for: Error getting upstream version
+portalocker: Error getting upstream version
+portaudio: unknown source
+portend: Error getting upstream version
+positional: Error getting upstream version
+poster: Error getting upstream version
+postgis: unknown source
+postgresql: unknown source
+pot: Error getting upstream version
+powerline-status: Error getting upstream version
+pox: Error getting upstream version
+poyo: Error getting upstream version
+ppci: Error getting upstream version
+ppft: Error getting upstream version
+ppl: unknown source
+pprofile: Error getting upstream version
+praw: Error getting upstream version
+prawcore: Error getting upstream version
+prefsync: Error getting upstream version
+premailer: Error getting upstream version
+preshed: Error getting upstream version
+pretend: Error getting upstream version
+prettytable: Error getting upstream version
+primesieve: unknown source
+probableparsing: Error getting upstream version
+probablepeople: Error getting upstream version
+progress: Error getting upstream version
+progress_reporter: Error getting upstream version
+progressbar2: Error getting upstream version
+proj4: unknown source
+promise: Error getting upstream version
+prompt: Error getting upstream version
+prompt_toolkit: Error getting upstream version
+proof: Error getting upstream version
+properties: Error getting upstream version
+prospector: Error getting upstream version
+psiturk: Error getting upstream version
+pstdint: unknown source
+psutil: Error getting upstream version
+psy-maps: Error getting upstream version
+psy-reg: Error getting upstream version
+psy-simple: Error getting upstream version
+psycogreen: Error getting upstream version
+psycopg2: Error getting upstream version
+psyplot: Error getting upstream version
+psyplot-gui: Error getting upstream version
+pthread-stubs: unknown source
+pthreads-win32: unknown source
+ptyprocess: Error getting upstream version
+publish: unknown source
+pudb: Error getting upstream version
+pulp: Error getting upstream version
+pure-sasl: Error getting upstream version
+purepng: Error getting upstream version
+pv: unknown source
+pvl: Error getting upstream version
+pvlib-python: Error getting upstream version
+pweave: Error getting upstream version
+pwkit: Error getting upstream version
+py: Error getting upstream version
+py-cpuinfo: Error getting upstream version
+py-lz4framed: Error getting upstream version
+py-ubjson: Error getting upstream version
+py2neo: Error getting upstream version
+py4j: Error getting upstream version
+py6s: Error getting upstream version
+py_dempster_shafer: Error getting upstream version
+pyabel: Error getting upstream version
+pyagrum: unknown source
+pyahocorasick: Error getting upstream version
+pyalveo: Error getting upstream version
+pyamg: Error getting upstream version
+pyaml: Error getting upstream version
+pyarrow: Could not find version on github
+pyarrow: unknown source
+pyasdf: Error getting upstream version
+pyasn1: Error getting upstream version
+pyasn1-modules: Error getting upstream version
+pyaudio: Error getting upstream version
+pyautogui: Error getting upstream version
+pybinding: Error getting upstream version
+pyblake2: Error getting upstream version
+pybtex: Error getting upstream version
+pybtex-docutils: Error getting upstream version
+pybufr-ecmwf: Error getting upstream version
+pycalphad: Error getting upstream version
+pycandela: Error getting upstream version
+pycapnp: Error getting upstream version
+pychef: Error getting upstream version
+pycifrw: Error getting upstream version
+pycoal: Error getting upstream version
+pycodestyle: Error getting upstream version
+pycovjson: Error getting upstream version
+pycparser: Error getting upstream version
+pycrypto: Error getting upstream version
+pycryptodomex: Error getting upstream version
+pycsw: Error getting upstream version
+pycwt: Error getting upstream version
+pydap: Error getting upstream version
+pydash: Error getting upstream version
+pydispatcher: Error getting upstream version
+pydl: Error getting upstream version
+pydocstyle: Error getting upstream version
+pydoe: Error getting upstream version
+pydot: Error getting upstream version
+pydotplus: Error getting upstream version
+pydruid: Error getting upstream version
+pydsd: Error getting upstream version
+pydstool: Error getting upstream version
+pydy: Error getting upstream version
+pyedflib: Error getting upstream version
+pyelastix: Could not find version on pypi
+pyelastix: unknown source
+pyelftools: Error getting upstream version
+pyemd: Error getting upstream version
+pyemma: Error getting upstream version
+pyemojify: Error getting upstream version
+pyephem: Error getting upstream version
+pyexcel: Error getting upstream version
+pyexcel-ezodf: Error getting upstream version
+pyexcel-io: Error getting upstream version
+pyexcel-ods3: Error getting upstream version
+pyexcel-webio: Error getting upstream version
+pyexcel-xls: Error getting upstream version
+pyexcel-xlsx: Error getting upstream version
+pyexodus: Error getting upstream version
+pyface: Error getting upstream version
+pyfftw: Error getting upstream version
+pyfiglet: Error getting upstream version
+pyfive: Error getting upstream version
+pyflakes: Error getting upstream version
+pyfmi: Error getting upstream version
+pyfmmlib: Error getting upstream version
+pygeobase: Error getting upstream version
+pygeogrids: Error getting upstream version
+pygeoif: Error getting upstream version
+pygeoip: Error getting upstream version
+pygit2: Error getting upstream version
+pygithub: Error getting upstream version
+pyglet: Error getting upstream version
+pygments: Error getting upstream version
+pygments_anyscript: Error getting upstream version
+pygobject: unknown source
+pygrametl: Error getting upstream version
+pygraphml: Error getting upstream version
+pygraphviz: Error getting upstream version
+pygrib: Error getting upstream version
+pygsp: Error getting upstream version
+pygypsy: Error getting upstream version
+pyhamcrest: Error getting upstream version
+pyhdf: unknown source
+pyhmc: Error getting upstream version
+pyhocon: Error getting upstream version
+pyhrf: Error getting upstream version
+pyhum: Error getting upstream version
+pyinotify: Error getting upstream version
+pyinstaller: Error getting upstream version
+pyinstrument: Error getting upstream version
+pyjwt: Error getting upstream version
+pykafka: Error getting upstream version
+pykalman: Error getting upstream version
+pykdtree: Error getting upstream version
+pyke: unknown source
+pykml: Error getting upstream version
+pykrige: Error getting upstream version
+pykwalify: Error getting upstream version
+pylama: Error getting upstream version
+pyld: Error getting upstream version
+pylems: Error getting upstream version
+pylibmc: Error getting upstream version
+pylibscrypt: Error getting upstream version
+pylint: Error getting upstream version
+pylint-celery: Error getting upstream version
+pylint-common: Error getting upstream version
+pylint-django: Error getting upstream version
+pylint-flask: Error getting upstream version
+pylint-plugin-utils: Error getting upstream version
+pylogit: Error getting upstream version
+pymagej: Error getting upstream version
+pymapd: Error getting upstream version
+pymbolic: Error getting upstream version
+pymks: Error getting upstream version
+pymsgbox: Error getting upstream version
+pymultinest: Error getting upstream version
+pymvpa2: Error getting upstream version
+pymysql: Error getting upstream version
+pynac: Could not find version on github
+pynac: unknown source
+pynamical: Error getting upstream version
+pyncml: Error getting upstream version
+pynfft: Error getting upstream version
+pynwb: Error getting upstream version
+pyobjc-core: Error getting upstream version
+pyobjc-framework-cocoa: Error getting upstream version
+pyobjc-framework-quartz: Error getting upstream version
+pyobjcryst: Error getting upstream version
+pyomo: Error getting upstream version
+pyopengl: Error getting upstream version
+pyopenssl: Error getting upstream version
+pyorgmode: Error getting upstream version
+pyparsing: Error getting upstream version
+pypdf2: Error getting upstream version
+pypeg2: Error getting upstream version
+pyperclip: Error getting upstream version
+pyphen: Error getting upstream version
+pyprind: Error getting upstream version
+pyqt: unknown source
+pyqtgraph: Error getting upstream version
+pyquery: Error getting upstream version
+pyreadline: Error getting upstream version
+pyregion: Error getting upstream version
+pyrepl: Error getting upstream version
+pyresample: Error getting upstream version
+pyretis: Error getting upstream version
+pyro4: Error getting upstream version
+pyroma: Error getting upstream version
+pysal: Error getting upstream version
+pyscaffold: Error getting upstream version
+pyscreeze: Error getting upstream version
+pyscss: Error getting upstream version
+pysdl2: Error getting upstream version
+pyseaweed: Error getting upstream version
+pyserial: Error getting upstream version
+pysftp: Error getting upstream version
+pyshp: Error getting upstream version
+pyside: Error getting upstream version
+pyslet: Error getting upstream version
+pysmbclient: Error getting upstream version
+pysmi: Error getting upstream version
+pysnmp: Error getting upstream version
+pysocks: Error getting upstream version
+pysolr: Error getting upstream version
+pysot: Error getting upstream version
+pysoundfile: Error getting upstream version
+pyspark: unknown source
+pyspharm: Could not find version on github
+pyspharm: unknown source
+pystache: Error getting upstream version
+pystan: Error getting upstream version
+pysurfer: Error getting upstream version
+pytables: Error getting upstream version
+pytest: Error getting upstream version
+pytest-arraydiff: Error getting upstream version
+pytest-ast-back-to-python: Error getting upstream version
+pytest-astropy: Error getting upstream version
+pytest-asyncio: Error getting upstream version
+pytest-base-url: Error getting upstream version
+pytest-benchmark: Error getting upstream version
+pytest-cache: Error getting upstream version
+pytest-catchlog: Error getting upstream version
+pytest-cookies: Error getting upstream version
+pytest-cov: Error getting upstream version
+pytest-cpp: Error getting upstream version
+pytest-datadir: Error getting upstream version
+pytest-django: Error getting upstream version
+pytest-doctestplus: Error getting upstream version
+pytest-env: Error getting upstream version
+pytest-faulthandler: Error getting upstream version
+pytest-flake8: Error getting upstream version
+pytest-flakes: Error getting upstream version
+pytest-flask: Error getting upstream version
+pytest-forked: Error getting upstream version
+pytest-html: Error getting upstream version
+pytest-ignore-flaky: Error getting upstream version
+pytest-json: Error getting upstream version
+pytest-lazy-fixture: Error getting upstream version
+pytest-localserver: Error getting upstream version
+pytest-metadata: Error getting upstream version
+pytest-mock: Error getting upstream version
+pytest-mpl: Error getting upstream version
+pytest-openfiles: Error getting upstream version
+pytest-pep8: Error getting upstream version
+pytest-pylint: Error getting upstream version
+pytest-qt: Error getting upstream version
+pytest-remotedata: Error getting upstream version
+pytest-runner: Error getting upstream version
+pytest-selenium: Error getting upstream version
+pytest-sftpserver: Error getting upstream version
+pytest-smartcov: Error getting upstream version
+pytest-sugar: Error getting upstream version
+pytest-testmon: Error getting upstream version
+pytest-timeout: Error getting upstream version
+pytest-tornado: Error getting upstream version
+pytest-variables: Error getting upstream version
+pytest-watch: Error getting upstream version
+pytest-xdist: Error getting upstream version
+python: unknown source
+python-annoy: Error getting upstream version
+python-avro: unknown source
+python-blosc: Error getting upstream version
+python-cdo: Error getting upstream version
+python-constraint: Error getting upstream version
+python-couchdb: Error getting upstream version
+python-coveralls: Error getting upstream version
+python-cpl: Error getting upstream version
+python-crfsuite: Error getting upstream version
+python-dateutil: Error getting upstream version
+python-decouple: Error getting upstream version
+python-docx: Error getting upstream version
+python-dotenv: Error getting upstream version
+python-drmaa: Error getting upstream version
+python-eccodes: unknown source
+python-ecmwf_grib: unknown source
+python-editor: Error getting upstream version
+python-engineio: Error getting upstream version
+python-fmask: unknown source
+python-gflags: Error getting upstream version
+python-gnupg: Error getting upstream version
+python-graphviz: Error getting upstream version
+python-hdfs: Error getting upstream version
+python-highcharts: Error getting upstream version
+python-igraph: Error getting upstream version
+python-irodsclient: Error getting upstream version
+python-ironicclient: Error getting upstream version
+python-json-logger: Error getting upstream version
+python-kubernetes: Error getting upstream version
+python-leveldb: Error getting upstream version
+python-levenshtein: Error getting upstream version
+python-libarchive-c: Error getting upstream version
+python-lmdb: Could not find version on github
+python-lzo: Error getting upstream version
+python-magic: Error getting upstream version
+python-marisa-trie: Error getting upstream version
+python-markdown-math: Error getting upstream version
+python-memcached: Error getting upstream version
+python-mimeparse: Error getting upstream version
+python-neo: Error getting upstream version
+python-node-semver: Error getting upstream version
+python-nvd3: Error getting upstream version
+python-oauth2: Error getting upstream version
+python-openid: Error getting upstream version
+python-patch: Error getting upstream version
+python-pdfkit: Error getting upstream version
+python-pkcs11: Error getting upstream version
+python-pptx: Error getting upstream version
+python-primesieve: Error getting upstream version
+python-rapidjson: Error getting upstream version
+python-slugify: Error getting upstream version
+python-snappy: Error getting upstream version
+python-socketio: Error getting upstream version
+python-sounddevice: Error getting upstream version
+python-spams: unknown source
+python-telegram-bot: Error getting upstream version
+python-termstyle: Error getting upstream version
+python-ternary: Error getting upstream version
+python-utils: Error getting upstream version
+python-xxhash: Error getting upstream version
+python3-openid: Error getting upstream version
+pythreejs: Error getting upstream version
+pytim: Error getting upstream version
+pytimeparse: Error getting upstream version
+pytmatrix: Error getting upstream version
+pytoml: Error getting upstream version
+pytools: Error getting upstream version
+pytrie: Error getting upstream version
+pytrilinos: unknown source
+pyttk: Error getting upstream version
+pytweening: Error getting upstream version
+pytypes: Error getting upstream version
+pytz: Error getting upstream version
+pytzdata: Error getting upstream version
+pyuca: Error getting upstream version
+pyunlocbox: Error getting upstream version
+pyutilib: Error getting upstream version
+pyutilsnrw: Error getting upstream version
+pyuv: Error getting upstream version
+pyuvdata: Error getting upstream version
+pyvisa: Error getting upstream version
+pyvisa-py: Error getting upstream version
+pyvisfile: Error getting upstream version
+pyvo: Error getting upstream version
+pyvtk: Error getting upstream version
+pywebhdfs: Error getting upstream version
+pyweed: Error getting upstream version
+pywim: Error getting upstream version
+pywin32: unknown source
+pywinpty: Error getting upstream version
+pywinrm: Error getting upstream version
+pyxdameraulevenshtein: Error getting upstream version
+pyxley: Error getting upstream version
+pyyaml: Error getting upstream version
+pyzmq: Error getting upstream version
+qds-sdk: Error getting upstream version
+qgrid: Error getting upstream version
+qimage2ndarray: Error getting upstream version
+qrcode: Error getting upstream version
+qt: unknown source
+qt.py: Error getting upstream version
+qt_binder: Error getting upstream version
+qtawesome: Error getting upstream version
+qtconsole: Error getting upstream version
+qtpy: Error getting upstream version
+quantities: Error getting upstream version
+quantlab: Error getting upstream version
+quantlab_launcher: Error getting upstream version
+qutip: unknown source
+qwtpolar: unknown source
+r-fst: unknown source
+r-hash: unknown source
+r-nhmmfdr: unknown source
+r-obistools: Could not find version on github
+r-obistools: unknown source
+r-rmr2: unknown source
+r-shinysky: unknown source
+r-ssoap: Could not find version on github
+r-ssoap: unknown source
+r-venndiagram: unknown source
+r-xmlschema: Could not find version on github
+r-xmlschema: unknown source
+radon: Error getting upstream version
+ragel: unknown source
+randomcolor: Error getting upstream version
+rank_filter: Error getting upstream version
+rapidpy: Error getting upstream version
+rasterio: Error getting upstream version
+rasterstats: Error getting upstream version
+ratelim: Error getting upstream version
+ratelimiter: Error getting upstream version
+ratpoints: unknown source
+rauth: Error getting upstream version
+raven: Error getting upstream version
+rcssmin: Error getting upstream version
+rdflib: Error getting upstream version
+rdkit: Could not find version on github
+rdkit: unknown source
+read-roi: Error getting upstream version
+readline: unknown source
+reaper: Could not find version on github
+reaper: unknown source
+rebound: Error getting upstream version
+recommonmark: Error getting upstream version
+records: Error getting upstream version
+rednose: Error getting upstream version
+reducer: Error getting upstream version
+reentry: Error getting upstream version
+reg: Error getting upstream version
+regex: Error getting upstream version
+regions: Error getting upstream version
+reikna: Error getting upstream version
+reindent: Error getting upstream version
+rejected: Error getting upstream version
+repeated_test: Error getting upstream version
+reportlab: Error getting upstream version
+reports: Error getting upstream version
+reproject: Error getting upstream version
+reprounzip: Error getting upstream version
+reprounzip-docker: Error getting upstream version
+reprounzip-qt: Error getting upstream version
+reprounzip-vagrant: Error getting upstream version
+reprozip: Error getting upstream version
+reprozip-jupyter: Error getting upstream version
+requests: Error getting upstream version
+requests-cache: Error getting upstream version
+requests-ftp: Error getting upstream version
+requests-futures: Error getting upstream version
+requests-oauthlib: Error getting upstream version
+requests-toolbelt: Error getting upstream version
+requests-unixsocket: Error getting upstream version
+requests_download: Error getting upstream version
+requests_ntlm: Error getting upstream version
+requestsexceptions: Error getting upstream version
+requirements-detector: Error getting upstream version
+resampy: Error getting upstream version
+resonance: Error getting upstream version
+restructuredtext_lint: Error getting upstream version
+retriever: Error getting upstream version
+retrying: Error getting upstream version
+retype: Error getting upstream version
+rfc3339: Error getting upstream version
+rfc3986: Error getting upstream version
+rickshaw: Error getting upstream version
+rios: unknown source
+rjsmin: Error getting upstream version
+robotframework: Error getting upstream version
+rollbar: Error getting upstream version
+root5: unknown source
+rope: Error getting upstream version
+rotamerconvolvemd: Error getting upstream version
+routes: Error getting upstream version
+rpaths: Error getting upstream version
+rpfits: unknown source
+rply: Error getting upstream version
+rpy2: Error getting upstream version
+rsa: Error getting upstream version
+rsgislib: unknown source
+rsync: unknown source
+rt1: Error getting upstream version
+ruamel.ordereddict: Error getting upstream version
+ruamel.yaml: Error getting upstream version
+ruamel_yaml: unknown source
+rubiks: unknown source
+ruby: unknown source
+runipy: Error getting upstream version
+rw: unknown source
+s3fs: Error getting upstream version
+s3transfer: Error getting upstream version
+sagemath-db-combinatorial-designs: unknown source
+sagemath-db-conway-polynomials: unknown source
+sagemath-db-elliptic-curves: unknown source
+sagemath-db-graphs: unknown source
+sagemath-db-polytopes: unknown source
+salt: Error getting upstream version
+sanic: Error getting upstream version
+sarge: Error getting upstream version
+sas_kernel: Error getting upstream version
+saspy: Error getting upstream version
+scalapack: unknown source
+scandir: Error getting upstream version
+scattertext: Error getting upstream version
+schwimmbad: Error getting upstream version
+scikit-allel: Error getting upstream version
+scikit-bio: Error getting upstream version
+scikit-data: Error getting upstream version
+scikit-dsp-comm: Error getting upstream version
+scikit-garden: Error getting upstream version
+scikit-image: Error getting upstream version
+scikit-mdr: Error getting upstream version
+scikit-optimize: Error getting upstream version
+scikit-plot: Error getting upstream version
+scikit-procrustes: Error getting upstream version
+scikit-surprise: Error getting upstream version
+scikit-umfpack: unknown source
+sciluigi: Error getting upstream version
+scipy-sugar: Error getting upstream version
+scons: Error getting upstream version
+scrapy: Error getting upstream version
+scrypt: Error getting upstream version
+sdf: Error getting upstream version
+seaborn: Error getting upstream version
+segno: Error getting upstream version
+selenium: Error getting upstream version
+semver: Error getting upstream version
+send2trash: Error getting upstream version
+sentinels: Error getting upstream version
+sep: Error getting upstream version
+seqan-library: Could not find version on github
+seqan-library: unknown source
+serpent: Error getting upstream version
+serpy: Error getting upstream version
+serverfiles: Error getting upstream version
+setoptconf: Error getting upstream version
+setproctitle: Error getting upstream version
+setuptools: Error getting upstream version
+setuptools-git: Error getting upstream version
+setuptools-markdown: Error getting upstream version
+setuptools_markdown: Error getting upstream version
+setuptools_scm: Error getting upstream version
+setuptools_scm_git_archive: Error getting upstream version
+sfdmap: Error getting upstream version
+sh: Error getting upstream version
+shade: Error getting upstream version
+shapelib: unknown source
+shapely: Error getting upstream version
+shutilwhich: Error getting upstream version
+signac: unknown source
+signac-flow: unknown source
+sigopt: Error getting upstream version
+silx: Error getting upstream version
+simbody: Could not find version on github
+simbody: unknown source
+simdna: Error getting upstream version
+simhash: Error getting upstream version
+simhash-py: Error getting upstream version
+simplegeneric: Error getting upstream version
+simplejson: Error getting upstream version
+simplekml: Error getting upstream version
+simpletal: unknown source
+simupop: Error getting upstream version
+singledispatch: Error getting upstream version
+singular: unknown source
+sip: unknown source
+siphon: Error getting upstream version
+six: Error getting upstream version
+sixs: unknown source
+sk-video: Error getting upstream version
+skan: Error getting upstream version
+skater: Error getting upstream version
+sklearn-contrib-lightning: Error getting upstream version
+skrebate: Error getting upstream version
+skyfield: unknown source
+slackclient: Error getting upstream version
+slacker: Error getting upstream version
+slugify: Error getting upstream version
+slycot: Error getting upstream version
+smart_open: Error getting upstream version
+smartypants: Error getting upstream version
+smif: Error getting upstream version
+smmap: Error getting upstream version
+smmap2: Error getting upstream version
+smokesignal: Error getting upstream version
+snakebite: Error getting upstream version
+snakefood: Error getting upstream version
+sncosmo: Error getting upstream version
+snowballstemmer: Error getting upstream version
+snuggs: Error getting upstream version
+snzip: unknown source
+soappy: Error getting upstream version
+socat: unknown source
+social-auth-app-django: Error getting upstream version
+social-auth-core: Error getting upstream version
+somoclu: Error getting upstream version
+sortedcollections: Error getting upstream version
+sortedcontainers: Error getting upstream version
+sound_field_analysis: Error getting upstream version
+sox: unknown source
+spacy: Error getting upstream version
+sparkmagic: Error getting upstream version
+sparqlwrapper: Error getting upstream version
+sparsehash: Error getting upstream version
+speaklater: Error getting upstream version
+speclite: Error getting upstream version
+spectra: Error getting upstream version
+spectral: Error getting upstream version
+spectral-cube: Error getting upstream version
+spectrum: Error getting upstream version
+specutils: Error getting upstream version
+speechrecognition: Error getting upstream version
+speex: unknown source
+speg: Error getting upstream version
+spglib: Error getting upstream version
+spherical-geometry: Error getting upstream version
+sphinx: Error getting upstream version
+sphinx-argparse: Error getting upstream version
+sphinx-astropy: Error getting upstream version
+sphinx-autobuild: Error getting upstream version
+sphinx-autodoc-typehints: Error getting upstream version
+sphinx-automodapi: Error getting upstream version
+sphinx-gallery: Error getting upstream version
+sphinx-issues: Error getting upstream version
+sphinx-nbexamples: Error getting upstream version
+sphinx-pypi-upload: Error getting upstream version
+sphinxcontrib-autodoc_doxygen: Error getting upstream version
+sphinxcontrib-autoprogram: Error getting upstream version
+sphinxcontrib-bibtex: Error getting upstream version
+sphinxcontrib-paverutils: Error getting upstream version
+sphinxcontrib-programoutput: Error getting upstream version
+sphinxcontrib-restbuilder: Error getting upstream version
+sphinxcontrib-spelling: Error getting upstream version
+sphinxcontrib-websupport: Error getting upstream version
+sphinxjp.themecore: Error getting upstream version
+sphinxjp.themes.impressjs: Error getting upstream version
+sphinxjp.themes.solarized: Error getting upstream version
+spiceypy: Error getting upstream version
+splauncher: Error getting upstream version
+splits: Error getting upstream version
+splunk_handler: Could not find version on pypi
+splunk_handler: unknown source
+spm1d: Error getting upstream version
+sputnik: Error getting upstream version
+spyder: Error getting upstream version
+spyder-line-profiler: Error getting upstream version
+spyder-memory-profiler: Error getting upstream version
+spyder-notebook: Error getting upstream version
+spyder-reports: Error getting upstream version
+spyder-terminal: Error getting upstream version
+spyder-unittest: Error getting upstream version
+spylon: Error getting upstream version
+spylon-kernel: Error getting upstream version
+spyne: Error getting upstream version
+spyre: Error getting upstream version
+sqlalchemy: Error getting upstream version
+sqlalchemy-migrate: Error getting upstream version
+sqlalchemy-utils: Error getting upstream version
+sqlobject: Error getting upstream version
+sqlparse: Error getting upstream version
+srtm.py: Error getting upstream version
+sseclient: Error getting upstream version
+ssh2-python: Error getting upstream version
+ssl_match_hostname: Error getting upstream version
+static: Error getting upstream version
+staticjinja: Error getting upstream version
+statistics: Error getting upstream version
+statmorph: Error getting upstream version
+statsd: Error getting upstream version
+statsmodels: Error getting upstream version
+statuspage: Error getting upstream version
+steem: Error getting upstream version
+stevedore: Error getting upstream version
+stingray: Error getting upstream version
+stopit: Error getting upstream version
+streamz: Error getting upstream version
+strict-rfc3339: Error getting upstream version
+subprocess32: Error getting upstream version
+sudospawner: Error getting upstream version
+suds-jurko: Error getting upstream version
+sunpy: Error getting upstream version
+super_state_machine: Error getting upstream version
+superlance: Error getting upstream version
+superlu: unknown source
+supervisor: Error getting upstream version
+svglib: Error getting upstream version
+svgutils: Error getting upstream version
+svgwrite: Error getting upstream version
+swig: unknown source
+symmetrica: unknown source
+sympow: unknown source
+sympy: Error getting upstream version
+tableschema-py: Error getting upstream version
+tablib: Error getting upstream version
+tabulate: Error getting upstream version
+tabulator-py: Error getting upstream version
+tachyon: unknown source
+tangelo: Error getting upstream version
+tblib: Error getting upstream version
+tectonic: unknown source
+tempdir: Error getting upstream version
+tempita: Error getting upstream version
+tempora: Error getting upstream version
+tenacity: Error getting upstream version
+tensorboardx: Error getting upstream version
+termcolor: Error getting upstream version
+terminado: Error getting upstream version
+terminaltables: Error getting upstream version
+testfixtures: Error getting upstream version
+testpath: Error getting upstream version
+testtools: Error getting upstream version
+tetgen: unknown source
+texinfo: unknown source
+texlive-core: unknown source
+texsoup: Error getting upstream version
+textacy: Error getting upstream version
+textblob: Error getting upstream version
+textract: Error getting upstream version
+texttable: Error getting upstream version
+theano: Error getting upstream version
+theanolm: Error getting upstream version
+thermotools: Error getting upstream version
+thinc: Error getting upstream version
+thinkx: Error getting upstream version
+thrift: Error getting upstream version
+thrift_sasl: Error getting upstream version
+thriftpy: Error getting upstream version
+tidy_headers: Error getting upstream version
+tifffile: Error getting upstream version
+tika: Error getting upstream version
+tikzmagic: Could not find version on github
+tikzmagic: unknown source
+timezonefinder: Error getting upstream version
+tinyarray: unknown source
+tinycss: Error getting upstream version
+tinydb: Error getting upstream version
+tinyrpc: Error getting upstream version
+tldextract: Error getting upstream version
+tlslite: Error getting upstream version
+toastedmarshmallow: Error getting upstream version
+tokyocabinet: unknown source
+toml: Error getting upstream version
+toolz: Error getting upstream version
+toposort: Error getting upstream version
+tornado: Error getting upstream version
+toro: Error getting upstream version
+towncrier: Error getting upstream version
+tox: Error getting upstream version
+tpot: Error getting upstream version
+tqdm: Error getting upstream version
+traceback2: Error getting upstream version
+trackpy: Error getting upstream version
+traitlets: Error getting upstream version
+traitsui: Error getting upstream version
+traittypes: Error getting upstream version
+transaction: Error getting upstream version
+trash-cli: Error getting upstream version
+travis-encrypt: unknown source
+treq: Error getting upstream version
+trio: Error getting upstream version
+trmm_rsl: Could not find version on github
+trmm_rsl: unknown source
+trollius: Error getting upstream version
+trottersuzuki: Error getting upstream version
+tsfresh: Error getting upstream version
+tuiview: unknown source
+turbodbc: Error getting upstream version
+tvb-data: Error getting upstream version
+tvb-gdist: Error getting upstream version
+tvb-library: Error getting upstream version
+tweepy: Error getting upstream version
+twine: Error getting upstream version
+twython: Error getting upstream version
+txaio: Error getting upstream version
+typed-ast: Error getting upstream version
+typing: Error getting upstream version
+typogrify: Error getting upstream version
+tzlocal: Error getting upstream version
+ua-parser: Error getting upstream version
+uavro: Error getting upstream version
+ujson: Error getting upstream version
+ukpostcodeparser: Error getting upstream version
+ulmo: Error getting upstream version
+umalqurra: Error getting upstream version
+uncertainties: Error getting upstream version
+uncommitted: Error getting upstream version
+unicodecsv: Error getting upstream version
+unicodedata2: Error getting upstream version
+unidecode: Error getting upstream version
+unittest2pytest: Error getting upstream version
+unzip: unknown source
+update_checker: Error getting upstream version
+uritemplate: Error getting upstream version
+uritemplate.py: Error getting upstream version
+uritools: Error getting upstream version
+urllib3: Error getting upstream version
+urlobject: Error getting upstream version
+urwid: Error getting upstream version
+us: Error getting upstream version
+usaddress: Error getting upstream version
+usagestats: Error getting upstream version
+user-agents: Error getting upstream version
+usgs: Error getting upstream version
+utide: Error getting upstream version
+utm: Error getting upstream version
+uvloop: Error getting upstream version
+uwsgi: Error getting upstream version
+vaex-astro: Error getting upstream version
+vaex-core: Error getting upstream version
+vaex-distributed: Error getting upstream version
+vaex-hdf5: Error getting upstream version
+vaex-jupyter: Error getting upstream version
+vaex-server: Error getting upstream version
+vaex-ui: Error getting upstream version
+vaex-viz: Error getting upstream version
+validate_email: Error getting upstream version
+validictory: Error getting upstream version
+vcrpy: Error getting upstream version
+vcversioner: Could not find version on pypi
+vcversioner: unknown source
+vectormath: Error getting upstream version
+vega: Error getting upstream version
+verboselogs: unknown source
+version_information: Error getting upstream version
+versioneer: Error getting upstream version
+versiontools: Error getting upstream version
+vertica-python: Error getting upstream version
+vifm: unknown source
+vincent: Error getting upstream version
+vine: Error getting upstream version
+viridis: Error getting upstream version
+visdom: Error getting upstream version
+visitor: Error getting upstream version
+vispy: Error getting upstream version
+visvis: Error getting upstream version
+vobject: Error getting upstream version
+voluptuous: Error getting upstream version
+vsc-base: Error getting upstream version
+vsc-install: Error getting upstream version
+vulture: Error getting upstream version
+w3m: unknown source
+waf: Could not find version on github
+waf: unknown source
+wagtail: Error getting upstream version
+wagtail-bakery: Error getting upstream version
+wakatime: Error getting upstream version
+warc: Error getting upstream version
+warctools: Error getting upstream version
+warlock: Error getting upstream version
+watchdog: Error getting upstream version
+watermark: Error getting upstream version
+waybackpack: Error getting upstream version
+wcsaxes: Error getting upstream version
+wcslib: unknown source
+wcwidth: Error getting upstream version
+weave: Error getting upstream version
+web.py: Error getting upstream version
+webargs: Error getting upstream version
+webassets: Error getting upstream version
+webcolors: Error getting upstream version
+webdavclient2: Error getting upstream version
+webob: Error getting upstream version
+websocket-client: Error getting upstream version
+weightedcalcs: Error getting upstream version
+werkzeug: Error getting upstream version
+wfdb: Error getting upstream version
+wgrib2: unknown source
+wheel: Error getting upstream version
+whichcraft: Error getting upstream version
+whitenoise: Error getting upstream version
+whoosh: Error getting upstream version
+widgetsnbextension: Error getting upstream version
+wikipedia: Error getting upstream version
+willow: Error getting upstream version
+win_inet_pton: Error getting upstream version
+win_unicode_console: Error getting upstream version
+wincertstore: Error getting upstream version
+windrose: Error getting upstream version
+wmctrl: Error getting upstream version
+wradlib: Error getting upstream version
+wrapt: Error getting upstream version
+wrighttools: Error getting upstream version
+ws4py: Error getting upstream version
+wsaccel: Error getting upstream version
+wsgiproxy2: Error getting upstream version
+wsgiref: Error getting upstream version
+wtf-peewee: Error getting upstream version
+wtforms: Error getting upstream version
+wtforms-appengine: Error getting upstream version
+wxpython: Error getting upstream version
+x264: unknown source
+xarray: Error getting upstream version
+xarray-topo: unknown source
+xattr: Error getting upstream version
+xbpch: Error getting upstream version
+xcb-proto: unknown source
+xdg: Error getting upstream version
+xenon: Error getting upstream version
+xerces-c: unknown source
+xerces-c28: unknown source
+xfig: unknown source
+xgboost: Error getting upstream version
+xlrd: Error getting upstream version
+xlsxwriter: Error getting upstream version
+xlwings: Error getting upstream version
+xlwt: Error getting upstream version
+xmlrunner: Error getting upstream version
+xmlschema: Error getting upstream version
+xmltodict: Error getting upstream version
+xnumpy: Error getting upstream version
+xorg-applewmproto: unknown source
+xorg-bigreqsproto: unknown source
+xorg-cf-files: unknown source
+xorg-compositeproto: unknown source
+xorg-damageproto: unknown source
+xorg-dmxproto: unknown source
+xorg-evieext: unknown source
+xorg-fixesproto: unknown source
+xorg-font-util: unknown source
+xorg-fontcacheproto: unknown source
+xorg-fontsproto: unknown source
+xorg-gccmakedep: unknown source
+xorg-glproto: unknown source
+xorg-imake: unknown source
+xorg-inputproto: unknown source
+xorg-kbproto: unknown source
+xorg-libice: unknown source
+xorg-libpthread-stubs: unknown source
+xorg-libsm: unknown source
+xorg-libx11: unknown source
+xorg-libxau: unknown source
+xorg-libxaw: unknown source
+xorg-libxaw3d: unknown source
+xorg-libxcb: unknown source
+xorg-libxcursor: unknown source
+xorg-libxdmcp: unknown source
+xorg-libxext: unknown source
+xorg-libxfixes: unknown source
+xorg-libxft: unknown source
+xorg-libxmu: unknown source
+xorg-libxp: unknown source
+xorg-libxpm: unknown source
+xorg-libxrandr: unknown source
+xorg-libxrender: unknown source
+xorg-libxt: unknown source
+xorg-libxtst: unknown source
+xorg-makedepend: unknown source
+xorg-presentproto: unknown source
+xorg-printproto: unknown source
+xorg-randrproto: unknown source
+xorg-recordproto: unknown source
+xorg-renderproto: unknown source
+xorg-resourceproto: unknown source
+xorg-scrnsaverproto: unknown source
+xorg-trapproto: unknown source
+xorg-util-macros: unknown source
+xorg-videoproto: unknown source
+xorg-windowswmproto: unknown source
+xorg-xbitmaps: unknown source
+xorg-xcb-proto: unknown source
+xorg-xcmiscproto: unknown source
+xorg-xextproto: unknown source
+xorg-xf86bigfontproto: unknown source
+xorg-xf86dgaproto: unknown source
+xorg-xf86driproto: unknown source
+xorg-xf86miscproto: unknown source
+xorg-xf86rushproto: unknown source
+xorg-xf86vidmodeproto: unknown source
+xorg-xineramaproto: unknown source
+xorg-xproto: unknown source
+xorg-xproxymanagementprotocol: unknown source
+xorg-xtrans: unknown source
+xraylib: unknown source
+xvfbwrapper: Error getting upstream version
+xz: unknown source
+y_serial: unknown source
+yail: Error getting upstream version
+yamllint: Error getting upstream version
+yappi: Error getting upstream version
+yapsy: Error getting upstream version
+yarg: Error getting upstream version
+yarl: Error getting upstream version
+yeadon: Error getting upstream version
+youtube-dl: Error getting upstream version
+yt: unknown source
+zarr: Error getting upstream version
+zc.lockfile: Error getting upstream version
+zconfig: Error getting upstream version
+zdaemon: Error getting upstream version
+zeep: Error getting upstream version
+zeo: Error getting upstream version
+zict: Error getting upstream version
+zip: unknown source
+zipfile36: Error getting upstream version
+zlib: unknown source
+zn_poly: unknown source
+zodb: Error getting upstream version
+zodbpickle: Error getting upstream version
+zodburi: Error getting upstream version
+zookeeper-c: unknown source
+zopfli: Error getting upstream version
+zstandard: Error getting upstream version
+zwatershed: Error getting upstream version
+filetype: Error getting upstream version
+events: Error getting upstream version
+empyrical: Error getting upstream version
+pyfolio: Error getting upstream version
+sklearn-contrib-py-earth: Error getting upstream version
+hendrics: Error getting upstream version
+alphalens: Error getting upstream version
+quandl: Error getting upstream version
+netcdftime: Error getting upstream version
+mdshare: Error getting upstream version
+cfanalytics: Error getting upstream version
+slumber: Error getting upstream version
+rise: Error getting upstream version
+pypy2.7: unknown source
+siesta: unknown source
+msprime: Error getting upstream version
+djangorestframework_simplejwt: Error getting upstream version
+odm2rest: Could not find version on github
+odm2rest: unknown source
+wofpy: Error getting upstream version
+yodatools: Error getting upstream version
+django-mptt-admin: Error getting upstream version
+colorlover: Error getting upstream version
+pytest-replay: Error getting upstream version
+django-pandas: Error getting upstream version
+cufflinks-py: Error getting upstream version
+pygeometa: Error getting upstream version
+absl-py: Error getting upstream version
+georasters: Error getting upstream version
+tableone: Error getting upstream version
+django-mustache: Error getting upstream version
+django-reversion-compare: Error getting upstream version
+django-simple-history: Error getting upstream version
+dynesty: Error getting upstream version
+dummydata: Error getting upstream version
+backtrace: Could not find version on github
+backtrace: unknown source
+radiospectra: Error getting upstream version
+timeout-decorator: Error getting upstream version
+idna_ssl: Error getting upstream version
+adal: Error getting upstream version
+msrest: Error getting upstream version
+msrestazure: Error getting upstream version
+beem: Error getting upstream version
+ezdxf: Error getting upstream version
+wq.core: Error getting upstream version
+ccfits: unknown source
+asammdf: Error getting upstream version
+postgres-xl: unknown source
+cfgv: Error getting upstream version
+datamash: unknown source
+tiledb-py: Error getting upstream version
+django-bootstrap4: Error getting upstream version
+perl-text-soundex: unknown source
+latexmk: unknown source
+easy-thumbnails: Error getting upstream version
+tmtk: Error getting upstream version
+yasm: unknown source
+bob.io.base: Error getting upstream version
+bob.io.image: Error getting upstream version
+thrift-cpp: unknown source
+freeglut: unknown source
+ipycache: Error getting upstream version
+yaml: unknown source
+vtk: unknown source
+qwt: unknown source
+sphinx_rtd_theme: Error getting upstream version
+llvmdev: unknown source
+parquet-cpp: Could not find version on github
+parquet-cpp: unknown source
+pyopencl: Error getting upstream version
+petsc4py: unknown source
+fmilib: unknown source
+occt: unknown source
+slepc: unknown source
+slepc4py: unknown source
+sdl2: unknown source
+libmad: unknown source
+sdl2_gfx: unknown source
+libogg: unknown source
+smpeg2: unknown source
+sdl2_net: unknown source
+sdl2_ttf: unknown source
+libwebp: unknown source
+lp_solve: unknown source
+alps: unknown source
+clangdev: unknown source
+libcxx: unknown source
+bzip2: unknown source
+simple-salesforce: Error getting upstream version
+gherkin-official: Error getting upstream version
+cryptography: Error getting upstream version
+clrng: Could not find version on github
+clrng: unknown source
+openmp: unknown source
+flang: Could not find version on github
+flang: unknown source
+nasm: unknown source
+coin3d: unknown source
+simage: unknown source
+genesis-pyapi: Error getting upstream version
+cachecontrol: Error getting upstream version
+meson: Error getting upstream version
+tslearn: Error getting upstream version
+regionmask: Error getting upstream version
+pyodbc: Error getting upstream version
+markov_draftjs: Error getting upstream version
+python-wget: Error getting upstream version
+ogh: Error getting upstream version
+ablog: Error getting upstream version
+choicemodels: Error getting upstream version
+vega_datasets: Error getting upstream version
+great-expectations: Error getting upstream version
+django-filer: Error getting upstream version
+drmaa: Error getting upstream version
+bitstruct: Error getting upstream version
+orange3-educational: Error getting upstream version
+halide-python: Could not find version on github
+halide-python: unknown source
+django-emailhub: unknown source
+draftjs_exporter: Error getting upstream version
+git-annex: unknown source
+sknw: Error getting upstream version
+cfncluster: Error getting upstream version
+pytest-mccabe: Error getting upstream version
+r-svglite: unknown source
+nitro: Could not find version on github
+nitro: unknown source
+flex-swagger: Error getting upstream version
+rfc3987: Error getting upstream version
+esmpy: unknown source
+conan: Error getting upstream version
+datalad: Error getting upstream version
+igor: Error getting upstream version
+spdlib: unknown source
+imagepy: Error getting upstream version
+robobrowser: Error getting upstream version
+pywin32-ctypes: Error getting upstream version
+jsonfield: Error getting upstream version
+pydensecrf: Error getting upstream version
+xesmf: Error getting upstream version
+qtlocation: unknown source
+geoviews: Error getting upstream version
+udatetime: Error getting upstream version
+steemdata: Error getting upstream version
+sherlockml-boltzmannclean: Error getting upstream version
+pycroscopy: Error getting upstream version
+httpie: Error getting upstream version
+pyjanitor: Error getting upstream version
+pyinstrument_cext: Error getting upstream version
+click-completion: Error getting upstream version
+pyfpgrowth: Error getting upstream version
+liquidprompt: Error getting upstream version
+yq: Error getting upstream version
+osmapi: Error getting upstream version
+overpy: Error getting upstream version
+planet: Error getting upstream version
+backcall: Error getting upstream version
+virtualenv-clone: Error getting upstream version
+pydrive: Error getting upstream version
+h5io: Error getting upstream version
+asciinema: Error getting upstream version
+pyquil: Error getting upstream version
+ocaml: unknown source
+bicycleparameters: Error getting upstream version
+trafaret: Error getting upstream version
+kubernetes-federation: Could not find version on github
+kubernetes-federation: unknown source
+hypertemp: Error getting upstream version
+bgen-reader: Error getting upstream version
+imagingreso: Error getting upstream version
+orange3-bioinformatics: Error getting upstream version
+public-wrappers: unknown source
+backports.tempfile: Error getting upstream version
+libtasn1: unknown source
+umap-learn: Error getting upstream version
+cftime: Error getting upstream version
+aiosmtplib: Error getting upstream version
+betse: Error getting upstream version
+cattrs: Error getting upstream version
+contextvars: Error getting upstream version
+crontab: Error getting upstream version
+datarobot: Error getting upstream version
+dialite: Error getting upstream version
+elementpath: Error getting upstream version
+libmed: unknown source
+logging_exceptions: Error getting upstream version
+molvs: Error getting upstream version
+pdal: unknown source
+pscript: Error getting upstream version
+py-bash-completion: Error getting upstream version
+pyprism: Error getting upstream version
+python-box: Error getting upstream version
+quaternion: Error getting upstream version
+r-pca3d: unknown source
+lz4: Error getting upstream version
+raven-aiohttp: Error getting upstream version
+sparse: Error getting upstream version
+strictyaml: Error getting upstream version
+h5utils: Error getting upstream version
+heliopy: Error getting upstream version
+pysvg-py3: Error getting upstream version
+qt_style_sheet_inspector: Error getting upstream version
+astcheck: Error getting upstream version
+numba: Error getting upstream version
+rowan: Error getting upstream version
+visidata: unknown source
+smesh: Could not find version on github
+smesh: unknown source
+cfflib: Error getting upstream version
+apistar: Error getting upstream version
+yacron: Error getting upstream version
+source-highlight: unknown source
+vega3: Error getting upstream version
+robotstatuschecker: Error getting upstream version
+robotframework-seleniumlibrary: Error getting upstream version
+trio_asyncio: Error getting upstream version
+nspr: unknown source
+python-bidi: Error getting upstream version
+eulxml: Error getting upstream version
+pytrackmate: Error getting upstream version
+webruntime: Error getting upstream version
+asciimatics: Error getting upstream version
+pyiron: Error getting upstream version
+pyiron_atomistics: Error getting upstream version
+pyiron_base: Error getting upstream version
+pyiron_dft: Error getting upstream version
+pyiron_example_job: Error getting upstream version
+pyiron_lammps: Error getting upstream version
+pyiron_vasp: Error getting upstream version
+nss: unknown source
+snoopy-log-collator: unknown source
+dash-core-components: Error getting upstream version
+dash-html-components: Error getting upstream version
+dash-renderer: Error getting upstream version
+dash: Error getting upstream version
+skijumpdesign: Error getting upstream version
+radio-beam: Error getting upstream version
+black: Error getting upstream version
+node2vec: Error getting upstream version
+immutables: Error getting upstream version
+glue-geospatial: Error getting upstream version
+dataclasses: Error getting upstream version
+importnb: Error getting upstream version
+waitress: Error getting upstream version
+earthengine-api: Error getting upstream version
+robotframework-sshlibrary: Error getting upstream version
+python-louvain: Error getting upstream version
+textdistance: Error getting upstream version
+rake_nltk: Error getting upstream version
+gnupg: unknown source
+libassuan: unknown source
+libksba: unknown source
+npth: unknown source
+ntbtls: unknown source
+rfpimp: Error getting upstream version
+py_stringmatching: Error getting upstream version
+multiset: Error getting upstream version
+os-service-types: Error getting upstream version
+nano: unknown source
+gnupg-py: Error getting upstream version
+locust: Error getting upstream version
+pyresttest: Error getting upstream version
+py_stringsimjoin: Error getting upstream version
+dsdp: unknown source
+snaptime: Error getting upstream version
+overrides: Error getting upstream version
+trilinos: unknown source
+gast: Error getting upstream version
+editdistance: Error getting upstream version
+dask-jobqueue: Error getting upstream version
+jeepney: Error getting upstream version
+nose2: Error getting upstream version
+cc-plugin-ugrid: Error getting upstream version
+numina: Error getting upstream version
+progressbar33: Error getting upstream version
+pytest-console-scripts: Error getting upstream version
+requirements-parser: Error getting upstream version
+pyunfold: Error getting upstream version
+tinytimer: Error getting upstream version
+typechecks: Error getting upstream version
+unittest2: Error getting upstream version
+yamlloader: Error getting upstream version
+sexpdata: Error getting upstream version
+chemdataextractor: Error getting upstream version
+cyberpandas: Error getting upstream version
+grove: Error getting upstream version
+bamnostic: Error getting upstream version
+secretstorage: Error getting upstream version
+cykdtree: Error getting upstream version
+megaradrp: Error getting upstream version
+trollimage: Error getting upstream version
+pypy3.5: Error getting upstream version
+pyicu: Error getting upstream version
+aggdraw: Error getting upstream version
+memoized-property: Error getting upstream version
+w3g: Error getting upstream version
+python_http_client: Error getting upstream version
+sendgrid: Error getting upstream version
+luajit: unknown source
+datacache: Error getting upstream version
+r-paco: unknown source
+cppheaderparser: Error getting upstream version
+cgroupspy: Error getting upstream version
+coolprop: Error getting upstream version
+pycoast: Error getting upstream version
+python-geotiepoints: Error getting upstream version
+trollsift: Error getting upstream version
+django-widget-tweaks: Error getting upstream version
+serializable: Error getting upstream version
+pyorbital: Error getting upstream version
+rnatools: Error getting upstream version
+pyscrap: Error getting upstream version
+jaydebeapi: Error getting upstream version
+libsigsegv: unknown source
+array2gif: Error getting upstream version
+unyt: Error getting upstream version
+python-coreschema: Error getting upstream version
+python-coreapi: Error getting upstream version
+coreapi-cli: Error getting upstream version
+r-hier.part: unknown source
+tabula-py: Error getting upstream version
+libframe: unknown source
+pyspectral: Error getting upstream version
+ligo-common: unknown source
+adios: unknown source
+kiwipy: Error getting upstream version
+pyscenarios: Error getting upstream version
+profimp: Error getting upstream version
+fpyutils: Error getting upstream version
+md-toc: Error getting upstream version
+mdx_gh_links: Error getting upstream version
+pyviz_comms: Error getting upstream version
+pythran: Error getting upstream version
+metsim: Error getting upstream version
+django-haystack: Error getting upstream version
+pytest-django-haystack: Error getting upstream version
+log4cpp: unknown source
+torchfile: Error getting upstream version
+pyct: Error getting upstream version
+ovito: unknown source
+finitediff: Error getting upstream version
+ligotimegps: Error getting upstream version
+nbsmoke: Error getting upstream version
+python-crontab: Error getting upstream version
+service_identity: Error getting upstream version
+twisted: Error getting upstream version
+zope.interface: Error getting upstream version
+tifffolder: Error getting upstream version
+marbles-core: Error getting upstream version
+marbles-mixins: Error getting upstream version
+marbles: Error getting upstream version
+r-spacyr: unknown source
+ipyscales: Error getting upstream version
+jmol: unknown source
+r-isocodes: unknown source
+fsleyes-widgets: Error getting upstream version
+xnat: Error getting upstream version
+brian2: Error getting upstream version
+lscsoft-glue: Error getting upstream version
