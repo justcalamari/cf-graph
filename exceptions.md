@@ -7650,3 +7650,13 @@ Traceback (most recent call last):
 NameError: name 'rm' is not defined
 
 
+#r-plotrix
+##name 'rm' is not defined
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 88, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 31, in run
+    rm -rf @ (feedstock_dir)
+NameError: name 'rm' is not defined
+
+
