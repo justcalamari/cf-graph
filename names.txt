@@ -4707,3 +4707,8 @@ ipyscales
 jmol
 pyldavis
 adios-python
+r-isocodes
+fsleyes-widgets
+xnat
+brian2
+lscsoft-glue
