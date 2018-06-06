@@ -4712,3 +4712,4 @@ fsleyes-widgets
 xnat
 brian2
 lscsoft-glue
+ipydatawidgets
