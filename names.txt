@@ -4713,3 +4713,5 @@ xnat
 brian2
 lscsoft-glue
 ipydatawidgets
+npstreams
+neotime
