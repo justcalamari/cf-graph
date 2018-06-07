@@ -4715,3 +4715,5 @@ lscsoft-glue
 ipydatawidgets
 npstreams
 neotime
+notedown
+betsee
