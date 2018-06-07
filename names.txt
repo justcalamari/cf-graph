@@ -4721,3 +4721,5 @@ r-trust
 geoviews-core
 importlib_resources
 nameparser
+openpmd-api
+trimesh
