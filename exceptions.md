@@ -8358,3 +8358,19 @@ KeyError: 'Unknown environment variable: $VERSION'
 KeyError: 'Unknown environment variable: $VERSION'
 ```
 
+#immutables
+
+##'Unknown environment variable: $VERSION'
+
+```pythonTraceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 89, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 24, in run
+    feedstock_dir, repo = get_repo(attrs, branch=migrator.remote_branch(),
+  File "/home/travis/build/regro/graph-upstream/cf-scripts/conda_forge_tick/migrators.xsh", line 236, in remote_branch
+    return $VERSION
+  File "/home/travis/mc/lib/python3.6/site-packages/xonsh/__amalgam__.py", line 16131, in __getitem__
+    raise KeyError(e.format(key))
+KeyError: 'Unknown environment variable: $VERSION'
+```
+
