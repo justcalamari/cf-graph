@@ -1,6 +1,3 @@
-fresnel
-r-cardata
-r-stopwords
 container-diff
 shogun-cpp
 shogun

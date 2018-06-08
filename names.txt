@@ -4728,3 +4728,7 @@ keras-preprocessing
 fresnel
 r-cardata
 r-stopwords
+cifti
+pycondor
+fusepy
+dask-kubernetes
