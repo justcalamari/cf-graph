@@ -4725,3 +4725,6 @@ openpmd-api
 trimesh
 keras-applications
 keras-preprocessing
+fresnel
+r-cardata
+r-stopwords

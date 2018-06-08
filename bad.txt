@@ -1,8 +1,10 @@
+fresnel
+r-cardata
+r-stopwords
 container-diff
 shogun-cpp
 shogun
 pypy3.5
-keras-preprocessing
 swi-prolog
 tensorflow
 vc
