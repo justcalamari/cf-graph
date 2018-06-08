@@ -8558,3 +8558,17 @@ AttributeError: 'Version' object has no attribute 'version'
 AttributeError: 'Version' object has no attribute 'version'
 ```
 
+#r-reticulate
+
+##'Version' object has no attribute 'version'
+
+```pythonTraceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 89, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 24, in run
+    feedstock_dir, repo = get_repo(attrs, branch=migrator.remote_branch(),
+  File "/home/travis/build/regro/00-find-feedstocks/cf-scripts/conda_forge_tick/migrators.xsh", line 236, in remote_branch
+    return self.version
+AttributeError: 'Version' object has no attribute 'version'
+```
+
