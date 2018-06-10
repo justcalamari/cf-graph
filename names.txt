@@ -4734,3 +4734,6 @@ fusepy
 dask-kubernetes
 xgcm
 r-distutils
+pyfim
+scikit-ued
+tvb-framework
