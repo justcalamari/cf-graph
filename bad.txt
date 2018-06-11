@@ -84,3 +84,4 @@ c99-to-c89
 esmf
 whitebox_tools
 geoviews
+sqlalchemy-utils
