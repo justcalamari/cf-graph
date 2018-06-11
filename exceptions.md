@@ -10118,3 +10118,35 @@ AttributeError: '_io.BufferedReader' object has no attribute 'length'
 urllib.error.HTTPError: HTTP Error 404: Not Found
 ```
 
+#wkhtmltopdf
+
+##HTTP Error 404: Not Found
+
+```pythonTraceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 90, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 32, in run
+    if not migrator.migrate(recipe_dir, attrs, **kwargs):
+  File "/home/travis/build/regro/cf-auto-tick/cf-scripts/conda_forge_tick/migrators.xsh", line 191, in migrate
+    new_patterns = self.get_hash_patterns('meta.yaml', urls, hash_type)
+  File "/home/travis/build/regro/cf-auto-tick/cf-scripts/conda_forge_tick/migrators.xsh", line 146, in get_hash_patterns
+    hash = hash_url(url, hash_type)
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 206, in hash_url
+    for b in stream_url_progress(url, verb='Hashing', quiet=quiet):
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 178, in stream_url_progress
+    with urllib.request.urlopen(url) as f:
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 570, in error
+    return self._call_chain(*args)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+```
+
