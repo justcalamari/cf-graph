@@ -4740,3 +4740,6 @@ tvb-framework
 r-elpigraph.r
 r-gensa
 r-tictoc
+inline-html
+r-irr
+pyosreplace
