@@ -1,11 +1,8 @@
-r-elpigraph.r
-r-gensa
-r-tictoc
 container-diff
 shogun-cpp
 shogun
 pypy3.5
-tvb-framework
+tesseract
 swi-prolog
 tensorflow
 vc
