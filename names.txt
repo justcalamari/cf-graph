@@ -4743,3 +4743,5 @@ r-tictoc
 inline-html
 r-irr
 pyosreplace
+soqt
+dask-tensorflow
