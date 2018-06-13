@@ -4746,3 +4746,4 @@ pyosreplace
 soqt
 dask-tensorflow
 tensorflow-hub
+conda-pack
