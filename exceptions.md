@@ -12092,3 +12092,66 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 urllib.error.HTTPError: HTTP Error 404: Not Found
 ```
 
+#libmagic
+
+##<urlopen error ftp error: error_perm('530 Sorry, max 10 users -- try again later',)>
+
+```pythonTraceback (most recent call last):
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1534, in ftp_open
+    fw = self.connect_ftp(user, passwd, host, port, dirs, req.timeout)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1556, in connect_ftp
+    persistent=False)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 2377, in __init__
+    self.init()
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 2387, in init
+    self.ftp.login(self.user, self.passwd)
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 420, in login
+    resp = self.sendcmd('PASS ' + passwd)
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 273, in sendcmd
+    return self.getresp()
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 246, in getresp
+    raise error_perm(resp)
+ftplib.error_perm: 530 Sorry, max 10 users -- try again later
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../cf-scripts/03-auto_tick.xsh", line 90, in <module>
+    hash_type=attrs.get('hash_type', 'sha256'))
+  File "../cf-scripts/03-auto_tick.xsh", line 32, in run
+    if not migrator.migrate(recipe_dir, attrs, **kwargs):
+  File "/home/travis/build/regro/cf-auto-tick/cf-scripts/conda_forge_tick/migrators.xsh", line 191, in migrate
+    new_patterns = self.get_hash_patterns('meta.yaml', urls, hash_type)
+  File "/home/travis/build/regro/cf-auto-tick/cf-scripts/conda_forge_tick/migrators.xsh", line 146, in get_hash_patterns
+    hash = hash_url(url, hash_type)
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 206, in hash_url
+    for b in stream_url_progress(url, verb='Hashing', quiet=quiet):
+  File "/home/travis/mc/lib/python3.6/site-packages/rever/tools.xsh", line 178, in stream_url_progress
+    with urllib.request.urlopen(url) as f:
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1552, in ftp_open
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1534, in ftp_open
+    fw = self.connect_ftp(user, passwd, host, port, dirs, req.timeout)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 1556, in connect_ftp
+    persistent=False)
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 2377, in __init__
+    self.init()
+  File "/home/travis/mc/lib/python3.6/urllib/request.py", line 2387, in init
+    self.ftp.login(self.user, self.passwd)
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 420, in login
+    resp = self.sendcmd('PASS ' + passwd)
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 273, in sendcmd
+    return self.getresp()
+  File "/home/travis/mc/lib/python3.6/ftplib.py", line 246, in getresp
+    raise error_perm(resp)
+urllib.error.URLError: <urlopen error ftp error: error_perm('530 Sorry, max 10 users -- try again later',)>
+```
+
