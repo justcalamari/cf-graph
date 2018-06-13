@@ -83,4 +83,8 @@ vs2008_runtime
 c99-to-c89
 esmf
 whitebox_tools
+r-densityclust
+mdtraj
 geoviews
+r-janeaustenr
+r-bradleyterry2
