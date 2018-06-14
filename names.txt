@@ -4755,3 +4755,4 @@ metaio
 osqp
 ecos
 awscli-cwlogs
+r-zeallot

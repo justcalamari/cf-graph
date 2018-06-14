@@ -1,12 +1,13 @@
-metaio
-osqp
-ecos
-awscli-cwlogs
+r-zeallot
 container-diff
 shogun-cpp
 shogun
 pypy3.5
 tesseract
+metaio
+osqp
+ecos
+awscli-cwlogs
 swi-prolog
 tensorflow
 vc
