@@ -1,3 +1,7 @@
+metaio
+osqp
+ecos
+awscli-cwlogs
 container-diff
 shogun-cpp
 shogun

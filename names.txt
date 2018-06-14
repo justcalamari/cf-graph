@@ -4749,3 +4749,9 @@ tensorflow-hub
 conda-pack
 ldap
 axopy
+r-tfruns
+jupyterhub-ldapauthenticator
+metaio
+osqp
+ecos
+awscli-cwlogs
