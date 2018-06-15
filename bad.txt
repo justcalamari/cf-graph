@@ -1,9 +1,9 @@
-r-zeallot
 container-diff
 shogun-cpp
 shogun
 pypy3.5
 tesseract
+r-zeallot
 metaio
 osqp
 ecos
