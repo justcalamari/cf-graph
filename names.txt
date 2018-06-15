@@ -4756,3 +4756,6 @@ osqp
 ecos
 awscli-cwlogs
 r-zeallot
+radical.utils
+snap-cpp
+fault-localization
